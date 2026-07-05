@@ -1,0 +1,166 @@
+{
+  "for_date": "2026-05-12",
+  "based_on_state_through": "2026-05-11T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "design_partner_renewal.moment_redlines_arrived",
+      "storyline_id": "design_partner_renewal",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Kevin's MSA redlines just arrived \u2014 auto-renew shortened to 30-day notice, mutual liability cap at 12 months fees, and a Tidemark data-security addendum to negotiate. Redline review call Thursday afternoon.",
+      "supporting_artifact_ids": [
+        "dpr_d24_calendar_invite_redline_call",
+        "dpr_d24_email_kevin_redlines"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "design_partner_renewal.moment_redlines_arrived"
+    },
+    {
+      "moment_id": "series_a_raise.moment_d24_byron_confirms_p2",
+      "storyline_id": "series_a_raise",
+      "section": "if_one_thing",
+      "priority": "P1",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Byron confirms the BVP P2 attendees and lands a two-line steer on what would play best in the partner room. Aileen's warm check-in arrives the same morning.",
+      "supporting_artifact_ids": [
+        "d24_email_aileen_warm_text",
+        "d24_email_byron_p2_confirm"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "series_a_raise.moment_d24_byron_confirms_p2"
+    },
+    {
+      "moment_id": "css_m_comps_landed",
+      "storyline_id": "case_study_series",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Jenna's first round of landing-page comps is supposed to land today \u2014 four frames covering /customers, the two named-customer sub-pages, and a tightened homepage hero. Vibes-check feedback by EOD Wednesday.",
+      "supporting_artifact_ids": [
+        "css_d24_email_jenna_comps_v1"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "SHIFTED",
+          "from_date": "2026-05-08",
+          "by": "css_noise_jenna_comps_slip",
+          "by_storyline": "case_study_series",
+          "new_target": "2026-05-12",
+          "new_priority": "P2"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "css_m_comps_landed"
+    },
+    {
+      "moment_id": "css_m_erin_interview_today",
+      "storyline_id": "case_study_series",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Marlin interview at 11am \u2014 Erin Vasquez and the Controller who actually uses Holdfast. You're a fifteen-minute drop-in. Jordan flagged in advance that Erin is detail-oriented; expect her to ask process questions.",
+      "supporting_artifact_ids": [
+        "css_d19_calendar_invite_erin_interview"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "css_m_erin_interview_today"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_lennys_newsletter_may10",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter weekly \u2014 on team rituals."
+    },
+    {
+      "artifact_id": "bg_oura_weekly_may10",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly insights \u2014 sleep score 71, suggested wind-down earlier."
+    },
+    {
+      "artifact_id": "bg_linkedin_dm_salesnav_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "LinkedIn Sales Navigator cold DM (forwarded to email) \u2014 AE from a CRM vendor."
+    },
+    {
+      "artifact_id": "bg_linkedin_searches_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "LinkedIn \u2014 'You appeared in 27 searches this week' weekly notification."
+    },
+    {
+      "artifact_id": "bg_strava_weekly_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Strava weekly recap \u2014 zero runs this week."
+    },
+    {
+      "artifact_id": "d24_email_secondary_buyer_cold_decoy",
+      "is_decoy": true,
+      "storyline_id": "series_a_raise",
+      "rationale": "Cold email from a secondary-market buyer offering to \"discuss founder liquidity options at the A.\" Avery archives without reply."
+    },
+    {
+      "artifact_id": "soc2_d24_email_drata_renewal_pitch",
+      "is_decoy": true,
+      "storyline_id": "soc2_type2_audit",
+      "rationale": "Aaron Klein follows up \u2014 wants to put a 30-minute Q3 tier-upgrade conversation on the calendar for the week after the report ships. Pitches the \"Risk &amp; Compliance\" tier at +$8K/year. Avery archive"
+    },
+    {
+      "artifact_id": "bg_stratechery_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Tuesday weekly."
+    },
+    {
+      "artifact_id": "bg_drata_renewal_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Drata CSM \u2014 annual renewal courtesy note, 60 days out."
+    },
+    {
+      "artifact_id": "bg_rippling_payroll_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Rippling \u2014 payroll run reminder for May 15 cycle."
+    }
+  ]
+}

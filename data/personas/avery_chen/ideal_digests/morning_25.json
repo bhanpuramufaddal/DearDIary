@@ -1,0 +1,191 @@
+{
+  "for_date": "2026-05-13",
+  "based_on_state_through": "2026-05-12T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "series_a_raise.moment_d25_diligence_batch3",
+      "storyline_id": "series_a_raise",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Wren got sent home from Rockridge Little at 10:45am with a 102 fever and a positive rapid strep \u2014 Sam in BUSD professional development all day, Avery handles pickup and Wren's couch afternoon. Anand's diligence batch gets a two-line acknowledgment by 11:30am with the substantive response promised by Friday EOD instead of Thursday. Still tracking the May 22 hard deadline.",
+      "supporting_artifact_ids": [
+        "d25_email_krishnan_diligence_batch3",
+        "d25_note_diligence_batch3_triage"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-13",
+          "by": "noise_wren_strep_pickup",
+          "by_storyline": "wren_school_transition",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "series_a_raise.moment_d25_diligence_batch3"
+    },
+    {
+      "moment_id": "soc2_moment_draft_report_in",
+      "storyline_id": "soc2_type2_audit",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Draft SOC 2 Type II report is in from Tom with no exceptions noted; comments due Friday May 15 EOD to stay on track for May 19 issuance. Avery to skim the executive summary and let Priya and Marlene handle the technical body pass; sign-off is queued for the next forty-eight hours. Aaron Klein has pinged about the Q3 Drata tier upgrade; Avery is going to keep ignoring until after the term sheet lands, but the escalation pattern hardens the punt to July.",
+      "supporting_artifact_ids": [
+        "soc2_d25_email_tom_sends_draft_report",
+        "soc2_d25_note_avery_skim_report"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-13",
+          "by": "soc2_noise_aaron_pestering",
+          "by_storyline": "soc2_type2_audit",
+          "new_target": null,
+          "new_priority": "P1"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "soc2_moment_draft_report_in"
+    },
+    {
+      "moment_id": "css_m_brennan_interview_today",
+      "storyline_id": "case_study_series",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Lonestar interview is on your calendar at 10am as an optional drop-in for the first fifteen minutes. Brennan's Operations Director is the primary voice in the room.",
+      "supporting_artifact_ids": [
+        "css_d19_calendar_invite_brennan_interview"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "SHIFTED",
+          "from_date": "2026-05-08",
+          "by": "css_noise_brennan_reschedule",
+          "by_storyline": "case_study_series",
+          "new_target": "2026-05-13",
+          "new_priority": "P2"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "css_m_brennan_interview_today"
+    },
+    {
+      "moment_id": "wst_moment_d25_program_details",
+      "storyline_id": "wren_school_transition",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Annette's end-of-year program details for the June 12 program land on May 13. Avery opens the email within the hour as part of her standing pattern with school communications \u2014 she reads it in real time, possibly while with Wren in the evening \u2014 and marks it as information to track. She does not act on it (Sam owns the action side of school logistics), but the email touches her: the year at Rockridge is ending, and Wren is transitioning.",
+      "supporting_artifact_ids": [
+        "wst_d24_email_rl_program_logistics",
+        "wst_d25_email_annette_program_details"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-13",
+          "by": "noise_wren_strep_pickup",
+          "by_storyline": "wren_school_transition",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "wst_moment_d25_program_details"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_linkedin_dm_salesnav_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "LinkedIn Sales Navigator cold DM (forwarded to email) \u2014 AE from a CRM vendor."
+    },
+    {
+      "artifact_id": "bg_linkedin_searches_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "LinkedIn \u2014 'You appeared in 27 searches this week' weekly notification."
+    },
+    {
+      "artifact_id": "bg_strava_weekly_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Strava weekly recap \u2014 zero runs this week."
+    },
+    {
+      "artifact_id": "d24_email_secondary_buyer_cold_decoy",
+      "is_decoy": true,
+      "storyline_id": "series_a_raise",
+      "rationale": "Cold email from a secondary-market buyer offering to \"discuss founder liquidity options at the A.\" Avery archives without reply."
+    },
+    {
+      "artifact_id": "soc2_d24_email_drata_renewal_pitch",
+      "is_decoy": true,
+      "storyline_id": "soc2_type2_audit",
+      "rationale": "Aaron Klein follows up \u2014 wants to put a 30-minute Q3 tier-upgrade conversation on the calendar for the week after the report ships. Pitches the \"Risk &amp; Compliance\" tier at +$8K/year. Avery archive"
+    },
+    {
+      "artifact_id": "bg_stratechery_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Tuesday weekly."
+    },
+    {
+      "artifact_id": "bg_drata_renewal_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Drata CSM \u2014 annual renewal courtesy note, 60 days out."
+    },
+    {
+      "artifact_id": "bg_rippling_payroll_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Rippling \u2014 payroll run reminder for May 15 cycle."
+    },
+    {
+      "artifact_id": "bg_firstround_review_may13",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "First Round Review article digest \u2014 founder essay."
+    },
+    {
+      "artifact_id": "bg_segment_webinar_may13",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Twilio Segment webinar invite \u2014 'Customer data for B2B SaaS leaders.'"
+    }
+  ]
+}

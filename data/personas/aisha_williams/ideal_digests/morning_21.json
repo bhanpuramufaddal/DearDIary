@@ -1,0 +1,49 @@
+{
+  "for_date": "2026-05-09",
+  "based_on_state_through": "2026-05-08T23:59:59-07:00",
+  "items": [],
+  "expected_suppressions": [
+    {
+      "artifact_id": "q3okr_email_decoy_sister_org_fyi",
+      "is_decoy": true,
+      "storyline_id": "q3_okr_planning",
+      "rationale": "DECOY. Sister-org PM lead (Liam O'Connor's area) sends Aisha a courtesy FYI with their Q3 OKR draft \u2014 \"wanted to give you a heads-up on the framing in case we want to deconflict before June 3.\" Not ac"
+    },
+    {
+      "artifact_id": "bg_decoy_icloud_may07",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Apple \u2014 monthly receipt for iCloud+ family plan, $9.99. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_tawonga_marketing_may07",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Camp Tawonga marketing \u2014 \"Family Camp 2027 early-bird registration opens June 1.\" Form-promo, not relevant to Naima's current trip. Ignored."
+    },
+    {
+      "artifact_id": "q2okr_d22_slack_decoy_recruiter_perf_cycle",
+      "is_decoy": true,
+      "storyline_id": "q2_okr_grading",
+      "rationale": "DECOY: Vendor cold email pitching an \"OKR-tracking and retrospective intelligence\" SaaS to VPs of Product. Mentions Q2 grading, retro narratives. Aisha does not engage."
+    },
+    {
+      "artifact_id": "email_decoy_linkedin_inmail",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. LinkedIn InMail notification forwarded to personal Gmail \u2014 external recruiter \"Marisa Bondurant @ Heidrick\" pitching a director PM candidate at Workspace-adjacent depth. Aisha ignores."
+    },
+    {
+      "artifact_id": "bg_decoy_platformer_may08",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Platformer Friday \u2014 week-in-review on agent-safety regulation in California. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_1password_may08",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "1Password \u2014 annual family-plan renewal notice, $59.88 charged. Form-email."
+    }
+  ]
+}

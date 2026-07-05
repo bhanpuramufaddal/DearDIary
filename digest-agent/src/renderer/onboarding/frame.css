@@ -1,0 +1,114 @@
+/*
+ * Onboarding — a hand-bound notebook's frontispiece. Same paper aesthetic
+ * as the diary, but slower and more typographic. Each step gets a large
+ * page with one focused decision.
+ */
+
+:root {
+  --paper:        #f7f3eb;
+  --paper-dimmed: #efe9dc;
+  --ink:          #1f1d1a;
+  --ink-soft:     #5b554d;
+  --ink-faint:    #8d8779;
+  --rule:         #d6cdb8;
+  --accent:       #7a3a1f;
+  --accent-soft:  #c1a78a;
+  --highlight:    #f5e6c8;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink);
+  font-family: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+  font-size: 17px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+
+.wizard {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 56px 36px 96px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.step-meta {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--ink-faint);
+  margin: 0 0 14px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 12px;
+  line-height: 1.18;
+  font-style: italic;
+}
+
+.lede {
+  color: var(--ink-soft);
+  font-size: 17px;
+  margin: 0 0 28px;
+}
+
+label { display: block; margin: 0 0 16px; }
+label > .name {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-bottom: 4px;
+  letter-spacing: 0.02em;
+}
+label > .hint {
+  font-size: 13px;
+  font-style: italic;
+  color: var(--ink-faint);
+  margin: 4px 0 0;
+}
+
+input[type='text'], input[type='number'], select, textarea {
+  appearance: none;
+  background: var(--paper-dimmed);
+  border: 1px solid var(--rule);
+  font-family: inherit;
+  font-size: 16px;
+  color: var(--ink);
+  padding: 8px 12px;
+  width: 100%;
+}
+input:focus, select:focus, textarea:focus { outline: none; border-color: var(--ink); }
+textarea { min-height: 200px; line-height: 1.5; resize: vertical; }
+
+.list { margin: 6px 0 0; padding: 0; list-style: none; }
+.list li { display: flex; gap: 8px; align-items: center; padding: 4px 0; }
+.list input { flex: 1; }
+
+.nav {
+  position: absolute;
+  bottom: 36px; left: 36px; right: 36px;
+  display: flex; gap: 12px; align-items: center;
+}
+.nav .spacer { flex: 1; }
+.nav .step-indicator { color: var(--ink-faint); font-size: 13px; font-style: italic; }
+
+button {
+  appearance: none;
+  background: var(--ink); color: var(--paper);
+  border: 1px solid var(--ink);
+  font: inherit; font-size: 15px;
+  padding: 8px 18px;
+  cursor: pointer;
+}
+button.ghost { background: transparent; color: var(--ink); }
+button[disabled] { opacity: 0.5; cursor: default; }
+button.primary:hover { background: var(--accent); border-color: var(--accent); }
+
+.callout {
+  background: var(--highlight);
+  border-left: 3px solid var(--accent);
+  padding: 10px 14px;
+  margin: 14px 0;
+  font-size: 14px;
+  color: var(--ink-soft);
+  font-style: italic;
+}

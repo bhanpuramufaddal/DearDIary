@@ -1,0 +1,115 @@
+{
+  "for_date": "2026-05-07",
+  "based_on_state_through": "2026-05-06T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "design_partner_renewal.moment_avery_reply_marcus",
+      "storyline_id": "design_partner_renewal",
+      "section": "urgent_todo",
+      "priority": "P0",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Marcus's pushback is sitting overnight. This is the exec-sponsor email Avery needs to send before Jordan replies \u2014 hold list, offer the usage-dashboard module at $90K, frame the design-partner price as the launch concession that already happened.",
+      "supporting_artifact_ids": [
+        "dpr_d18_email_marcus_pricing_pushback",
+        "dpr_d19_email_avery_marcus_hold_list"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "design_partner_renewal.moment_avery_reply_marcus"
+    },
+    {
+      "moment_id": "soc2_moment_draft_rep_letter_received",
+      "storyline_id": "soc2_type2_audit",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Draft management rep letter is in from Tom, comments due Friday. Priya has flagged two language questions; Avery needs to read and decide what goes back to Tom by EOD Friday to keep the May 19 issuance date.",
+      "supporting_artifact_ids": [
+        "soc2_d18_email_tom_sends_draft_rep_letter",
+        "soc2_d18_note_rep_letter_prep",
+        "soc2_d19_email_priya_rep_letter_pass"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "soc2_moment_draft_rep_letter_received"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "soc2_d17_email_aaron_pre_audit_checkin",
+      "is_decoy": true,
+      "storyline_id": "soc2_type2_audit",
+      "rationale": "Aaron Klein at Drata emails Avery (Priya cc'd) \u2014 pre-audit-close check-in offer; wants to schedule a 20-minute call before the final report drops to review platform-side action items and \"talk through"
+    },
+    {
+      "artifact_id": "bg_stratechery_may5",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery weekly article."
+    },
+    {
+      "artifact_id": "bg_onepassword_renewal_may5",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "1Password Business \u2014 annual seat renewal reminder, 30 days out."
+    },
+    {
+      "artifact_id": "d18_email_techcrunch_press_decoy",
+      "is_decoy": true,
+      "storyline_id": "series_a_raise",
+      "rationale": "Cold email from a TechCrunch reporter asking if Holdfast is \"raising soon\" and offering an exclusive when the round announces. Avery does not reply."
+    },
+    {
+      "artifact_id": "bg_saastr_conf_pitch_may6",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "SaaStr Annual 2026 \u2014 speaker/sponsor cold outreach."
+    },
+    {
+      "artifact_id": "bg_icloud_storage_may6",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Apple iCloud storage almost full \u2014 upgrade to 2TB Family Plan nag."
+    },
+    {
+      "artifact_id": "bg_volvo_service_may6",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Volvo of Oakland \u2014 60,000 mile service reminder for the XC60."
+    },
+    {
+      "artifact_id": "bg_notion_upgrade_may7",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Notion \u2014 your team is approaching plan limits, upgrade nudge."
+    },
+    {
+      "artifact_id": "bg_glassdoor_review_may7",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Glassdoor \u2014 Holdfast received a new employee review (4 stars)."
+    },
+    {
+      "artifact_id": "bg_climbing_gym_renewal_may7",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Great Western Power Company \u2014 monthly membership auto-renewal receipt, $109."
+    }
+  ]
+}

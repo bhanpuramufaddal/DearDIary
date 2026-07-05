@@ -1,0 +1,49 @@
+{
+  "for_date": "2026-04-28",
+  "based_on_state_through": "2026-04-27T23:59:59-07:00",
+  "items": [],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_lennys_apr26",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter Sunday \u2014 \"How Stripe runs its annual planning.\" Aisha will half-flag this for Marcus and forget. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_stratechery_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Monday weekly \u2014 piece on the Meta agent platform rollout. Form-email, unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_hvac_bid_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "HVAC compressor bid #4 from Castro Heating & Air \u2014 $11,200 for a 3-ton replacement, 10-year warranty, parts in mid-June. CC'd to Marcus who is collecting bids. Aisha will ignore."
+    },
+    {
+      "artifact_id": "bg_decoy_theinfo_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Information morning briefing \u2014 Tuesday edition, scoop on a Series E for an AI-coding company. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_expense_reminder_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google internal expense tool reminder \u2014 two receipts from the February NYC offsite are still untagged. Auto-email, third reminder."
+    },
+    {
+      "artifact_id": "bg_decoy_paloaltoonline_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Palo Alto Online Tuesday digest \u2014 top stories on the Castilleja expansion appeal and a Middlefield bike-lane plan. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_pamf_apptreminder_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "PAMF MyChart \u2014 automated reminder to schedule the July LDL recheck per her January physical. Form-email, no urgency."
+    }
+  ]
+}

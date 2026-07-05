@@ -1,0 +1,78 @@
+{
+  "for_date": "2026-05-02",
+  "based_on_state_through": "2026-05-01T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "pv_m03_halverson_eoy_first",
+      "storyline_id": "palo_verde_year_end",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Ms. Halverson's first heavy end-of-year Friday note hit Naima's parent thread \u2014 promotion ceremony June 11, yearbook page sign-off due May 15, picnic ask. Nothing to act on this morning but the May 15 sign-off should be on the radar.",
+      "supporting_artifact_ids": [
+        "pv_a08_halverson_friday_may01"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "pv_m03_halverson_eoy_first"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "d12_email_jls_pta_volunteer_decoy",
+      "is_decoy": true,
+      "storyline_id": "jls_naima_transition",
+      "rationale": "JLS PTA all-list email asking for Panther Camp volunteers in August. Aisha will not volunteer; treated as low-signal."
+    },
+    {
+      "artifact_id": "bg_decoy_schwab_stmt_apr30",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Schwab automated April monthly statement notification on the joint brokerage account. Form-email, opens to a PDF download link."
+    },
+    {
+      "artifact_id": "bg_decoy_recruiter_ramp_apr30",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Cold recruiter email \u2014 Ramp external retained recruiter on a \"VP of Product, AP & Spend\" role. Template. Aisha archives unread."
+    },
+    {
+      "artifact_id": "bg_decoy_workday_timesheet_apr30",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Workday \u2014 biweekly timesheet attestation reminder. Auto-email. Aisha approves with a one-tap on her phone."
+    },
+    {
+      "artifact_id": "bg_decoy_citizens_mortgage_may01",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Citizens Trust monthly mortgage statement \u2014 May payment processed, principal balance and amortization summary. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_birddog_resy_may01",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Resy \u2014 confirmation for Bird Dog Friday May 1, 7:30 PM, 2 guests (Aisha + Marcus, kids with a sitter). Form-confirmation."
+    },
+    {
+      "artifact_id": "bg_decoy_joanies_resy_may01",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "OpenTable \u2014 confirmation for Joanie's Caf\u00e9 Friday 8:00 AM (standing first-Friday breakfast with Dara). Form-confirmation."
+    },
+    {
+      "artifact_id": "bg_decoy_googleone_may02",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google One \u2014 automated receipt for the 2TB family plan, $9.99 charged to the card ending in 4477. Form-email."
+    }
+  ]
+}

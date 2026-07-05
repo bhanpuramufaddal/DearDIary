@@ -1,0 +1,145 @@
+{
+  "for_date": "2026-05-12",
+  "based_on_state_through": "2026-05-11T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "summer_logistics.moment_tawonga_forms_third",
+      "storyline_id": "summer_logistics",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Tawonga registrar's third push (received Tue 5/12) closes the bunkmate-request window Friday May 22 at 5 p.m. PT. Aisha's scheduled conversation with Naima is Saturday May 23 at bedtime\u2014after the deadline. She must ask Naima earlier in the week (by Friday) to get an answer before the window closes.",
+      "supporting_artifact_ids": [
+        "d18_email_tawonga_forms_reminder_third",
+        "d19_note_morning_log_tawonga_decision"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-12",
+          "by": "summer_logistics.noise_tawonga_deadline_firmens",
+          "by_storyline": "summer_logistics",
+          "new_target": null,
+          "new_priority": "P1"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "summer_logistics.moment_tawonga_forms_third"
+    },
+    {
+      "moment_id": "q2okr_moment_jennifer_design_input",
+      "storyline_id": "q2_okr_grading",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Jennifer Park's three-paragraph design-side input arrived in the inbox last night. Read-only \u2014 Priya will fold it into the consolidated Doc.",
+      "supporting_artifact_ids": [
+        "q2okr_d25_email_jennifer_design_input"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2okr_moment_jennifer_design_input"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_lennys_may10",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter Sunday \u2014 \"How to grade an OKR retro without losing the team.\" Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_chase_card_stmt_may10",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Chase Sapphire \u2014 monthly statement available, $4,812.42 due. Form-email. Aisha autopays."
+    },
+    {
+      "artifact_id": "spr_d22_email_decoy_mckinsey_alum",
+      "is_decoy": true,
+      "storyline_id": "strategic_pivot_review",
+      "rationale": "DECOY: A McKinsey alumna Aisha overlapped with in the Atlanta office in 2007 pitches \"strategic-pivot facilitation\" services, says \"I heard you might be navigating a portfolio realignment.\" Three para"
+    },
+    {
+      "artifact_id": "spr_d22_email_decoy_recruiter_workspace_vp",
+      "is_decoy": true,
+      "storyline_id": "strategic_pivot_review",
+      "rationale": "DECOY: A retained-search recruiter pitches a VP role at a competitor \"Workspace-adjacent\" company with a 12-figure platform mandate; carefully name-drops a mutual ex-McKinsey contact. The pitch mentio"
+    },
+    {
+      "artifact_id": "bg_decoy_stratechery_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Monday weekly \u2014 piece on Cloudflare's developer-platform play. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_vendor_pendo_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Pendo enterprise AE cold pitch \u2014 third follow-up in a six-touch sequence. Auto-template. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_calendar_nudge_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google internal calendar-AI nudge \u2014 \"You have 14 meetings this week with under 15 minutes of buffer. Want to decline one?\" Auto-email. Aisha snoozes."
+    },
+    {
+      "artifact_id": "d24_email_jls_pta_spirit_wear_decoy",
+      "is_decoy": true,
+      "storyline_id": "jls_naima_transition",
+      "rationale": "JLS PTA spirit-wear vendor pitch \u2014 pre-orders for Panther T-shirts and hoodies for incoming sixth-graders. Low-signal; Aisha archives without reading."
+    },
+    {
+      "artifact_id": "email_decoy_candidate_inbound",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. Cold inbound from a director-level PM candidate via LinkedIn-sourced email: \"Saw your team's surface area on Workspace \u2014 would love 20 minutes if you're open to senior PM director candidates th"
+    },
+    {
+      "artifact_id": "bg_decoy_theinfo_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Information morning briefing \u2014 Tuesday edition, lead on a Snowflake-Databricks customer overlap study. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_saastr_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "SaaStr Annual cold pitch \u2014 speaker invite for September 2026 panel on \"Workspace in the agent era.\" Generic, no personalization beyond title. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_paloaltoonline_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Palo Alto Online Tuesday digest \u2014 top stories on a PAUSD board meeting and a council parking-policy vote. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_pamf_apptreminder_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "PAMF MyChart \u2014 automated reminder that Idris is due for his fall asthma-management check. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_jls_parent_group_chat_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Muted JLS incoming-parents group chat \u2014 22 unread, a debate over the orchestra-vs-band sixth-grade elective. Aisha will not open."
+    }
+  ]
+}

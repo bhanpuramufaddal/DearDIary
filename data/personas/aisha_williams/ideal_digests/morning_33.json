@@ -1,0 +1,190 @@
+{
+  "for_date": "2026-05-21",
+  "based_on_state_through": "2026-05-20T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "q3okr_moment_may21_draft_framing_to_david",
+      "storyline_id": "q3_okr_planning",
+      "section": "urgent_todo",
+      "priority": "P0",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Priya extended the Thursday 3-4 PM consolidation block to 3-5 PM and added a parking-lot review. The framing reply to David that Aisha owes by Friday will get drafted in that block; the parking-lot review is Priya forcing a conversation about the seventeen additions Aisha has not yet acknowledged.",
+      "supporting_artifact_ids": [
+        "q3okr_cal_priya_consolidation_thursday_may21",
+        "q3okr_email_david_nudge"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-21",
+          "by": "q3okr_noise_thursday_block_extended",
+          "by_storyline": "q3_okr_planning",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q3okr_moment_may21_draft_framing_to_david"
+    },
+    {
+      "moment_id": "spr_moment_may21_rehearsal1",
+      "storyline_id": "strategic_pivot_review",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Rehearsal #1 at 1 p.m. in MP-9 L2-North with Priya and Brendan. The deck walkthrough and Q&A simulation are the scope. Idris's third-grade play is tonight; out of the office by 5:25.",
+      "supporting_artifact_ids": [
+        "spr_d32_cal_rehearsal_1_thu",
+        "spr_d32_note_post_rehearsal1"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "spr_moment_may21_rehearsal1"
+    },
+    {
+      "moment_id": "pv_m10_costume_emergency",
+      "storyline_id": "palo_verde_year_end",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Cape velcro tore during tech run (day 32, 4:18 PM); Aisha sewn and bagged the replacement by 9:48 PM that evening. Day 33 morning: verify the needle-and-thread kit is packed (as Mrs. Reyes requested in her email), ensure Idris has the bagged cape with him, and plan logistics for the 6:00 p.m. performance (doors 6:15, refreshments 6:00).",
+      "supporting_artifact_ids": [
+        "pv_a31_reyes_costume_emergency",
+        "pv_a32_cape_sewing_note"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "DECLARED",
+          "from_date": "2026-05-20",
+          "by": "pv_noise_costume_emergency",
+          "by_storyline": "palo_verde_year_end",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "pv_m10_costume_emergency"
+    },
+    {
+      "moment_id": "pv_m11_play_today_if_one_thing",
+      "storyline_id": "palo_verde_year_end",
+      "section": "if_one_thing",
+      "priority": "P1",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Play tonight is at 6:00 p.m. in the Palo Verde MUR. Refreshments setup at 6:00, doors at 6:15. Wrap the workday accordingly.",
+      "supporting_artifact_ids": [
+        "pv_a27_play_family_calendar_invite",
+        "pv_a30_play_calendar_update",
+        "pv_a33_reyes_dayof_reminder"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-19",
+          "by": "pv_noise_play_time_shift",
+          "by_storyline": "palo_verde_year_end",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "pv_m11_play_today_if_one_thing"
+    },
+    {
+      "moment_id": "moment_maya_batch_decisions_may21",
+      "storyline_id": "director_pm_hiring",
+      "section": "urgent_todo",
+      "priority": "P2",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Maya needs yes/no on the first batch today \u2014 2 yes, 3 no, 1 hold per the triage results and Wei's archetype-mismatch read. Send before the 1:00 p.m. strategic pivot review rehearsal.",
+      "supporting_artifact_ids": [
+        "email_aisha_to_maya_first_batch_decisions",
+        "note_daniel_reyes_call_recap"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "moment_maya_batch_decisions_may21"
+    },
+    {
+      "moment_id": "summer_logistics.moment_ayso_dropoff_confirm",
+      "storyline_id": "summer_logistics",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "AYSO confirmed the 8:30 a.m. (not 9 a.m.) drop-off window in the formal invite \u2014 reflecting the May 11 field-permit shift. Marcus already updated the family calendar; this is now FYI confirmation.",
+      "supporting_artifact_ids": [
+        "d26_calinvite_ayso_dropoff_confirm"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-11",
+          "by": "summer_logistics.noise_ayso_dropoff_shift",
+          "by_storyline": "summer_logistics",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "summer_logistics.moment_ayso_dropoff_confirm"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_recruiter_lattice_may19",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Cold recruiter email \u2014 Lattice external retained on \"CPO, Lattice.\" Template, addressed Aisha by name. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_linkedin_conn_may19",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "LinkedIn \u2014 three pooled connection requests (founders, an agency BD, a coach). Form-email digest. Ignored."
+    }
+  ]
+}

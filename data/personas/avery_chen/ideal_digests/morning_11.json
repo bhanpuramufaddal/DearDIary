@@ -1,0 +1,114 @@
+{
+  "for_date": "2026-04-29",
+  "based_on_state_through": "2026-04-28T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "soc2_moment_incident_classification",
+      "storyline_id": "soc2_type2_audit",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "approve",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Priya flagged the incident classification for the February 11 outage (Severity 2, customer-affecting, 30 minutes downtime) and wants Avery's CEO acknowledgment of the language before it goes into the final SOC 2 report. The document is in the SOC 2 drive folder and Avery has not yet opened it.",
+      "supporting_artifact_ids": [
+        "soc2_d11_email_priya_incident_classification"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-04-29",
+          "by": "soc2_noise_drata_control_drift",
+          "by_storyline": "soc2_type2_audit",
+          "new_target": null,
+          "new_priority": "P1"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "soc2_moment_incident_classification"
+    },
+    {
+      "moment_id": "wst_moment_d11_blue_card",
+      "storyline_id": "wren_school_transition",
+      "section": "urgent_todo",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Josie's \"friendly nudge\" on the California School Immunization Record (Blue Card) \u2014 Kaiser turnaround runs about a week, and Sam will need to request it through MyKaiser before the pediatrician visit. June 1 hard deadline at Park Day.",
+      "supporting_artifact_ids": [
+        "wst_d11_email_josie_immunization_reminder"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "wst_moment_d11_blue_card"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "d09_email_airbnb_wishlist",
+      "is_decoy": true,
+      "storyline_id": "summer_family_logistics",
+      "rationale": "Airbnb promotional email \u2014 \"Sea Ranch homes you might love\" \u2014 because Avery searched the area in February before booking through Sea Ranch Escape. Lands on personal Gmail, three thumbnail photos and a"
+    },
+    {
+      "artifact_id": "bg_zoominfo_cold_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "ZoomInfo SDR cold pitch \u2014 'quick 15 min on enriching your TAM data' template."
+    },
+    {
+      "artifact_id": "bg_calendly_weekly_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Calendly weekly stats \u2014 14 meetings booked, 2 no-shows, top requester chart."
+    },
+    {
+      "artifact_id": "bg_strava_weekly_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Strava weekly recap \u2014 one run, 3.1 mi, Lake Merritt loop."
+    },
+    {
+      "artifact_id": "dpr_d09_email_decoy_competitor_pitch",
+      "is_decoy": true,
+      "storyline_id": "design_partner_renewal",
+      "rationale": "Cold sales pitch from a competing AP-automation vendor name-checking \"specialty insurance brokerages\" as a target segment. Decoy \u2014 Avery archives without reading past line one."
+    },
+    {
+      "artifact_id": "soc2_d10_email_drata_control_drift_alert",
+      "is_decoy": true,
+      "storyline_id": "soc2_type2_audit",
+      "rationale": "Drata auto-alert: three controls flagged as drifting \u2014 two MFA-enforcement checks on contractor accounts and one stale access-review item. Marlene and Priya cc'd. Auto-formatted, low-priority but Priy"
+    },
+    {
+      "artifact_id": "bg_stratechery_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Tuesday weekly \u2014 Ben Thompson on Apple antitrust ruling."
+    },
+    {
+      "artifact_id": "bg_stripe_invoice_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stripe monthly invoice receipt \u2014 $4,317.22 across April Holdfast customer charges."
+    },
+    {
+      "artifact_id": "bg_oaklandside_apr29",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Oaklandside daily morning briefing."
+    }
+  ]
+}

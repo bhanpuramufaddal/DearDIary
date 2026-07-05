@@ -1,0 +1,649 @@
+/*
+ * Diary aesthetic — sketchbook / pencil-on-bond.
+ *
+ *  - Bond-paper background (lighter, less yellow than cream), softly ruled
+ *    with faint horizontal pencil lines — present but not loud.
+ *  - Graphite ink instead of near-black; cool-toned to read as pencil, not
+ *    ink. Accent is a worn pencil blue-grey, not iron-gall red.
+ *  - Two voices: Source Serif for body / headings, a handwriting cursive
+ *    (Apple Chancery / Bradley Hand on macOS) for marginalia, weekday
+ *    flourish, the "leave a note" prompt, and form placeholders. Handwriting
+ *    is an accent — used sparingly to mark hand-made moments on the page.
+ *  - Form inputs feel like writing on the next ruled line, not like a web
+ *    form. Underline-only, larger, with handwriting placeholder.
+ *  - Dividers are hand-drawn (sketchy SVGs, see ./illustrations/).
+ *  - Honors prefers-reduced-motion.
+ *
+ *   ┌─────────────────────────────┐ ← dog-ear corner (clickable, prev page)
+ *   │   Tuesday                   │   ← weekday in handwriting cursive
+ *   │   May 25, 2026              │   ← formal date in serif
+ *   │   ~~~~~~~~~~~~~~~~~~        │   ← sketched pencil underline
+ *   │                             │
+ *   │  right now ─────            │   ← section header, soft caps, hand rule
+ *   │  ─ │ Email draft component  │
+ *   │  ✓ │   sketched marginalia  │
+ *   │                             │
+ *   └─────────────────────────────┘ ← dog-ear corner (clickable, next page)
+ */
+
+@font-face {
+  font-family: 'Source Serif 4';
+  src: local('Source Serif 4'), local('Source Serif Pro');
+  font-weight: 400 700;
+  font-style: normal italic;
+  font-display: swap;
+}
+
+/*
+ * Frameless window — the diary ships with no chrome (frame: false in main).
+ * Drag-from-anywhere via app-region, with interactive elements opted out so
+ * clicks, inputs, and contenteditable still work normally.
+ */
+html, body {
+  -webkit-app-region: drag;
+}
+button, input, textarea, select, a,
+[contenteditable="true"],
+[role="button"], [role="textbox"], [role="link"],
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+:root {
+  /* Bond paper palette (light). Dark theme below shadows these. */
+  --paper:           #faf7ef;          /* clean bond, faint warm cast */
+  --paper-dimmed:    #f1ede2;
+  --paper-shadow:    #e5dfd0;
+  --paper-edge:      #d8d0bd;          /* shadow under page edge */
+
+  /* Graphite ink — cool, pencil-toned. */
+  --ink:             #2a2925;          /* primary text */
+  --ink-soft:        #54514a;
+  --ink-faint:       #8b8678;
+  --ink-pencil:      #4a4a4a;          /* "pencil mark" tone for handwriting */
+
+  /* Rules + accents. */
+  --rule:            #d4cebe;
+  --rule-faint:      #e5dfd0;          /* page ruling — barely visible */
+  --accent:          #485874;          /* worn pencil blue-grey */
+  --accent-soft:     #8b9aae;
+  --highlight:       #fcf2c4;          /* yellow highlighter, soft */
+
+  /* Status colors. */
+  --acted:           #5a7a3a;          /* pencil green */
+  --closed:          #8b8678;
+  --dismissed:       #a45a4a;
+
+  /* Type voices. */
+  --serif: 'Source Serif 4', 'Source Serif Pro', 'Iowan Old Style',
+           'Apple Garamond', Georgia, 'Times New Roman', serif;
+  --hand:  'Apple Chancery', 'Bradley Hand', 'Bradley Hand ITC', 'Caveat',
+           'Marker Felt', cursive;
+
+  /* Type scale — slightly larger than before, with a stronger masthead. */
+  --t-body:          18px;
+  --t-small:         15px;
+  --t-meta:          13px;
+  --t-section:       14px;             /* small-caps section labels */
+  --t-component:     20px;
+  --t-masthead:      52px;             /* big editorial date */
+  --t-hand:          22px;             /* handwriting accent size */
+
+  /* Layout rails. */
+  --page-max:        720px;
+  --left-margin:     88px;
+  --right-margin:    40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: var(--t-body);
+  line-height: 1.6;
+  font-feature-settings: 'kern', 'liga', 'onum';
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ── Page surface ─────────────────────────────────────────────────────────
+ * The diary IS the window: paper fills the frameless Electron window
+ * edge-to-edge — no desk, no shadow, no outer margin. Internal page
+ * gutters (left/right padding) are preserved so the notebook-style
+ * marginalia (status marks, hand-drawn dividers) have a home.
+ */
+
+.diary {
+  position: relative;
+  margin: 0;
+  /* Fill the window even when the page content is short, so the ruled
+   * paper extends to the bottom edge instead of cutting off above plain
+   * background. (border-box → padding is included in the 100vh.) */
+  min-height: 100vh;
+  padding: 64px var(--right-margin) 96px var(--left-margin);
+  background: var(--paper);
+  /* Faint horizontal pencil ruling, every 28px. Barely visible — a guide,
+   * not a grid. Disabled in reduced-motion / older displays via the var. */
+  background-image:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 27px,
+      var(--rule-faint) 27px,
+      var(--rule-faint) 28px
+    );
+  background-attachment: local;
+}
+
+/* The "page is turning" overlay used during navigation. */
+.diary.is-turning {
+  animation: page-turn 420ms cubic-bezier(0.4, 0.0, 0.2, 1) both;
+}
+.diary.is-turning--back {
+  animation-name: page-turn-back;
+}
+
+@keyframes page-turn {
+  0%   { opacity: 1; transform: translateX(0);    }
+  45%  { opacity: 0; transform: translateX(-24px); }
+  55%  { opacity: 0; transform: translateX(24px);  }
+  100% { opacity: 1; transform: translateX(0);    }
+}
+@keyframes page-turn-back {
+  0%   { opacity: 1; transform: translateX(0);    }
+  45%  { opacity: 0; transform: translateX(24px);  }
+  55%  { opacity: 0; transform: translateX(-24px); }
+  100% { opacity: 1; transform: translateX(0);    }
+}
+
+/* ── Dog-ear corner navigation ──────────────────────────────────────────── */
+
+.page-corner {
+  position: absolute;
+  top: 0;
+  width: 56px;
+  height: 56px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 5;
+  color: var(--ink-faint);
+  transition: color 0.18s ease, transform 0.22s ease;
+}
+.page-corner svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.page-corner--prev { left: 0; }
+.page-corner--next { right: 0; }
+
+.page-corner:hover  { color: var(--ink); transform: translateY(-2px); }
+.page-corner:active { transform: translateY(0); }
+.page-corner:focus-visible {
+  outline: 2px dashed var(--accent);
+  outline-offset: 4px;
+}
+.page-corner[disabled] {
+  opacity: 0.25;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.page-corner__label {
+  position: absolute;
+  top: 18px;
+  font-family: var(--hand);
+  font-size: var(--t-small);
+  color: inherit;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.18s ease;
+  pointer-events: none;
+}
+.page-corner--prev .page-corner__label { left: 64px;  }
+.page-corner--next .page-corner__label { right: 64px; }
+.page-corner:hover .page-corner__label { opacity: 1; }
+
+/* ── Masthead ──────────────────────────────────────────────────────────── */
+
+.masthead {
+  margin: 8px 0 36px;
+  position: relative;
+}
+
+.masthead__weekday {
+  font-family: var(--hand);
+  font-size: var(--t-hand);
+  color: var(--ink-pencil);
+  margin: 0 0 -4px;          /* tuck close to the date */
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.masthead__date {
+  font-size: var(--t-masthead);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0;
+  line-height: 1.0;
+  font-style: italic;
+  color: var(--ink);
+}
+
+.masthead__ornament {
+  display: block;
+  margin: 22px 0 0;
+  color: var(--accent);
+  opacity: 0.7;
+}
+.masthead__ornament svg {
+  width: 220px;
+  height: auto;
+  display: block;
+}
+
+/* ── Sections ─────────────────────────────────────────────────────────── */
+
+.section {
+  margin: 44px 0 0;
+}
+
+.section__title {
+  font-family: var(--hand);
+  font-size: var(--t-hand);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  color: var(--accent);
+  margin: 0 0 14px;
+  position: relative;
+  display: inline-block;
+  padding-right: 14px;
+}
+
+.section__title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 6px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 6' preserveAspectRatio='none'><path d='M0 3 Q 12 0, 25 3 T 50 3 T 75 3 T 100 3' fill='none' stroke='%238b9aae' stroke-width='1.1' stroke-linecap='round'/></svg>");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.section__divider {
+  text-align: center;
+  margin: 28px 0 22px;
+  color: var(--accent-soft);
+  opacity: 0.6;
+}
+.section__divider svg {
+  width: 260px;
+  height: 16px;
+}
+
+/* "Background" section is quieter — smaller type, lower contrast. */
+.section--background .section__title { color: var(--ink-faint); }
+.section--background .component      { font-size: var(--t-small); }
+
+/* ── Components ───────────────────────────────────────────────────────── */
+
+.component {
+  position: relative;
+  margin: 22px 0;
+  padding: 14px 0 18px;
+}
+
+.component + .component {
+  /* Hand-drawn dashed pencil rule between components. */
+  border-top: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 2' preserveAspectRatio='none'><path d='M0 1 L400 1' fill='none' stroke='%23a89e8a' stroke-width='1' stroke-dasharray='6 5' stroke-linecap='round'/></svg>");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 2px;
+}
+
+.component__marginalia {
+  position: absolute;
+  left: calc(-1 * var(--left-margin) + 24px);
+  top: 16px;
+  width: 32px;
+  height: 32px;
+  color: var(--ink-faint);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.component[data-status='acted']     .component__marginalia { color: var(--acted);     opacity: 1; }
+.component[data-status='closed']    .component__marginalia { color: var(--closed);    opacity: 1; }
+.component[data-status='dismissed'] .component__marginalia { color: var(--dismissed); opacity: 1; }
+
+.component[data-status='acted'] .component__body,
+.component[data-status='closed'] .component__body,
+.component[data-status='dismissed'] .component__body {
+  filter: saturate(0.4) opacity(0.65);
+  transition: filter 0.6s ease;
+}
+
+.component__heading {
+  font-size: var(--t-component);
+  font-weight: 600;
+  margin: 0 0 6px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+}
+
+.component__meta {
+  font-family: var(--hand);
+  font-size: var(--t-small);
+  color: var(--ink-faint);
+  margin: 0 0 12px;
+  font-style: normal;
+}
+
+.component__body { margin: 0 0 12px; }
+.component__body p { margin: 0 0 0.6em; }
+
+.component__quote {
+  border-left: 2px solid var(--accent-soft);
+  padding: 4px 0 4px 16px;
+  margin: 12px 0;
+  font-style: italic;
+  color: var(--ink-soft);
+  background: linear-gradient(to right, var(--paper-dimmed), transparent 60%);
+}
+
+/* ── Actions: pencil-sketched buttons ─────────────────────────────────── */
+
+.component__actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 16px 0 6px;
+}
+
+.action {
+  appearance: none;
+  background: transparent;
+  border: 1.5px solid var(--ink-soft);
+  border-radius: 14px 4px 14px 4px;          /* asymmetric, hand-drawn feel */
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: var(--t-small);
+  padding: 7px 16px;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.18s ease, color 0.18s ease,
+              transform 0.12s ease, border-radius 0.3s ease;
+}
+.action:hover {
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 4px 14px 4px 14px;          /* swap corners on hover */
+}
+.action:active { transform: translateY(1px) rotate(-0.4deg); }
+.action:focus-visible {
+  outline: 2px dashed var(--accent);
+  outline-offset: 3px;
+}
+.action--primary {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+.action--primary:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.action--ghost {
+  border-color: var(--ink-faint);
+  color: var(--ink-soft);
+  border-style: dashed;
+}
+
+.component[data-status='acted'] .action,
+.component[data-status='closed'] .action,
+.component[data-status='dismissed'] .action {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+/* ── Comment thread ───────────────────────────────────────────────────── */
+
+.comments {
+  margin: 16px 0 0;
+  padding: 12px 16px 12px 18px;
+  background: transparent;
+  border-left: 2px dashed var(--rule);
+}
+.comments:empty { display: none; }
+
+.comment {
+  font-size: var(--t-small);
+  margin: 0 0 8px;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.comment:last-child { margin-bottom: 0; }
+.comment__author {
+  font-family: var(--hand);
+  font-style: normal;
+  color: var(--ink-faint);
+  font-size: var(--t-meta);
+  margin-right: 8px;
+}
+
+/* Forms — feel like writing on the next ruled line, not a web input. */
+
+.comment-form,
+.note-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: baseline;
+}
+
+.comment-form input,
+.note-form input {
+  flex: 1;
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px dashed var(--ink-faint);
+  font-family: var(--hand);
+  font-size: var(--t-hand);
+  color: var(--ink-pencil);
+  padding: 4px 0 6px;
+  line-height: 1.4;
+}
+.comment-form input::placeholder,
+.note-form input::placeholder {
+  font-family: var(--hand);
+  color: var(--ink-faint);
+  opacity: 0.7;
+  font-style: normal;
+}
+.comment-form input:focus,
+.note-form input:focus {
+  outline: none;
+  border-bottom-color: var(--ink);
+  border-bottom-style: solid;
+}
+
+/* ── Bottom-of-page notes (the principal's own jottings) ──────────────── */
+
+.notes {
+  margin: 64px 0 0;
+  padding-top: 22px;
+  position: relative;
+}
+.notes::before {
+  /* Hand-drawn dashed separator. */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 6' preserveAspectRatio='none'><path d='M0 3 Q 8 1, 16 3 T 32 3 T 48 3 T 64 3 T 80 3 T 96 3 T 112 3 T 128 3 T 144 3 T 160 3 T 176 3 T 200 3' fill='none' stroke='%23a89e8a' stroke-width='1' stroke-linecap='round'/></svg>");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+.notes__title {
+  font-family: var(--hand);
+  font-size: var(--t-hand);
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+  color: var(--ink-faint);
+  margin: 0 0 8px;
+  font-weight: 400;
+}
+.note {
+  font-family: var(--hand);
+  font-size: var(--t-hand);
+  margin: 0 0 4px;
+  color: var(--ink-pencil);
+  line-height: 1.5;
+}
+
+/* ── Empty / loading state ────────────────────────────────────────────── */
+
+.empty {
+  text-align: center;
+  font-family: var(--hand);
+  font-size: var(--t-hand);
+  color: var(--ink-faint);
+  margin: 120px 0;
+  letter-spacing: 0.01em;
+}
+
+/* ── Motion: initial fade-rise of components ─────────────────────────── */
+
+@keyframes fade-rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0);   }
+}
+
+.component.is-mounting {
+  animation: fade-rise 480ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .component.is-mounting { animation: none; }
+  .component[data-status='acted'] .component__body,
+  .component[data-status='closed'] .component__body { transition: none; }
+  .diary.is-turning,
+  .diary.is-turning--back { animation: none; }
+}
+
+/* ── Email draft details ──────────────────────────────────────────────── */
+
+.email-draft__headers {
+  font-family: var(--hand);
+  font-size: var(--t-small);
+  color: var(--ink-faint);
+  margin: 0 0 8px;
+}
+.email-draft__subject {
+  font-size: var(--t-small);
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.email-draft__body {
+  white-space: pre-wrap;
+  margin: 0 0 12px;
+}
+
+.calendar-block__when {
+  font-family: var(--hand);
+  font-size: var(--t-small);
+  color: var(--ink-soft);
+  margin: 0 0 6px;
+}
+
+.doc-tile {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+.doc-tile__icon {
+  width: 36px;
+  height: 36px;
+  flex: 0 0 auto;
+  color: var(--ink-faint);
+}
+
+/* ── Choose-one cards — sketchy bordered cards ───────────────────────── */
+
+.choose-one {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin: 10px 0;
+}
+.choose-one__card {
+  border: 1.5px dashed var(--rule);
+  border-radius: 12px 4px 12px 4px;
+  padding: 12px 16px;
+  cursor: pointer;
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  transition: background 0.18s ease, border-color 0.18s ease, border-radius 0.3s ease;
+}
+.choose-one__card:hover {
+  background: var(--paper-dimmed);
+  border-color: var(--ink-faint);
+  border-radius: 4px 12px 4px 12px;
+}
+.choose-one__card[aria-selected='true'] {
+  background: var(--highlight);
+  border-color: var(--ink);
+  border-style: solid;
+}
+
+/* ── Free-text reply — looks like loose-leaf inside the page ──────────── */
+
+.free-text-reply textarea {
+  width: 100%;
+  min-height: 140px;
+  resize: vertical;
+  appearance: none;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 27px,
+      var(--rule-faint) 27px,
+      var(--rule-faint) 28px
+    ),
+    var(--paper-dimmed);
+  border: none;
+  border-left: 2px solid var(--accent-soft);
+  font-family: var(--hand);
+  font-size: var(--t-hand);
+  color: var(--ink-pencil);
+  padding: 4px 14px;
+  line-height: 28px;
+}
+.free-text-reply textarea:focus {
+  outline: none;
+  border-left-color: var(--ink);
+}
+.free-text-reply textarea::placeholder {
+  font-family: var(--hand);
+  color: var(--ink-faint);
+}

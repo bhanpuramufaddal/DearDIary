@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 18" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Sketchy meandering vine with small pencil leaves -->
+  <path d="M4 11 C 40 5, 80 14, 120 9 S 200 4, 240 11 S 270 14, 276 10" />
+  <!-- Hand-drawn leaf 1 -->
+  <path d="M64 8 q 4 -6, 10 -2 q -3 5, -10 2 z" fill="currentColor" stroke="none" opacity="0.65" />
+  <!-- Hand-drawn leaf 2 -->
+  <path d="M158 11 q 4 5, 10 1 q -4 -5, -10 -1 z" fill="currentColor" stroke="none" opacity="0.65" />
+  <!-- Hand-drawn leaf 3 -->
+  <path d="M222 9 q 4 -5, 10 -1 q -4 5, -10 1 z" fill="currentColor" stroke="none" opacity="0.65" />
+</svg>

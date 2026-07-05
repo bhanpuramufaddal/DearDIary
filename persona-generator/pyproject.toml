@@ -1,0 +1,39 @@
+[project]
+name = "persona-generator"
+version = "0.1.0"
+description = "Generates lived-in synthetic personas for digest-agent eval"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40",
+    "claude-agent-sdk",
+    "langgraph",
+    "langgraph-checkpoint-sqlite",
+    "pydantic>=2",
+    "python-dotenv",
+    "pyyaml",
+    "sqlmodel>=0.0.22",
+    "typer>=0.12",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "pytest-asyncio>=0.24",
+]
+
+[project.scripts]
+persona-gen = "persona_generator.pipeline:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/persona_generator"]
+
+[tool.pytest.ini_options]
+markers = [
+    "integration: hits real Anthropic API; gated, not run by default",
+    "e2e: full pipeline smoke; manual / nightly only",
+]
+testpaths = ["tests"]

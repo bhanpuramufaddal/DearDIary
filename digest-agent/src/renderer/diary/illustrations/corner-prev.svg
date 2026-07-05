@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Folded page corner pointing top-left ("previous page" dog-ear) -->
+  <!-- The triangle of paper showing the underside (slightly darker fill) -->
+  <path d="M2 2 L 40 2 L 2 40 Z" fill="rgba(0,0,0,0.05)" stroke="none" />
+  <!-- Fold crease (the diagonal where the corner is lifted) -->
+  <path d="M40 2 L 2 40" />
+  <!-- Sketchy left + top edges -->
+  <path d="M2 4 Q 12 1, 22 3 T 40 2" opacity="0.7" />
+  <path d="M4 2 Q 1 12, 3 22 T 2 40" opacity="0.7" />
+  <!-- Pencil arrow hint pointing back -->
+  <g transform="translate(14 14)" stroke-width="1.1">
+    <path d="M10 0 L 0 5 L 10 10" />
+    <path d="M0 5 L 16 5" />
+  </g>
+</svg>

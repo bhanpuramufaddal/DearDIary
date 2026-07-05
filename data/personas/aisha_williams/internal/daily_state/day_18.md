@@ -1,0 +1,23 @@
+# Day 18 State — Wednesday, May 6, 2026
+
+<open_threads>
+Hannah's Q3 input is now eight days overdue; Aisha drafted a chase message Wednesday evening but has not yet sent it. The plan is to send it Thursday morning at 9-10am, right after the email burn, before the consolidation working block with Priya at 3pm. Roman is also silent on his Q3 input. James's framing concern on the platform mandate was discussed directly in the Wednesday 3pm call — he believes the platform mandate is a trap that Aisha is undervaluing, but the conversation happened and Aisha's perspective is recorded. The input from James now needs to be integrated into the Q3 consolidation outline before Thursday's working block. Maya Krishnan confirmed the exploratory intake for director PM on Wednesday May 13 at 9 a.m.; Aisha owes her a role-spec sketch by Monday May 9 EOD. The role-spec needs to frame the platform-mandate area, growth vs. maintenance positioning, and team-structure assumptions in roughly 300 words. The May 28 executive review came up in David's Wednesday 3:30 p.m. biweekly but David did not signal his decision. Aisha treated the non-answer as a piece of information. The JLS parent coffee happened Wednesday morning at 8:30 in the multipurpose room. Grierson said placement letters would come the week of May 18 "if not earlier"; Ms. Reza will email incoming families separately with her counselor availability and intro. Aisha has follow-up conversations to have with Naima about the transition.
+</open_threads>
+
+<calendar_state>
+Thursday May 7 is the Q3 consolidation working block with Priya from 3 to 4 p.m. (recurring Thursday time, continues on schedule). Wednesday's biweekly with David happened at 3:30 p.m. as rescheduled from Tuesday due to his exec offsite. May 13 is now a concentration day: Maya Krishnan's exploratory intake at 9:00–9:30 a.m. (Zoom, three attendees), and Karen Mendez's PIE board informal planning meeting at 7 p.m. at the Palo Verde multipurpose room. The May 28 executive review remains 22 days away.
+</calendar_state>
+
+<persona_state>
+Aisha attended the JLS parent coffee Wednesday morning at 8:30, met Ms. Reza the sixth-grade counselor, heard from Grierson about placement-letter timing (week of May 18), and noted that Karen mentioned Mira being relieved about the Greene placement. She took the call with James at 3 p.m. on the Q3 framing question, where James pushed back directly on the platform mandate and Aisha listened without closing the conversation. The biweekly with David at 3:30 p.m. happened as rescheduled; the narrative was locked in the read-ahead. By evening, Aisha wrote out two notes: a recap of the parent coffee with follow-up items for Naima, and a draft message to chase Hannah on Q3 input (four lines, not sent, pending Thursday morning 9am send). She has not yet resolved the timing on sending the role-spec to Maya. Marcus confirmed his attendance at the coffee this morning; neither of them had explicitly decided beforehand, but both went. Aisha ends the day aware that Thursday's consolidation working block will need to incorporate James's input and that Hannah's silence is deepening. She was asleep by 10:55.
+</persona_state>
+
+<storyline_pointers>
+- strategic_pivot_review: v4 narrative locked. David's biweekly Wednesday 3:30 PM completed; no signal on decision. May 28 review 22 days away.
+- q3_okr_planning: James's platform-mandate framing objection addressed in Wednesday 3pm call; input to integrate before Thursday consolidation. Hannah and Roman both overdue (8 and 10 days respectively). Q3 consolidation Thursday 3-4pm with Priya. Final consolidated draft due David May 29.
+- q2_okr_grading: Wei clean at 0.7. James flagged two (revenue 0.5 asking 0.6, CSAT 0.4 wanting 0.5). Roman flagged one. Hannah silent. Hard due Friday May 22. Area-level miss-explanation ready for narrative writing.
+- jls_naima_transition: Parent coffee completed Wednesday 8:30am. Placement letters expected week of May 18. Ms. Reza will email families separately. Follow-up conversations needed with Naima about counselor availability, lunch logistics, homeroom assignments.
+- director_pm_hiring: Maya intake confirmed May 13 9am Zoom. Role-spec sketch owed by Monday May 9 EOD. Wei prime internal if platform mandate funds. Shortlist at 12 names.
+- palo_verde_year_end: Board meeting invite sent for May 13 7pm at PV MUR (informal planning input session). Costume build for Idris's Tsunami role in progress (foam scales to order, cape still to source). Dress rehearsal May 19.
+- summer_logistics: Galileo marketing upsell came in (second week discount code). Tawonga forms due May 20. Bunkmate preference needs to be asked of Naima Saturday morning before form completion.
+</storyline_pointers>

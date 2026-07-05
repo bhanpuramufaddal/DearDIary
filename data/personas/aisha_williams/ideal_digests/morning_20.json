@@ -1,0 +1,154 @@
+{
+  "for_date": "2026-05-08",
+  "based_on_state_through": "2026-05-07T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "spr_moment_may08_section2_recut",
+      "storyline_id": "strategic_pivot_review",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Three sentences in section 2 need a rewrite before the Friday-morning writing block ends. Nina's unit-economics correction reframes the trade math; this is the row Rohit and David will both push on.",
+      "supporting_artifact_ids": [
+        "spr_d19_note_finance_scrub_annotations"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "DECLARED",
+          "from_date": "2026-05-08",
+          "by": "spr_noise_nina_scrub_correction",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "spr_moment_may08_section2_recut"
+    },
+    {
+      "moment_id": "moment_friday_block_may8",
+      "storyline_id": "director_pm_hiring",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Friday writing block \u2014 shortlist v1, two-column framing (would-move-in-June vs would-move-in-July). Intake with Maya is Wed; role-spec needs to land by Mon EOD.",
+      "supporting_artifact_ids": [
+        "note_morning_log_20260508"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_friday_block_may8"
+    },
+    {
+      "moment_id": "summer_logistics.moment_renee_mendocino_menu",
+      "storyline_id": "summer_logistics",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Ren\u00e9e sent a Mendocino menu-planning email last night \u2014 asking if Aisha can bring the espresso maker and proposing the dinner split. A two-line reply is enough; Aisha's standard pattern is to lag one to three days.",
+      "supporting_artifact_ids": [
+        "d14_email_renee_packing_thinking_aloud"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "summer_logistics.moment_renee_mendocino_menu"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "d13_email_galileo_addaweek_decoy",
+      "is_decoy": true,
+      "storyline_id": "summer_logistics",
+      "rationale": "Galileo marketing \u2014 \"Add a second week of Summer Quest for Idris! Spots filling fast in Robotics and Chefology.\" Sent to both parents, primary CTA is a discount code."
+    },
+    {
+      "artifact_id": "bg_decoy_recruiter_databricks_may06",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Cold recruiter email \u2014 Databricks in-house on a \"VP, Product Platform\" role with comp benchmark and Series I framing. Template. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_hris_pto_balance_may06",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google HRIS \u2014 quarterly PTO-balance reminder, 23 days accrued, encouraging Aisha to plan usage. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_cvs_rx_may06",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "CVS Middlefield \u2014 automated text-rendered-as-email that Aisha's sertraline 90-day refill is ready for pickup. Form-message."
+    },
+    {
+      "artifact_id": "bg_decoy_amazon_subscribesave_may06",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Amazon Subscribe & Save \u2014 May household delivery confirmation (dog food, paper towels, sertraline-adjacent magnesium). Form-email."
+    },
+    {
+      "artifact_id": "q3okr_email_decoy_sister_org_fyi",
+      "is_decoy": true,
+      "storyline_id": "q3_okr_planning",
+      "rationale": "DECOY. Sister-org PM lead (Liam O'Connor's area) sends Aisha a courtesy FYI with their Q3 OKR draft \u2014 \"wanted to give you a heads-up on the framing in case we want to deconflict before June 3.\" Not ac"
+    },
+    {
+      "artifact_id": "bg_decoy_icloud_may07",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Apple \u2014 monthly receipt for iCloud+ family plan, $9.99. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_tawonga_marketing_may07",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Camp Tawonga marketing \u2014 \"Family Camp 2027 early-bird registration opens June 1.\" Form-promo, not relevant to Naima's current trip. Ignored."
+    },
+    {
+      "artifact_id": "q2okr_d22_slack_decoy_recruiter_perf_cycle",
+      "is_decoy": true,
+      "storyline_id": "q2_okr_grading",
+      "rationale": "DECOY: Vendor cold email pitching an \"OKR-tracking and retrospective intelligence\" SaaS to VPs of Product. Mentions Q2 grading, retro narratives. Aisha does not engage."
+    },
+    {
+      "artifact_id": "email_decoy_linkedin_inmail",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. LinkedIn InMail notification forwarded to personal Gmail \u2014 external recruiter \"Marisa Bondurant @ Heidrick\" pitching a director PM candidate at Workspace-adjacent depth. Aisha ignores."
+    },
+    {
+      "artifact_id": "bg_decoy_platformer_may08",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Platformer Friday \u2014 week-in-review on agent-safety regulation in California. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_1password_may08",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "1Password \u2014 annual family-plan renewal notice, $59.88 charged. Form-email."
+    }
+  ]
+}

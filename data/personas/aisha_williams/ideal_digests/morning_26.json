@@ -1,0 +1,165 @@
+{
+  "for_date": "2026-05-14",
+  "based_on_state_through": "2026-05-13T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "jls_moment_check_in_may14",
+      "storyline_id": "jls_naima_transition",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Naima asked at last night's check-in whether Lily would be on her team; Aisha didn't reach for the form. Note from last night is the only artifact; the portal is still empty.",
+      "supporting_artifact_ids": [
+        "d25_note_check_in_recap_may13"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "jls_moment_check_in_may14"
+    },
+    {
+      "moment_id": "moment_intake_today_may14",
+      "storyline_id": "director_pm_hiring",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Maya intake at 9am goes forward without Priya in the room \u2014 Aisha runs it solo, framing stays exploratory but the absence of Priya's logistics-cover means Aisha owns any follow-up commitments live in the meeting.",
+      "supporting_artifact_ids": [
+        "cal_update_maya_intake_reschedule",
+        "note_intake_recap_20260514"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-11",
+          "by": "noise_maya_intake_reschedule",
+          "by_storyline": "director_pm_hiring",
+          "new_target": null,
+          "new_priority": null
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-13",
+          "by": "xnoise_priya_ooo_may13",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_intake_today_may14"
+    },
+    {
+      "moment_id": "spr_moment_may14_james_pushback",
+      "storyline_id": "strategic_pivot_review",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "James pushed back on the 0.5 score in writing Tuesday and again in Wednesday's 1:1, arguing that slip attribution supports 0.6. Aisha agreed the attribution argument is substantively stronger than she'd acknowledged in writing but held the line; he accepted it. The calibration conversation is closed, but his underlying discomfort with the trade argument lives on into May 28. If conversation continues, keep it verbal\u2014no Slack trail before the 28th review.",
+      "supporting_artifact_ids": [
+        "spr_d24_note_james_pushback_may13",
+        "spr_d25_cal_priya_rehearsal_prep_thu2",
+        "spr_d25_email_aisha_to_liam_framing"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "spr_moment_may14_james_pushback"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "d24_email_jls_pta_spirit_wear_decoy",
+      "is_decoy": true,
+      "storyline_id": "jls_naima_transition",
+      "rationale": "JLS PTA spirit-wear vendor pitch \u2014 pre-orders for Panther T-shirts and hoodies for incoming sixth-graders. Low-signal; Aisha archives without reading."
+    },
+    {
+      "artifact_id": "email_decoy_candidate_inbound",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. Cold inbound from a director-level PM candidate via LinkedIn-sourced email: \"Saw your team's surface area on Workspace \u2014 would love 20 minutes if you're open to senior PM director candidates th"
+    },
+    {
+      "artifact_id": "bg_decoy_theinfo_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Information morning briefing \u2014 Tuesday edition, lead on a Snowflake-Databricks customer overlap study. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_saastr_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "SaaStr Annual cold pitch \u2014 speaker invite for September 2026 panel on \"Workspace in the agent era.\" Generic, no personalization beyond title. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_paloaltoonline_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Palo Alto Online Tuesday digest \u2014 top stories on a PAUSD board meeting and a council parking-policy vote. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_pamf_apptreminder_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "PAMF MyChart \u2014 automated reminder that Idris is due for his fall asthma-management check. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_jls_parent_group_chat_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Muted JLS incoming-parents group chat \u2014 22 unread, a debate over the orchestra-vs-band sixth-grade elective. Aisha will not open."
+    },
+    {
+      "artifact_id": "pv_a18_ayso_fall_reg_decoy",
+      "is_decoy": true,
+      "storyline_id": "palo_verde_year_end",
+      "rationale": "AYSO Region 26 marketing email: fall season early-bird registration opens May 15, early-bird pricing through June 1, link to the BlueSombrero portal. Templated; not addressed to either parent personal"
+    },
+    {
+      "artifact_id": "bg_decoy_recruiter_notion_may13",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Cold recruiter email \u2014 Notion in-house on a \"Head of Product, AI Surfaces\" role. Personalized opening referencing Aisha's Lenny's-podcast appearance from 2024. Still archived."
+    },
+    {
+      "artifact_id": "bg_decoy_nyt_morning_may14",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "NYT Morning Briefing \u2014 top items on EU AI Act enforcement and the SF mayoral race. Phone-archived."
+    },
+    {
+      "artifact_id": "bg_decoy_workday_timesheet_may14",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Workday \u2014 biweekly timesheet attestation reminder. One-tap."
+    },
+    {
+      "artifact_id": "bg_decoy_galileo_marketing_may14",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Galileo Camps marketing \u2014 \"Refer a friend, save $50\" follow-up after Idris's registration. Form-promo."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "for_date": "2026-05-15",
+  "based_on_state_through": "2026-05-14T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "moment_first_batch_triage_may15",
+      "storyline_id": "director_pm_hiring",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Maya's first batch of six profiles landed at 8:40 \u2014 Friday writing block today is triage plus a sounding-board email to Wei before EOD. None of Sasha's or Tom's names in the batch \u2014 parallel-track question becomes live.",
+      "supporting_artifact_ids": [
+        "email_aisha_to_wei_sounding_board",
+        "email_maya_first_batch",
+        "note_morning_log_20260515"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_first_batch_triage_may15"
+    },
+    {
+      "moment_id": "q2okr_moment_wei_clean_draft",
+      "storyline_id": "q2_okr_grading",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Wei's clean retro draft landed yesterday afternoon. Aisha read it on her phone walking back from the MP-9 caf\u00e9 and replied \"thanks, no edits.\" 2/4 PM-lead drafts in.",
+      "supporting_artifact_ids": [
+        "q2okr_d28_email_aisha_wei_thanks",
+        "q2okr_d28_email_wei_retro_draft"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2okr_moment_wei_clean_draft"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "pv_a18_ayso_fall_reg_decoy",
+      "is_decoy": true,
+      "storyline_id": "palo_verde_year_end",
+      "rationale": "AYSO Region 26 marketing email: fall season early-bird registration opens May 15, early-bird pricing through June 1, link to the BlueSombrero portal. Templated; not addressed to either parent personal"
+    },
+    {
+      "artifact_id": "bg_decoy_recruiter_notion_may13",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Cold recruiter email \u2014 Notion in-house on a \"Head of Product, AI Surfaces\" role. Personalized opening referencing Aisha's Lenny's-podcast appearance from 2024. Still archived."
+    },
+    {
+      "artifact_id": "bg_decoy_nyt_morning_may14",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "NYT Morning Briefing \u2014 top items on EU AI Act enforcement and the SF mayoral race. Phone-archived."
+    },
+    {
+      "artifact_id": "bg_decoy_workday_timesheet_may14",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Workday \u2014 biweekly timesheet attestation reminder. One-tap."
+    },
+    {
+      "artifact_id": "bg_decoy_galileo_marketing_may14",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Galileo Camps marketing \u2014 \"Refer a friend, save $50\" follow-up after Idris's registration. Form-promo."
+    },
+    {
+      "artifact_id": "q2okr_d22_decoy_okrtool_vendor",
+      "is_decoy": true,
+      "storyline_id": "q2_okr_grading",
+      "rationale": "DECOY: An AI-OKR-coaching SaaS sends a cold email pitching automatic retro-narrative generation. References Q2 grading. Aisha does not engage."
+    },
+    {
+      "artifact_id": "q3okr_email_decoy_gokrs_template_reminder",
+      "is_decoy": true,
+      "storyline_id": "q3_okr_planning",
+      "rationale": "DECOY. Auto-reminder from gOKRs (Google's internal OKR system): \"Q3 template now available. Update your area's draft by EOD May 29.\" System-generated, no actionable content beyond what Brendan has alr"
+    },
+    {
+      "artifact_id": "d27_email_summer_camp_decoy",
+      "is_decoy": true,
+      "storyline_id": "jls_naima_transition",
+      "rationale": "Cold pitch from a \"transitions-to-middle-school\" enrichment vendor referencing the JLS incoming-class list. Aisha archives unread."
+    },
+    {
+      "artifact_id": "email_decoy_search_firm_followup",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. External search firm follow-up to the Apr 29 cold email \u2014 same generic search-firm sales motion, referencing the prior outreach. Aisha archives."
+    },
+    {
+      "artifact_id": "d22_email_tawonga_merch_decoy",
+      "is_decoy": true,
+      "storyline_id": "summer_logistics",
+      "rationale": "Tawonga merchandise email \u2014 \"100th anniversary apparel store now open! Order by June 5 for delivery before camp.\" Pure marketing."
+    },
+    {
+      "artifact_id": "bg_decoy_hvac_bid_may15",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "HVAC compressor bid #5 from Peninsula Mechanical \u2014 $9,850, 7-year warranty. CC'd to Marcus, Aisha ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_tamarine_resy_may15",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Resy \u2014 confirmation for Tamarine Friday May 15, 7:30 PM, 2 guests. Form-confirmation."
+    }
+  ]
+}

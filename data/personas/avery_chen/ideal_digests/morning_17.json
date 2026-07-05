@@ -1,0 +1,119 @@
+{
+  "for_date": "2026-05-05",
+  "based_on_state_through": "2026-05-04T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "design_partner_renewal.moment_pricing_proposal_out",
+      "storyline_id": "design_partner_renewal",
+      "section": "decisions_approvals",
+      "priority": "P2",
+      "action_class": "approve",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Jordan is ready to send the renewal proposal \u2014 $90K at list, $99K with the usage-dashboard add. Avery's posture is hold list; she does not want Jordan to lead with a loyalty trim.",
+      "supporting_artifact_ids": [
+        "dpr_d17_email_jordan_pricing_proposal",
+        "dpr_d17_note_avery_pricing_strategy"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "design_partner_renewal.moment_pricing_proposal_out"
+    },
+    {
+      "moment_id": "moment_searanch_30day_window",
+      "storyline_id": "summer_family_logistics",
+      "section": "urgent_todo",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Sea Ranch Escape's 30-day check-in form landed yesterday. Needs Volvo plate, arrival time, and a signed liability waiver before the lockbox code releases. Hand to Sam.",
+      "supporting_artifact_ids": [
+        "d16_email_searanch_30day_checkin"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_searanch_30day_window"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "d15_email_searanch_other_properties_promo",
+      "is_decoy": true,
+      "storyline_id": "summer_family_logistics",
+      "rationale": "Sea Ranch Escape promotional email: \"Other oceanfront homes you might love\" \u2014 three properties (Cielo e Mar, Crow's Nest, Beach Dreams) with a 15% summer discount on seven-night stays. Marketing autom"
+    },
+    {
+      "artifact_id": "bg_lennys_newsletter_may3",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter weekly \u2014 interview with a PLG founder."
+    },
+    {
+      "artifact_id": "bg_oura_weekly_may3",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly insights \u2014 readiness in the yellow zone four nights running."
+    },
+    {
+      "artifact_id": "bg_aws_bill_may3",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "AWS April invoice \u2014 $6,812.44, slightly up on data transfer."
+    },
+    {
+      "artifact_id": "bg_linear_weekly_may4",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Linear weekly project digest \u2014 engineering velocity summary."
+    },
+    {
+      "artifact_id": "bg_outreach_vendor_cold_may4",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Outreach.io SDR cold pitch \u2014 sales engagement platform demo offer."
+    },
+    {
+      "artifact_id": "bg_forge_secondary_digest_may4",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Forge Global secondary marketplace digest \u2014 late-stage round indicators."
+    },
+    {
+      "artifact_id": "bg_pivot_podcast_may4",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Pivot podcast new-episode push notification \u2014 Kara and Scott on tech earnings."
+    },
+    {
+      "artifact_id": "soc2_d17_email_aaron_pre_audit_checkin",
+      "is_decoy": true,
+      "storyline_id": "soc2_type2_audit",
+      "rationale": "Aaron Klein at Drata emails Avery (Priya cc'd) \u2014 pre-audit-close check-in offer; wants to schedule a 20-minute call before the final report drops to review platform-side action items and \"talk through"
+    },
+    {
+      "artifact_id": "bg_stratechery_may5",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery weekly article."
+    },
+    {
+      "artifact_id": "bg_onepassword_renewal_may5",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "1Password Business \u2014 annual seat renewal reminder, 30 days out."
+    }
+  ]
+}

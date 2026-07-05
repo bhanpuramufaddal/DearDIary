@@ -1,0 +1,175 @@
+{
+  "for_date": "2026-05-18",
+  "based_on_state_through": "2026-05-17T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "q3okr_moment_may18_due_date_silent",
+      "storyline_id": "q3_okr_planning",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Hannah remains silent on the soft Monday deadline (EOD May 18), now hours away, having given no preemptive note or DM. Aisha drafted a chase message on Wednesdays May 6 and May 13 without sending either. The pattern of avoidance\u2014recurring across six weeks, driven by uncertainty about the platform-mandate surface's fate\u2014is itself worth surfacing in the morning's if-one-thing.",
+      "supporting_artifact_ids": [
+        "q3okr_note_may13_chase_draft_v2",
+        "q3okr_note_may17_pre_due"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-17",
+          "by": "xnoise_jls_portal_outage_may17",
+          "by_storyline": "jls_naima_transition",
+          "new_target": null,
+          "new_priority": null
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-18",
+          "by": "q3okr_noise_hannah_silence_persists",
+          "by_storyline": "q3_okr_planning",
+          "new_target": null,
+          "new_priority": "P0"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "q3okr_moment_may18_due_date_silent"
+    },
+    {
+      "moment_id": "spr_moment_may18_brendan_final_deadline",
+      "storyline_id": "strategic_pivot_review",
+      "section": "urgent_todo",
+      "priority": "P0",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "James's 'the trade is a trap' line came up again briefly in Monday staff this morning. The risk of a Slack-trail leak before May 28 is real; keep the conversation verbal, do not respond to Brendan's deadline reminder in any way that name-checks James's position.",
+      "supporting_artifact_ids": [
+        "spr_d29_email_brendan_may18_deadline",
+        "spr_d29_note_small_additions_triaged"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-17",
+          "by": "xnoise_jls_portal_outage_may17",
+          "by_storyline": "jls_naima_transition",
+          "new_target": null,
+          "new_priority": null
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-18",
+          "by": "spr_noise_james_pushback_staff",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "spr_moment_may18_brendan_final_deadline"
+    },
+    {
+      "moment_id": "pv_m08_eoy_and_play_reminder",
+      "storyline_id": "palo_verde_year_end",
+      "section": "calendar_personal",
+      "priority": "P1",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Principal Alvarez's school-wide end-of-year letter and Mrs. Reyes's play-Thursday-at-6 final reminder both landed this morning. Idris's play is in three days; refreshments setup at 5:30; family calendar invite already on the shared cal.",
+      "supporting_artifact_ids": [
+        "pv_a25_alvarez_eoy_letter",
+        "pv_a26_reyes_play_thursday_final",
+        "pv_a27_play_family_calendar_invite"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "pv_m08_eoy_and_play_reminder"
+    },
+    {
+      "moment_id": "moment_wei_reply_may18",
+      "storyline_id": "director_pm_hiring",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Wei replied to the slate sounding-board with three substantive concerns and an archetype-mismatch read worth thinking about before the 10am Wed 1:1. Sunday-night Sasha text on Daniel landed harder \u2014 re-read it before staff.",
+      "supporting_artifact_ids": [
+        "email_wei_sounding_board_reply",
+        "note_sasha_text_may17_recap"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_wei_reply_may18"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_rivian_software_update_may16",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Rivian \u2014 overnight 2026.18 software-update completion notice for the R1S, release notes. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_lennys_may17",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter Sunday \u2014 \"Hiring a director-level PM when you don't have an open req yet.\" Unopened."
+    },
+    {
+      "artifact_id": "email_decoy_recruiter_followup",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. Yet another external recruiter cold email referencing a \"Workspace-adjacent\" PM candidate \u2014 different firm, same shape as Apr 29. Aisha archives without reading past the second sentence."
+    },
+    {
+      "artifact_id": "pv_a28_spiritwear_decoy",
+      "is_decoy": true,
+      "storyline_id": "palo_verde_year_end",
+      "rationale": "Palo Verde spirit-wear final-sale email \u2014 25% off through May 24, screen-printed hoodies and tees in 5th-grader sizes. Templated, lands in personal Gmail. Aisha won't open it."
+    },
+    {
+      "artifact_id": "bg_decoy_stratechery_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Monday weekly \u2014 long essay on Workspace-vs-M365 in the agent era. Topical, but unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_vendor_amplitude_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Amplitude enterprise AE cold pitch \u2014 \"Workspace peers using us for agent-feature analytics.\" Auto-template. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_oura_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly summary \u2014 sleep average 5h 49m, four nights under 5h, readiness red. The pattern of exec-prep weeks. Form-email."
+    }
+  ]
+}

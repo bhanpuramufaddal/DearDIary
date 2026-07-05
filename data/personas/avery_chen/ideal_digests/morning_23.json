@@ -1,0 +1,189 @@
+{
+  "for_date": "2026-05-11",
+  "based_on_state_through": "2026-05-10T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "design_partner_renewal.moment_marcus_accepts_list",
+      "storyline_id": "design_partner_renewal",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Marcus accepted list this morning \u2014 $90K with the usage-dashboard module. This is the design-partner renewal-at-list data point Saam Motamedi asked about; it goes in the Friday investor update and on the Bessemer track the day the term sheet lands.",
+      "supporting_artifact_ids": [
+        "dpr_d19_email_avery_marcus_hold_list",
+        "dpr_d23_email_marcus_accepts_list"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "design_partner_renewal.moment_marcus_accepts_list"
+    },
+    {
+      "moment_id": "soc2_moment_sign_rep_letter",
+      "storyline_id": "soc2_type2_audit",
+      "section": "decisions_approvals",
+      "priority": "P0",
+      "action_class": "approve",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Sign and return the management representation letter to Tom this morning \u2014 Priya and Marlene have both confirmed \"as-is\" is fine, and any further delay puts the May 19 issuance target at risk.",
+      "supporting_artifact_ids": [
+        "soc2_d22_note_rep_letter_sign_decision",
+        "soc2_d23_email_avery_signs_rep_letter"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "soc2_moment_sign_rep_letter"
+    },
+    {
+      "moment_id": "moment_searanch_form_overdue",
+      "storyline_id": "summer_family_logistics",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Sea Ranch follow-up names a Friday May 15 return-by \u2014 the waiver signature wasn't flagged in the original 30-day form. Hand to Sam today, not later in the week.",
+      "supporting_artifact_ids": [
+        "d23_email_searanch_checkin_form_followup"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-11",
+          "by": "noise_searanch_waiver_required",
+          "by_storyline": "summer_family_logistics",
+          "new_target": null,
+          "new_priority": "P1"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_searanch_form_overdue"
+    },
+    {
+      "moment_id": "series_a_raise.moment_d23_reference_scheduling",
+      "storyline_id": "series_a_raise",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Reese Tanaka wants three customer reference calls scheduled and Anand's rescheduled infra walkthrough lands Monday 10am, so Avery's prep block compresses; the reference outreach has to happen by noon or it slips into Tuesday.",
+      "supporting_artifact_ids": [
+        "d23_calinv_reese_reference_calls",
+        "d23_email_cooley_redlines_prep",
+        "d23_email_reese_reference_scheduling"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-11",
+          "by": "noise_krishnan_walkthrough_reschedule",
+          "by_storyline": "series_a_raise",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "series_a_raise.moment_d23_reference_scheduling"
+    },
+    {
+      "moment_id": "wst_moment_d23_camp_deadline",
+      "storyline_id": "wren_school_transition",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Happy Heron Camp deadline was pulled forward from May 22 to May 18 because the cohort is filling. This is now a this-week decide for Sam and Avery \u2014 yes-or-no on the bridge week before Linda's July visit. Bumped to P1.",
+      "supporting_artifact_ids": [
+        "wst_d09_email_camp_registration_open",
+        "wst_d23_email_camp_deadline_reminder"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-11",
+          "by": "wst_noise_camp_deadline_pulled_in",
+          "by_storyline": "wren_school_transition",
+          "new_target": null,
+          "new_priority": "P1"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "wst_moment_d23_camp_deadline"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "wst_d21_email_decoy_bayareaparent",
+      "is_decoy": true,
+      "storyline_id": "wren_school_transition",
+      "rationale": "Bay Area Parent magazine promotional newsletter: \"Our 2026 Bay Area TK Summer Camp Guide is here.\" List of 40+ camps with affiliate-link signups. Avery is on the list because Sam subscribed during the"
+    },
+    {
+      "artifact_id": "bg_peloton_nudge_may9",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Peloton \u2014 'We miss you' re-engagement email; 6 weeks since last ride."
+    },
+    {
+      "artifact_id": "bg_lennys_newsletter_may10",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter weekly \u2014 on team rituals."
+    },
+    {
+      "artifact_id": "bg_oura_weekly_may10",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly insights \u2014 sleep score 71, suggested wind-down earlier."
+    },
+    {
+      "artifact_id": "bg_linkedin_dm_salesnav_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "LinkedIn Sales Navigator cold DM (forwarded to email) \u2014 AE from a CRM vendor."
+    },
+    {
+      "artifact_id": "bg_linkedin_searches_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "LinkedIn \u2014 'You appeared in 27 searches this week' weekly notification."
+    },
+    {
+      "artifact_id": "bg_strava_weekly_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Strava weekly recap \u2014 zero runs this week."
+    }
+  ]
+}

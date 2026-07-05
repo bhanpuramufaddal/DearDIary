@@ -1,0 +1,102 @@
+{
+  "for_date": "2026-04-30",
+  "based_on_state_through": "2026-04-29T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "css_m_customer_list_signoff",
+      "storyline_id": "case_study_series",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "The case-study kickoff is at 11am this morning, and you need to confirm the three featured customers \u2014 Lonestar (named), Marlin (named), and the regional bank (anonymized) \u2014 so Jordan can move forward with outreach to obtain written consent. Maya's pre-read document is in your inbox.",
+      "supporting_artifact_ids": [
+        "css_d11_email_jordan_customer_list_proposal",
+        "css_d12_email_maya_kickoff_preread"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "css_m_customer_list_signoff"
+    },
+    {
+      "moment_id": "moment_linda_flight_booked",
+      "storyline_id": "summer_family_logistics",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Linda booked Alaska 1284 last night \u2014 Tue July 7 arrival 11:32am, Sat July 11 return. The Wren TK-gap coverage Avery has been holding loosely is now locked.",
+      "supporting_artifact_ids": [
+        "d11_email_linda_flight_booked",
+        "d12_note_morning_log_family_top3"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_linda_flight_booked"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "dpr_d09_email_decoy_competitor_pitch",
+      "is_decoy": true,
+      "storyline_id": "design_partner_renewal",
+      "rationale": "Cold sales pitch from a competing AP-automation vendor name-checking \"specialty insurance brokerages\" as a target segment. Decoy \u2014 Avery archives without reading past line one."
+    },
+    {
+      "artifact_id": "soc2_d10_email_drata_control_drift_alert",
+      "is_decoy": true,
+      "storyline_id": "soc2_type2_audit",
+      "rationale": "Drata auto-alert: three controls flagged as drifting \u2014 two MFA-enforcement checks on contractor accounts and one stale access-review item. Marlene and Priya cc'd. Auto-formatted, low-priority but Priy"
+    },
+    {
+      "artifact_id": "bg_stratechery_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Tuesday weekly \u2014 Ben Thompson on Apple antitrust ruling."
+    },
+    {
+      "artifact_id": "bg_stripe_invoice_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stripe monthly invoice receipt \u2014 $4,317.22 across April Holdfast customer charges."
+    },
+    {
+      "artifact_id": "bg_oaklandside_apr29",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Oaklandside daily morning briefing."
+    },
+    {
+      "artifact_id": "wst_d12_email_decoy_outschool",
+      "is_decoy": true,
+      "storyline_id": "wren_school_transition",
+      "rationale": "Cold-pitch from Outschool: \"Help Wren transition to kindergarten with our small-group TK readiness classes.\" Personalized with first name, links to summer enrichment offerings, signed by an Outschool "
+    },
+    {
+      "artifact_id": "bg_recruiter_ceo_apr30",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "True Search recruiter cold pitch \u2014 'CEO search at a stealth fintech, may be of interest as a board role.'"
+    },
+    {
+      "artifact_id": "bg_angellist_digest_apr30",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "AngelList Venture monthly digest \u2014 syndicate updates and platform announcements."
+    }
+  ]
+}

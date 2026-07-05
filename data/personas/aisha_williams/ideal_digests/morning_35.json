@@ -1,0 +1,193 @@
+{
+  "for_date": "2026-05-23",
+  "based_on_state_through": "2026-05-22T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "jls_moment_saturday_checkin_may23",
+      "storyline_id": "jls_naima_transition",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Susan (Lily's mom) confirmed Friday morning that Lily is on Team Sequoia with Mr. Patel too \u2014 same homeroom as Naima. That's the lead for tonight's bedtime check-in. Open the letter with her on the bed; do not bring up Mira.",
+      "supporting_artifact_ids": [
+        "d34_email_karen_mendez_we_got_letter",
+        "d34_email_lily_mom_reply",
+        "d35_calendar_panther_welcome_save_date",
+        "d35_email_halverson_year_end_note",
+        "d35_note_saturday_checkin_plan"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-22",
+          "by": "jls_noise_lily_on_same_team",
+          "by_storyline": "jls_naima_transition",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "jls_moment_saturday_checkin_may23"
+    },
+    {
+      "moment_id": "spr_moment_may23_saturday_rehearsal2_prep",
+      "storyline_id": "strategic_pivot_review",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Liam's silence elevates the rehearsal-2 prep \u2014 the framing of Vinod's silence and the in-room Q&A drill jump to the top of the Saturday-morning kitchen-island list.",
+      "supporting_artifact_ids": [
+        "spr_d34_note_saturday_kitchen_island_rehearsal2_prep"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-23",
+          "by": "spr_noise_liam_neutral_silence",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": null,
+          "new_priority": "P0"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "spr_moment_may23_saturday_rehearsal2_prep"
+    },
+    {
+      "moment_id": "q2okr_moment_david_saturday_note",
+      "storyline_id": "q2_okr_grading",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "David's Saturday-morning \"read it, will discuss Tuesday\" landed at 8:14 AM. Brendan acknowledged Friday at 5:07 PM. Reply short to David from the kitchen counter; do not open the Doc again before Tuesday's biweekly.",
+      "supporting_artifact_ids": [
+        "q2okr_d36_email_brendan_ack",
+        "q2okr_d36_note_post_submission_recap",
+        "q2okr_d37_email_david_saturday_note"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2okr_moment_david_saturday_note"
+    },
+    {
+      "moment_id": "pv_m13_eoy_close_loop",
+      "storyline_id": "palo_verde_year_end",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Ms. Halverson's final Friday class note arrived this morning (she had been at her own kid's recital last night). Naima's last full week at Palo Verde is closing; the personal line about Naima is worth saving. PIE next-year check decision still owed to Karen the first week of June.",
+      "supporting_artifact_ids": [
+        "pv_a37_halverson_final_friday",
+        "pv_a38_pie_check_decision_note"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "pv_m13_eoy_close_loop"
+    },
+    {
+      "moment_id": "q3okr_moment_may23_hannah_late_draft_landed",
+      "storyline_id": "q3_okr_planning",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Hannah's draft landed Saturday at 4:17 p.m.\u2014five days past the Monday May 18 deadline\u2014with a thin one-pager and two sentences of apology (\"sorry for the slip, will iterate next week\"). Roman remains silent through window close with no submission and no acknowledgment. Aisha never sent the written chase DMs; Priya offered Friday to reach out to both leads Tuesday morning if Aisha hadn't moved by then. The unresolved loyalty question remains: did Roman's hire from the counterparty SVP reference mean his primary allegiance is upward to Aisha or sideways to his patron?",
+      "supporting_artifact_ids": [
+        "q3okr_email_hannah_late_draft",
+        "q3okr_email_priya_friday_pull"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-23",
+          "by": "q3okr_noise_roman_silent_through_window",
+          "by_storyline": "q3_okr_planning",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "q3okr_moment_may23_hannah_late_draft_landed"
+    },
+    {
+      "moment_id": "summer_logistics.moment_mendocino_gatecode",
+      "storyline_id": "summer_logistics",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Mendocino Preferred sent the gate-code and check-in instructions yesterday; pin it for the July 18 trip. Aisha and Marcus will reference this in their Sunday calendar review.",
+      "supporting_artifact_ids": [
+        "d28_email_mendocino_gatecode_release",
+        "d29_note_house_sunday_summer_review"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "SHIFTED",
+          "from_date": "2026-05-22",
+          "by": "summer_logistics.noise_mendocino_gatecode_early",
+          "by_storyline": "summer_logistics",
+          "new_target": "2026-05-23",
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "summer_logistics.moment_mendocino_gatecode"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "spr_d33_email_decoy_internal_comms",
+      "is_decoy": true,
+      "storyline_id": "strategic_pivot_review",
+      "rationale": "DECOY: An internal Google Communications partner emails Aisha unprompted, \"noticed your name on the May 28 portfolio review \u2014 happy to draft any post-decision org comms,\" with a templates link. Aisha "
+    },
+    {
+      "artifact_id": "bg_decoy_platformer_may22",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Platformer Friday \u2014 week-in-review on the Bluesky moderation team rebuild. Unopened."
+    }
+  ]
+}

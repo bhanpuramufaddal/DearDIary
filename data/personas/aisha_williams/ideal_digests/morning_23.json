@@ -1,0 +1,197 @@
+{
+  "for_date": "2026-05-11",
+  "based_on_state_through": "2026-05-10T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "pv_m05_play_callsheet_and_pizza_rsvp",
+      "storyline_id": "palo_verde_year_end",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Mrs. Reyes sent the play call sheet (dress rehearsal May 19, tech run May 20, performance May 21 at 6 p.m.) and Coach Petersen sent the pizza-party RSVP-and-payment ask, due Thursday. Marcus will RSVP for AYSO; confirm play logistics in House Notes.",
+      "supporting_artifact_ids": [
+        "pv_a14_reyes_play_callsheet",
+        "pv_a15_petersen_pizza_rsvp",
+        "pv_a16_petersen_pizza_calinvite"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "pv_m05_play_callsheet_and_pizza_rsvp"
+    },
+    {
+      "moment_id": "q2okr_moment_james_slack_dm_pushback",
+      "storyline_id": "q2_okr_grading",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "James sent a Slack DM Saturday laying out the case for his revenue KR moving from 0.5 to 0.6 (cross-org dependency on launch slip, clean execution on his side). Aisha read it Saturday morning at the counter but did not reply, holding the conversation for Monday's 9 a.m. staff calibration where James will push it in front of the other three leads. She has decided to hold at 0.5 on the merits and is letting this timing force the decision into the room.",
+      "supporting_artifact_ids": [
+        "q2okr_d23_email_james_slack_dm_pushback",
+        "q2okr_d25_note_morning_log_may11"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-10",
+          "by": "xnoise_janelle_hip_flare_may10",
+          "by_storyline": "background_noise",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "q2okr_moment_james_slack_dm_pushback"
+    },
+    {
+      "moment_id": "jls_moment_post_coffee_karen_may11",
+      "storyline_id": "jls_naima_transition",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Karen Mendez's Sunday-evening follow-up after the parent coffee lands while Aisha is still inside her mother's hip-pain phone call \u2014 the reply will be tighter and later than she'd otherwise write, more dispatch than relationship-tend.",
+      "supporting_artifact_ids": [
+        "d22_email_jls_digest_may10",
+        "d22_email_karen_mendez_followup"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-10",
+          "by": "jls_noise_karen_mira_paragraph",
+          "by_storyline": "jls_naima_transition",
+          "new_target": null,
+          "new_priority": null
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-10",
+          "by": "xnoise_janelle_hip_flare_may10",
+          "by_storyline": "background_noise",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "jls_moment_post_coffee_karen_may11"
+    },
+    {
+      "moment_id": "moment_maya_reschedule_may11",
+      "storyline_id": "director_pm_hiring",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Sasha's Sunday-evening text on Daniel Reyes (L8 fit, platform-shaped, AI-org background, currently unmovable but potentially available) landed after Aisha finalized the director PM hiring review prep. Maya's 9 a.m. intake on May 13 carries three parallel tensions: the PV board meeting on May 13 at 7 p.m., the Q3 consolidation working block on May 14 at 3\u20134 p.m., and Friday's thinking block for role synthesis. The intake's place in the calendar shape matters now that Sasha has surfaced a new lens on platform readiness.",
+      "supporting_artifact_ids": [
+        "cal_update_maya_intake_reschedule",
+        "note_sasha_text_may10_recap"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "moment_maya_reschedule_may11"
+    },
+    {
+      "moment_id": "q3okr_moment_may11_carlos_closes_ontime_set",
+      "storyline_id": "q3_okr_planning",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Carlos's input landed late morning, closing the on-time set at six of eight \u2014 Aisha will register and not celebrate; the head-space she'd normally apply to Hannah-and-Roman is partly taken by the September-hip-surgery question her mother asked her to think about.",
+      "supporting_artifact_ids": [
+        "q3okr_email_carlos_input"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-10",
+          "by": "xnoise_janelle_hip_flare_may10",
+          "by_storyline": "background_noise",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q3okr_moment_may11_carlos_closes_ontime_set"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_lennys_may10",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter Sunday \u2014 \"How to grade an OKR retro without losing the team.\" Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_chase_card_stmt_may10",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Chase Sapphire \u2014 monthly statement available, $4,812.42 due. Form-email. Aisha autopays."
+    },
+    {
+      "artifact_id": "spr_d22_email_decoy_mckinsey_alum",
+      "is_decoy": true,
+      "storyline_id": "strategic_pivot_review",
+      "rationale": "DECOY: A McKinsey alumna Aisha overlapped with in the Atlanta office in 2007 pitches \"strategic-pivot facilitation\" services, says \"I heard you might be navigating a portfolio realignment.\" Three para"
+    },
+    {
+      "artifact_id": "spr_d22_email_decoy_recruiter_workspace_vp",
+      "is_decoy": true,
+      "storyline_id": "strategic_pivot_review",
+      "rationale": "DECOY: A retained-search recruiter pitches a VP role at a competitor \"Workspace-adjacent\" company with a 12-figure platform mandate; carefully name-drops a mutual ex-McKinsey contact. The pitch mentio"
+    },
+    {
+      "artifact_id": "bg_decoy_stratechery_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Monday weekly \u2014 piece on Cloudflare's developer-platform play. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_vendor_pendo_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Pendo enterprise AE cold pitch \u2014 third follow-up in a six-touch sequence. Auto-template. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_calendar_nudge_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google internal calendar-AI nudge \u2014 \"You have 14 meetings this week with under 15 minutes of buffer. Want to decline one?\" Auto-email. Aisha snoozes."
+    }
+  ]
+}

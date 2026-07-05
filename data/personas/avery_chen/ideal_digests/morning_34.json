@@ -1,0 +1,229 @@
+{
+  "for_date": "2026-05-22",
+  "based_on_state_through": "2026-05-21T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "series_a_raise.moment_d34_diligence_submission",
+      "storyline_id": "series_a_raise",
+      "section": "urgent_todo",
+      "priority": "P0",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Bessemer diligence package due to Anand Krishnan by 5pm Pacific today. Six documents, one cover note. Also: Saam's post-meeting follow-up question from last night, and the Friday weekly update.",
+      "supporting_artifact_ids": [
+        "d33_email_saam_post_meeting",
+        "d34_email_avery_krishnan_submission",
+        "d34_email_weekly_investor_update_may_22"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "series_a_raise.moment_d34_diligence_submission"
+    },
+    {
+      "moment_id": "css_m_co_marketing_followups",
+      "storyline_id": "case_study_series",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Brennan emailed asking about LinkedIn co-promo and joint webinar slots \u2014 warm, easy to route to Maya. Renee's invoice is in for $4,800, net-30, forwarded to Marlene. Storyline resolving cleanly.",
+      "supporting_artifact_ids": [
+        "css_d34_email_brennan_co_marketing",
+        "css_d34_email_renee_invoice"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "css_m_co_marketing_followups"
+    },
+    {
+      "moment_id": "design_partner_renewal.moment_closing_call_today",
+      "storyline_id": "design_partner_renewal",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "15-minute closing call with Marcus at 10:30 PT \u2014 exec-sponsor wrap. Avery can use it to confirm Tidemark for the Maya case-study series and to plant a Bessemer reference-call ask. Also: reply to Jordan, and confirm Marlene's NET-30 order-form question.",
+      "supporting_artifact_ids": [
+        "dpr_d33_calendar_invite_closing_call",
+        "dpr_d34_email_avery_jordan_thanks",
+        "dpr_d34_email_marlene_invoice",
+        "dpr_d34_note_avery_renewal_closed"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "design_partner_renewal.moment_closing_call_today"
+    },
+    {
+      "moment_id": "moment_sentinel_block_deadline",
+      "storyline_id": "summer_family_logistics",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Sentinel Hotel block confirmation in: one king, Oct 2\u20134, rate $329 held to July 15. October entry updated. Wedding gift and Mara welcome-bag reply still owed.",
+      "supporting_artifact_ids": [
+        "d34_cal_wedding_hotel_block_dates",
+        "d34_email_sentinel_hotel_block_confirmation"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_sentinel_block_deadline"
+    },
+    {
+      "moment_id": "q2_board.moment_d34_james_1on1_invite",
+      "storyline_id": "q2_board_prep",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "approve",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "James Cham's pre-board 1:1 confirmed for Wednesday June 17 at 2:00 p.m. PT over Zoom (Caroline confirmed the time on behalf of James) \u2014 accept the calendar invite and move on. Informal, bring nothing.",
+      "supporting_artifact_ids": [
+        "q2_board.d34_cal_james_1on1_invite"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "q2_board.moment_d34_james_1on1_invite"
+    },
+    {
+      "moment_id": "q2_board.moment_d34_metrics_review_invite",
+      "storyline_id": "q2_board_prep",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "approve",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Marlene's June 2 at 11:00 a.m. PT metrics-review invite arrived May 21 at 3:42 p.m. and awaits acceptance; locking this in finalizes the core June board-prep schedule.",
+      "supporting_artifact_ids": [
+        "q2_board.d33_cal_marlene_metrics_review"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "q2_board.moment_d34_metrics_review_invite"
+    },
+    {
+      "moment_id": "soc2_moment_hofstetter_ack",
+      "storyline_id": "soc2_type2_audit",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Daniel Hofstetter confirmed receipt at the bank's vendor-management system this morning at 10:06 a.m. No walkthrough requested. The audit close-out is done; the post-A enterprise pipeline now has the report it needs.",
+      "supporting_artifact_ids": [
+        "soc2_d33_email_hofstetter_ack"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "soc2_moment_hofstetter_ack"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "dpr_d32_email_decoy_recruiter",
+      "is_decoy": true,
+      "storyline_id": "design_partner_renewal",
+      "rationale": "Recruiter cold outreach to Avery's Holdfast address \u2014 \"I represent a VP Finance candidate exiting a specialty insurance brokerage in the Bay Area\" \u2014 decoy that surfaces from the Tidemark industry adja"
+    },
+    {
+      "artifact_id": "bg_rudderstack_vendor_may20",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "RudderStack SDR cold pitch \u2014 CDP/event pipeline demo."
+    },
+    {
+      "artifact_id": "q2_board.d33_email_boardable_decoy",
+      "is_decoy": true,
+      "storyline_id": "q2_board_prep",
+      "rationale": "Cold outreach from a board-software vendor (Boardable-style) pitching their portfolio-company pre-read platform to Avery \u2014 name-drops three Cowboy portfolio companies as customers, asks for 15 minutes"
+    },
+    {
+      "artifact_id": "bg_yc_hn_digest_may21",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Hacker News weekly top-stories digest."
+    },
+    {
+      "artifact_id": "d34_email_recruiter_cold_decoy",
+      "is_decoy": true,
+      "storyline_id": "series_a_raise",
+      "rationale": "PR-firm cold email pitching pre-announcement coverage prep \"for your upcoming Series A.\" Avery archives."
+    },
+    {
+      "artifact_id": "css_d34_email_decoy_pr_firm",
+      "is_decoy": true,
+      "storyline_id": "case_study_series",
+      "rationale": "Cold outreach from a SaaS-focused PR firm (\"Northwest Cardinal Communications\") having seen the case studies go live, offering to pitch them to TechCrunch, The Information, and SaaStr. Generic."
+    },
+    {
+      "artifact_id": "soc2_d34_email_vanta_cold_pitch",
+      "is_decoy": true,
+      "storyline_id": "soc2_type2_audit",
+      "rationale": "Cold outreach from a Vanta sales rep \u2014 congratulates Holdfast on (apparently scraped from somewhere) closing its SOC 2 Type II, pitches Vanta as a Drata alternative for the next cycle. Sequence email "
+    },
+    {
+      "artifact_id": "soc2_d34_email_aaron_drata_post_audit_wrap",
+      "is_decoy": true,
+      "storyline_id": "soc2_type2_audit",
+      "rationale": "Aaron Klein at Drata emails Avery (Priya cc'd) \u2014 congrats on the report, post-audit checklist attached, repeats the Q3 tier-upgrade call request. Avery thumbs-up reacts and does not reply."
+    },
+    {
+      "artifact_id": "q2_board.d34_email_governance_tool_decoy",
+      "is_decoy": true,
+      "storyline_id": "q2_board_prep",
+      "rationale": "Cold outreach from a corporate-governance SaaS tool (\"Diligent for startups\" / \"Carta board comms\" framing) pitching a post-Series-A board portal. Generic, addressed to \"Avery\", references board prep "
+    },
+    {
+      "artifact_id": "bg_hardfork_podcast_may22",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Hard Fork podcast \u2014 new Friday episode notification."
+    }
+  ]
+}

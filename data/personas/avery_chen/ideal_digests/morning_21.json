@@ -1,0 +1,55 @@
+{
+  "for_date": "2026-05-09",
+  "based_on_state_through": "2026-05-08T23:59:59-07:00",
+  "items": [],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_notion_upgrade_may7",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Notion \u2014 your team is approaching plan limits, upgrade nudge."
+    },
+    {
+      "artifact_id": "bg_glassdoor_review_may7",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Glassdoor \u2014 Holdfast received a new employee review (4 stars)."
+    },
+    {
+      "artifact_id": "bg_climbing_gym_renewal_may7",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Great Western Power Company \u2014 monthly membership auto-renewal receipt, $109."
+    },
+    {
+      "artifact_id": "css_d20_email_decoy_content_agency",
+      "is_decoy": true,
+      "storyline_id": "case_study_series",
+      "rationale": "Cold pitch from a content marketing agency (\"Bottomline Content\") offering case-study-and-content-strategy retainers. Mentions Holdfast's recent Y Combinator interest and growth-hire-from-fintech prof"
+    },
+    {
+      "artifact_id": "bg_goldman_emerging_growth_may8",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Goldman Sachs emerging-growth banker cold pitch \u2014 'happy to be helpful as you scale.'"
+    },
+    {
+      "artifact_id": "bg_carta_captable_may8",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Carta \u2014 quarterly cap-table audit reminder, recommended best practices."
+    },
+    {
+      "artifact_id": "wst_d21_email_decoy_bayareaparent",
+      "is_decoy": true,
+      "storyline_id": "wren_school_transition",
+      "rationale": "Bay Area Parent magazine promotional newsletter: \"Our 2026 Bay Area TK Summer Camp Guide is here.\" List of 40+ camps with affiliate-link signups. Avery is on the list because Sam subscribed during the"
+    },
+    {
+      "artifact_id": "bg_peloton_nudge_may9",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Peloton \u2014 'We miss you' re-engagement email; 6 weeks since last ride."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "for_date": "2026-05-16",
+  "based_on_state_through": "2026-05-15T23:59:59-07:00",
+  "items": [],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_nyt_morning_may14",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "NYT Morning Briefing \u2014 top items on EU AI Act enforcement and the SF mayoral race. Phone-archived."
+    },
+    {
+      "artifact_id": "bg_decoy_workday_timesheet_may14",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Workday \u2014 biweekly timesheet attestation reminder. One-tap."
+    },
+    {
+      "artifact_id": "bg_decoy_galileo_marketing_may14",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Galileo Camps marketing \u2014 \"Refer a friend, save $50\" follow-up after Idris's registration. Form-promo."
+    },
+    {
+      "artifact_id": "q2okr_d22_decoy_okrtool_vendor",
+      "is_decoy": true,
+      "storyline_id": "q2_okr_grading",
+      "rationale": "DECOY: An AI-OKR-coaching SaaS sends a cold email pitching automatic retro-narrative generation. References Q2 grading. Aisha does not engage."
+    },
+    {
+      "artifact_id": "q3okr_email_decoy_gokrs_template_reminder",
+      "is_decoy": true,
+      "storyline_id": "q3_okr_planning",
+      "rationale": "DECOY. Auto-reminder from gOKRs (Google's internal OKR system): \"Q3 template now available. Update your area's draft by EOD May 29.\" System-generated, no actionable content beyond what Brendan has alr"
+    },
+    {
+      "artifact_id": "d27_email_summer_camp_decoy",
+      "is_decoy": true,
+      "storyline_id": "jls_naima_transition",
+      "rationale": "Cold pitch from a \"transitions-to-middle-school\" enrichment vendor referencing the JLS incoming-class list. Aisha archives unread."
+    },
+    {
+      "artifact_id": "email_decoy_search_firm_followup",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. External search firm follow-up to the Apr 29 cold email \u2014 same generic search-firm sales motion, referencing the prior outreach. Aisha archives."
+    },
+    {
+      "artifact_id": "d22_email_tawonga_merch_decoy",
+      "is_decoy": true,
+      "storyline_id": "summer_logistics",
+      "rationale": "Tawonga merchandise email \u2014 \"100th anniversary apparel store now open! Order by June 5 for delivery before camp.\" Pure marketing."
+    },
+    {
+      "artifact_id": "bg_decoy_hvac_bid_may15",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "HVAC compressor bid #5 from Peninsula Mechanical \u2014 $9,850, 7-year warranty. CC'd to Marcus, Aisha ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_tamarine_resy_may15",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Resy \u2014 confirmation for Tamarine Friday May 15, 7:30 PM, 2 guests. Form-confirmation."
+    },
+    {
+      "artifact_id": "bg_decoy_rivian_software_update_may16",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Rivian \u2014 overnight 2026.18 software-update completion notice for the R1S, release notes. Form-email."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "for_date": "2026-05-23",
+  "based_on_state_through": "2026-05-22T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "q2_board.moment_d34_captable_decision",
+      "storyline_id": "q2_board_prep",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Marlene now needs a working cap-table scenario to model \u2014 the one place in this storyline Avery actually has to decide. With paper still pending, the live choice is whether to lock $14M-on-$60M as the working model or push back another week.",
+      "supporting_artifact_ids": [
+        "q2_board.d34_email_marlene_captable_scenario"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "SHIFTED",
+          "from_date": "2026-05-18",
+          "by": "noise_marlene_capacity_squeeze",
+          "by_storyline": "soc2_type2_audit",
+          "new_target": "2026-05-23",
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2_board.moment_d34_captable_decision"
+    },
+    {
+      "moment_id": "moment_family_block_clear",
+      "storyline_id": "summer_family_logistics",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Summer family logistics mostly locked \u2014 Ethan's June 27\u201328 visit confirmed (reply sent, booked), October wedding hotel block held through July 15 (King room, Sentinel Portland, code CH-1003-0925-SH booked May 22). Sea Ranch June 12\u201315 booked with dining form due this weekend. Linda's July 7\u201311 Alaska flight locked (SEA-OAK, departs July 11 6:05 p.m.), Park Day fall schedule details still pending from Avery. Memorial Day weekend (May 24\u201326) off.",
+      "supporting_artifact_ids": [
+        "d33_cal_ethan_june_visit",
+        "d33_email_ethan_reply",
+        "d35_note_morning_log_family_clear"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "moment_family_block_clear"
+    },
+    {
+      "moment_id": "series_a_raise.moment_d35_memorial_day_threshold",
+      "storyline_id": "series_a_raise",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Saturday morning \u2014 diligence submitted, both P2s done, term sheet expected Friday May 29. Memorial Day weekend block extends through Tuesday morning. The waiting starts.",
+      "supporting_artifact_ids": [
+        "d35_calupd_memorial_day_block",
+        "d35_note_weekend_strategy"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "series_a_raise.moment_d35_memorial_day_threshold"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "q2_board.d33_email_boardable_decoy",
+      "is_decoy": true,
+      "storyline_id": "q2_board_prep",
+      "rationale": "Cold outreach from a board-software vendor (Boardable-style) pitching their portfolio-company pre-read platform to Avery \u2014 name-drops three Cowboy portfolio companies as customers, asks for 15 minutes"
+    },
+    {
+      "artifact_id": "bg_yc_hn_digest_may21",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Hacker News weekly top-stories digest."
+    },
+    {
+      "artifact_id": "d34_email_recruiter_cold_decoy",
+      "is_decoy": true,
+      "storyline_id": "series_a_raise",
+      "rationale": "PR-firm cold email pitching pre-announcement coverage prep \"for your upcoming Series A.\" Avery archives."
+    },
+    {
+      "artifact_id": "css_d34_email_decoy_pr_firm",
+      "is_decoy": true,
+      "storyline_id": "case_study_series",
+      "rationale": "Cold outreach from a SaaS-focused PR firm (\"Northwest Cardinal Communications\") having seen the case studies go live, offering to pitch them to TechCrunch, The Information, and SaaStr. Generic."
+    },
+    {
+      "artifact_id": "soc2_d34_email_vanta_cold_pitch",
+      "is_decoy": true,
+      "storyline_id": "soc2_type2_audit",
+      "rationale": "Cold outreach from a Vanta sales rep \u2014 congratulates Holdfast on (apparently scraped from somewhere) closing its SOC 2 Type II, pitches Vanta as a Drata alternative for the next cycle. Sequence email "
+    },
+    {
+      "artifact_id": "soc2_d34_email_aaron_drata_post_audit_wrap",
+      "is_decoy": true,
+      "storyline_id": "soc2_type2_audit",
+      "rationale": "Aaron Klein at Drata emails Avery (Priya cc'd) \u2014 congrats on the report, post-audit checklist attached, repeats the Q3 tier-upgrade call request. Avery thumbs-up reacts and does not reply."
+    },
+    {
+      "artifact_id": "q2_board.d34_email_governance_tool_decoy",
+      "is_decoy": true,
+      "storyline_id": "q2_board_prep",
+      "rationale": "Cold outreach from a corporate-governance SaaS tool (\"Diligent for startups\" / \"Carta board comms\" framing) pitching a post-Series-A board portal. Generic, addressed to \"Avery\", references board prep "
+    },
+    {
+      "artifact_id": "bg_hardfork_podcast_may22",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Hard Fork podcast \u2014 new Friday episode notification."
+    },
+    {
+      "artifact_id": "d35_email_searanch_pre_arrival_activities",
+      "is_decoy": true,
+      "storyline_id": "summer_family_logistics",
+      "rationale": "Sea Ranch Lodge marketing email: \"Plan your Sea Ranch visit \u2014 activities for the family, summer dining hours, hiking the bluffs.\" Six photos, a CTA to make Dining Room reservations, and a list of seve"
+    }
+  ]
+}

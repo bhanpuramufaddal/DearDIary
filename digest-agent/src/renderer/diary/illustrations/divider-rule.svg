@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 18" fill="none" stroke="currentColor" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Two intersecting hand-drawn strokes — a sketchy long em-dash -->
+  <path d="M30 9 Q 80 6, 130 9 T 250 9" />
+  <path d="M32 11 Q 82 8, 132 11 T 248 11" opacity="0.5" />
+</svg>

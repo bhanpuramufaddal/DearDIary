@@ -1,0 +1,152 @@
+{
+  "for_date": "2026-05-06",
+  "based_on_state_through": "2026-05-05T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "spr_moment_may05_biweekly_today",
+      "storyline_id": "strategic_pivot_review",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Kelsey Donovan rescheduled David's biweekly from Tuesday May 5 to today (Wednesday May 6) at 3:30 p.m. due to David's executive offsite. The day's concentration \u2014 JLS parent coffee at 8:30 a.m., James Q3 input call at 3:00 p.m., David biweekly at 3:30 p.m. \u2014 compresses the prep window at the kitchen island and collapses the 5K run loop window.",
+      "supporting_artifact_ids": [
+        "spr_d15_note_may5_biweekly_prep",
+        "spr_d16_calupdate_may5_biweekly_shift"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-04",
+          "by": "spr_noise_may5_biweekly_shift",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": null,
+          "new_priority": null
+        },
+        {
+          "state": "SHIFTED",
+          "from_date": "2026-05-04",
+          "by": "xnoise_david_biweekly_pushed_may04",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": "2026-05-06",
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "spr_moment_may05_biweekly_today"
+    },
+    {
+      "moment_id": "jls_moment_parent_coffee_day_may6",
+      "storyline_id": "jls_naima_transition",
+      "section": "if_one_thing",
+      "priority": "P1",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "JLS PTA moved the parent coffee from the library to the multipurpose room last night because of a library facilities issue \u2014 same time, 8:30 AM. Karen Mendez confirmed she's coming. Prep questions for Grierson unchanged.",
+      "supporting_artifact_ids": [
+        "d17_calendar_parent_coffee_update",
+        "d17_email_jls_pta_parent_coffee_reminder",
+        "d17_note_parent_coffee_prep",
+        "d18_email_karen_mendez_seeyou_coffee"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-05",
+          "by": "jls_noise_parent_coffee_location_change",
+          "by_storyline": "jls_naima_transition",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "jls_moment_parent_coffee_day_may6"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_stratechery_may04",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Monday weekly \u2014 essay on the OpenAI consumer-pricing tier. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_oura_may04",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly summary \u2014 sleep average 6h 04m, three nights under 5h, readiness flagged red. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_theinfo_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Information morning briefing \u2014 Tuesday edition, item on Google Workspace pricing churn at enterprise mid-market. Topically relevant, still unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_aws_personal_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "AWS billing \u2014 Marcus's personal account April invoice, $14.62 (S3 + a Lightsail VPS that hosts a side project). Form-email cc'd to Aisha as the secondary on the card."
+    },
+    {
+      "artifact_id": "bg_decoy_vendor_mixpanel_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Mixpanel enterprise AE cold pitch \u2014 \"15 minutes on how Workspace peers are instrumenting agent telemetry.\" Template, ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_parking_permit_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google internal \u2014 Mountain View campus parking-permit renewal notice for the Rivian. Form-email with a renewal link."
+    },
+    {
+      "artifact_id": "bg_decoy_linkedin_conn_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "LinkedIn \u2014 connection request from an ex-Square colleague Aisha hasn't talked to since 2014. Note attached: \"long time! would love to catch up.\" She'll accept and never message."
+    },
+    {
+      "artifact_id": "d13_email_galileo_addaweek_decoy",
+      "is_decoy": true,
+      "storyline_id": "summer_logistics",
+      "rationale": "Galileo marketing \u2014 \"Add a second week of Summer Quest for Idris! Spots filling fast in Robotics and Chefology.\" Sent to both parents, primary CTA is a discount code."
+    },
+    {
+      "artifact_id": "bg_decoy_recruiter_databricks_may06",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Cold recruiter email \u2014 Databricks in-house on a \"VP, Product Platform\" role with comp benchmark and Series I framing. Template. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_hris_pto_balance_may06",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google HRIS \u2014 quarterly PTO-balance reminder, 23 days accrued, encouraging Aisha to plan usage. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_cvs_rx_may06",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "CVS Middlefield \u2014 automated text-rendered-as-email that Aisha's sertraline 90-day refill is ready for pickup. Form-message."
+    },
+    {
+      "artifact_id": "bg_decoy_amazon_subscribesave_may06",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Amazon Subscribe & Save \u2014 May household delivery confirmation (dog food, paper towels, sertraline-adjacent magnesium). Form-email."
+    }
+  ]
+}

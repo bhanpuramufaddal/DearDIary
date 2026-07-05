@@ -1,0 +1,216 @@
+{
+  "for_date": "2026-05-15",
+  "based_on_state_through": "2026-05-14T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "css_m_maya_nudge",
+      "storyline_id": "case_study_series",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Maya emailed at 1:38 PM \u2014 Lonestar and Marlin drafts need her review before Monday EOD lock so Jenna can place the copy Tuesday. She front-loaded the ask in the first sentence. Even a \"by Sunday night\" reply unblocks her planning.",
+      "supporting_artifact_ids": [
+        "css_d27_email_maya_nudge",
+        "css_d27_note_avery_owe_maya"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "css_m_maya_nudge"
+    },
+    {
+      "moment_id": "design_partner_renewal.moment_redline_review_today",
+      "storyline_id": "design_partner_renewal",
+      "section": "calendar_personal",
+      "priority": "P1",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Tidemark redline review call at 10:00 a.m. PT this morning \u2014 Avery's review note has the three sticking points; Jordan is asking whether to loop Cooley on the data-security addendum.",
+      "supporting_artifact_ids": [
+        "dpr_d24_calendar_invite_redline_call",
+        "dpr_d25_note_avery_redlines_review",
+        "dpr_d26_email_jordan_legal_loop"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "SHIFTED",
+          "from_date": "2026-05-14",
+          "by": "design_partner_renewal.noise_redline_call_pushed",
+          "by_storyline": "design_partner_renewal",
+          "new_target": "2026-05-15",
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "design_partner_renewal.moment_redline_review_today"
+    },
+    {
+      "moment_id": "moment_ethan_overdue_10day",
+      "storyline_id": "summer_family_logistics",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Ethan's ask is ten days unanswered. The draft has been sitting in Notes since Friday. Send tonight whatever the round is doing.",
+      "supporting_artifact_ids": [
+        "d20_note_ethan_reply_draft",
+        "d21_email_ethan_followup_ping",
+        "d27_note_morning_log_ethan_overdue"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_ethan_overdue_10day"
+    },
+    {
+      "moment_id": "series_a_raise.moment_d27_weekly_update_may_15",
+      "storyline_id": "series_a_raise",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "A TechCrunch reporter (Connie Loizos) cold-emailed at 9:12am asking to confirm a tip that Holdfast is closing a Series A with Bessemer leading. Avery adds a one-line caveat to the weekly update warning investors there's a press inquiry circulating and asking them to route any reporter pings back to her \u2014 does not respond to the reporter.",
+      "supporting_artifact_ids": [
+        "d27_email_weekly_investor_update_may_15"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-15",
+          "by": "noise_techcrunch_cold_inquiry",
+          "by_storyline": "series_a_raise",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "series_a_raise.moment_d27_weekly_update_may_15"
+    },
+    {
+      "moment_id": "wst_moment_d27_july_tuition",
+      "storyline_id": "wren_school_transition",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Park Day July tuition installment courtesy notice \u2014 $14,250 ACH out of the joint account on Wednesday July 1. No action required; surfacing because it's a real number against the household cashflow you'll want loaded for the term-sheet timing conversation.",
+      "supporting_artifact_ids": [
+        "wst_d27_email_pd_billing_july"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "wst_moment_d27_july_tuition"
+    },
+    {
+      "moment_id": "soc2_moment_clear_report_for_issuance",
+      "storyline_id": "soc2_type2_audit",
+      "section": "decisions_approvals",
+      "priority": "P2",
+      "action_class": "approve",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Priya's three line-level edits on the draft report are non-substantive. Forward to Tom this morning with a one-line clearance and the report is in peer review.",
+      "supporting_artifact_ids": [
+        "soc2_d26_email_priya_report_edits",
+        "soc2_d27_email_avery_accepts_edits_back_to_tom"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "soc2_moment_clear_report_for_issuance"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_firstround_review_may13",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "First Round Review article digest \u2014 founder essay."
+    },
+    {
+      "artifact_id": "bg_segment_webinar_may13",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Twilio Segment webinar invite \u2014 'Customer data for B2B SaaS leaders.'"
+    },
+    {
+      "artifact_id": "d26_email_wedding_vendor_cold_pitch",
+      "is_decoy": true,
+      "storyline_id": "summer_family_logistics",
+      "rationale": "Cold pitch from a wedding-gift vendor scraping public engagement registries \u2014 \"Custom keepsake champagne flutes for the bride and groom \u2014 Ethan & Mara, October 3 \u2014 order by August 15.\" Six-paragraph m"
+    },
+    {
+      "artifact_id": "bg_hubspot_sdr_cold_may14",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "HubSpot SDR cold pitch \u2014 bundle pricing for B2B SaaS startups."
+    },
+    {
+      "artifact_id": "bg_recruiter_seriesb_marketing_may14",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Daversa Partners recruiter cold pitch \u2014 VP Marketing search at a Series B vertical SaaS co."
+    },
+    {
+      "artifact_id": "dpr_d27_email_decoy_press_pitch",
+      "is_decoy": true,
+      "storyline_id": "design_partner_renewal",
+      "rationale": "Trade-press reporter (\"Carrier Management\") cold-pitching a story on insurance back-office automation, asks if Holdfast has a customer case study they can share. Decoy during signature push."
+    },
+    {
+      "artifact_id": "css_d27_email_decoy_freelancer_pitch",
+      "is_decoy": true,
+      "storyline_id": "case_study_series",
+      "rationale": "Cold pitch from another freelance B2B SaaS writer who saw on LinkedIn that Maya joined Holdfast and noticed Holdfast doesn't have case studies yet. Personalizable cold email. Generic."
+    },
+    {
+      "artifact_id": "bg_brex_weekly_reminder_may15",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Brex \u2014 4 receipts missing for May expenses, please categorize."
+    },
+    {
+      "artifact_id": "bg_kaiser_wellness_may15",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Kaiser Permanente \u2014 annual wellness reminder, schedule your physical."
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "for_date": "2026-05-21",
+  "based_on_state_through": "2026-05-20T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "design_partner_renewal.moment_renewal_signed",
+      "storyline_id": "design_partner_renewal",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Tidemark signature call locked for tomorrow Friday May 22 afternoon \u2014 Kevin Liu confirmed all three redline positions accepted (72-hour breach notification, encryption-at-rest spec as proposed, static subprocessor list). Marcus sent the closing-call invite with personal thank-you. First design-partner renewal ready to close on schedule, critical for the Friday investor update and Bessemer follow-up.",
+      "supporting_artifact_ids": [
+        "dpr_d33_calendar_invite_closing_call",
+        "dpr_d33_email_marcus_signed"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "design_partner_renewal.moment_renewal_signed"
+    },
+    {
+      "moment_id": "series_a_raise.moment_d32_byron_post_meeting",
+      "storyline_id": "series_a_raise",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Vas Natarajan's request for a Friday heads-up about Accel wind-down (May 20, 11:58 a.m.) and Cooley's redlines library (May 20, 9:19 p.m.) both press into the May 21 morning where the Greylock P2 at 1:00 p.m. is live. The framework is locked from Avery's May 20 strategy note: Accel gets the graceful wind-down after the Bessemer term sheet arrives (expected May 29), not before. The tension is whether Vas's timeline pressure overrides that standing rule.",
+      "supporting_artifact_ids": [
+        "d31_email_byron_post_meeting",
+        "d31_note_bvp_p2_recap",
+        "d32_email_avery_byron_retention_reply",
+        "d32_email_cooley_redlines_library",
+        "d32_note_post_bvp_strategy"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "SHIFTED",
+          "from_date": "2026-05-14",
+          "by": "noise_byron_p2_day_shift",
+          "by_storyline": "series_a_raise",
+          "new_target": "2026-05-21",
+          "new_priority": null
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-20",
+          "by": "noise_vas_forces_wind_down",
+          "by_storyline": "series_a_raise",
+          "new_target": null,
+          "new_priority": "P0"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "series_a_raise.moment_d32_byron_post_meeting"
+    },
+    {
+      "moment_id": "series_a_raise.moment_d33_greylock_p2_day",
+      "storyline_id": "series_a_raise",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Greylock P2 moved from 11am to 1pm Pacific on Thu May 21 by Jenna Davies. Pushes Avery's lunch and stacks the post-meeting follow-up against the therapy 5:30pm with Dr. Reyes \u2014 the Saam design-partner-renewal question still gets the meeting, but the day compresses.",
+      "supporting_artifact_ids": [
+        "d33_calinv_greylock_p2",
+        "d33_note_greylock_p2_prep"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-21",
+          "by": "noise_greylock_p2_time_shift",
+          "by_storyline": "series_a_raise",
+          "new_target": null,
+          "new_priority": "P0"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "series_a_raise.moment_d33_greylock_p2_day"
+    },
+    {
+      "moment_id": "soc2_moment_final_report_delivered",
+      "storyline_id": "soc2_type2_audit",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Final signed SOC 2 Type II report delivered yesterday morning at 10:34 a.m., 46 pages, no exceptions noted. Forward to Daniel Hofstetter at the bank this morning to close the vendor-management commitment ahead of the June 30 deadline. Five-line email \u2014 the one piece of work that has been seven months in the making.",
+      "supporting_artifact_ids": [
+        "soc2_d32_email_tom_final_report_delivered",
+        "soc2_d32_note_relief_after_final",
+        "soc2_d33_email_avery_forwards_to_hofstetter"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "SHIFTED",
+          "from_date": "2026-05-18",
+          "by": "soc2_noise_peer_review_delay",
+          "by_storyline": "soc2_type2_audit",
+          "new_target": "2026-05-21",
+          "new_priority": "P0"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "soc2_moment_final_report_delivered"
+    },
+    {
+      "moment_id": "css_m_ship_today",
+      "storyline_id": "case_study_series",
+      "section": "if_one_thing",
+      "priority": "P1",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Three case studies and refreshed /customers page go live this morning at 9am PT. Confirm the Marlin sidebar credits Erin's two reports and the Controller attribution name swap landed before push. Maya's announce drops at 9:30; investor teaser at 10:00.",
+      "supporting_artifact_ids": [
+        "css_d33_email_maya_announce",
+        "css_d33_note_avery_ship_morning"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-19",
+          "by": "css_noise_erin_quote_edits",
+          "by_storyline": "case_study_series",
+          "new_target": null,
+          "new_priority": "P1"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "css_m_ship_today"
+    },
+    {
+      "moment_id": "q2_board.moment_d33_marlene_arr_deadline",
+      "storyline_id": "q2_board_prep",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Marlene's first Q2 metrics pull lands with a Friday EOD ask for Avery's eyes \u2014 colliding with the Friday data-room deadline. Track for Friday morning; punting to weekend is the likely move.",
+      "supporting_artifact_ids": [
+        "q2_board.d33_email_marlene_arr_rollforward"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2_board.moment_d33_marlene_arr_deadline"
+    },
+    {
+      "moment_id": "q2_board.moment_d32_walkthrough_invite",
+      "storyline_id": "q2_board_prep",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "approve",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Caroline's June 15 board-prep walkthrough invite landed yesterday afternoon \u2014 accept-or-defer call surfaces this morning before Greylock P2 takes over the day.",
+      "supporting_artifact_ids": [
+        "q2_board.d32_cal_caroline_walkthrough_invite"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2_board.moment_d32_walkthrough_invite"
+    },
+    {
+      "moment_id": "q2_board.moment_d33_james_1on1_ask",
+      "storyline_id": "q2_board_prep",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "James's pre-board 1:1 ask is now competing with the freshly compressed BVP/Greylock back-to-back; reply will be late and brief but James will read the silence correctly.",
+      "supporting_artifact_ids": [
+        "q2_board.d33_email_james_cham_1on1_ask"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-14",
+          "by": "noise_byron_p2_day_shift",
+          "by_storyline": "series_a_raise",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2_board.moment_d33_james_1on1_ask"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_stratechery_may19",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Tuesday weekly."
+    },
+    {
+      "artifact_id": "bg_information_morning_may19",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Information morning briefing \u2014 Tuesday edition."
+    },
+    {
+      "artifact_id": "dpr_d32_email_decoy_recruiter",
+      "is_decoy": true,
+      "storyline_id": "design_partner_renewal",
+      "rationale": "Recruiter cold outreach to Avery's Holdfast address \u2014 \"I represent a VP Finance candidate exiting a specialty insurance brokerage in the Bay Area\" \u2014 decoy that surfaces from the Tidemark industry adja"
+    },
+    {
+      "artifact_id": "bg_rudderstack_vendor_may20",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "RudderStack SDR cold pitch \u2014 CDP/event pipeline demo."
+    },
+    {
+      "artifact_id": "q2_board.d33_email_boardable_decoy",
+      "is_decoy": true,
+      "storyline_id": "q2_board_prep",
+      "rationale": "Cold outreach from a board-software vendor (Boardable-style) pitching their portfolio-company pre-read platform to Avery \u2014 name-drops three Cowboy portfolio companies as customers, asks for 15 minutes"
+    },
+    {
+      "artifact_id": "bg_yc_hn_digest_may21",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Hacker News weekly top-stories digest."
+    }
+  ]
+}

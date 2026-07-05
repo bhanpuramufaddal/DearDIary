@@ -1,0 +1,79 @@
+{
+  "for_date": "2026-05-03",
+  "based_on_state_through": "2026-05-02T23:59:59-07:00",
+  "items": [],
+  "expected_suppressions": [
+    {
+      "artifact_id": "css_d13_email_decoy_vidyard",
+      "is_decoy": true,
+      "storyline_id": "case_study_series",
+      "rationale": "Vidyard sales rep cold outreach to avery@holdfast.co \u2014 \"case study videos that convert 5x better than text\" \u2014 references Holdfast by name and offers a 30-min demo. Generic vendor pitch."
+    },
+    {
+      "artifact_id": "bg_acquired_podcast_may1",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Acquired podcast \u2014 new episode notification, latest deep dive."
+    },
+    {
+      "artifact_id": "bg_aclu_donation_may1",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "ACLU monthly recurring donation receipt \u2014 $50.00."
+    },
+    {
+      "artifact_id": "bg_opef_donation_may1",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oakland Public Education Fund monthly recurring donation receipt \u2014 $25.00."
+    },
+    {
+      "artifact_id": "bg_brex_statement_may1",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Brex April statement available \u2014 Holdfast corporate card cycle close."
+    },
+    {
+      "artifact_id": "bg_vercel_invoice_may1",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Vercel Pro plan invoice \u2014 $240/month plus bandwidth overage."
+    },
+    {
+      "artifact_id": "wst_d14_email_decoy_zippypeds",
+      "is_decoy": true,
+      "storyline_id": "wren_school_transition",
+      "rationale": "Cold-pitch from \"ZippyPediatrics Forms Service\": \"We'll fill your child's school health forms for $79 - skip the Kaiser portal headaches.\" Signed by a \"Patient Liaison.\""
+    },
+    {
+      "artifact_id": "bg_rockridge_markethall_may2",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Rockridge Market Hall weekly \u2014 Saturday specials at Hapuku Fish Shop."
+    },
+    {
+      "artifact_id": "d15_email_searanch_other_properties_promo",
+      "is_decoy": true,
+      "storyline_id": "summer_family_logistics",
+      "rationale": "Sea Ranch Escape promotional email: \"Other oceanfront homes you might love\" \u2014 three properties (Cielo e Mar, Crow's Nest, Beach Dreams) with a 15% summer discount on seven-night stays. Marketing autom"
+    },
+    {
+      "artifact_id": "bg_lennys_newsletter_may3",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter weekly \u2014 interview with a PLG founder."
+    },
+    {
+      "artifact_id": "bg_oura_weekly_may3",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly insights \u2014 readiness in the yellow zone four nights running."
+    },
+    {
+      "artifact_id": "bg_aws_bill_may3",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "AWS April invoice \u2014 $6,812.44, slightly up on data transfer."
+    }
+  ]
+}

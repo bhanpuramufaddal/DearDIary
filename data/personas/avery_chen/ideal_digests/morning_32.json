@@ -1,0 +1,134 @@
+{
+  "for_date": "2026-05-20",
+  "based_on_state_through": "2026-05-19T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "design_partner_renewal.moment_final_msa",
+      "storyline_id": "design_partner_renewal",
+      "section": "decisions_approvals",
+      "priority": "P0",
+      "action_class": "approve",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Diana's open dashboard-preview question (cc Marcus) is a soft drag heading into the Friday May 22 signature call \u2014 risk of pulling Priya into a feature commitment Holdfast is not ready to make. By May 20 morning, Avery must confirm: sign Friday on schedule and defer the preview scope to post-signature discussions. Decision: sign first, scope the dashboard preview separately afterward.",
+      "supporting_artifact_ids": [
+        "dpr_d31_email_diana_dashboard_question",
+        "dpr_d32_email_kevin_final_terms"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-20",
+          "by": "design_partner_renewal.noise_diana_dashboard_question",
+          "by_storyline": "design_partner_renewal",
+          "new_target": null,
+          "new_priority": "P0"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "design_partner_renewal.moment_final_msa"
+    },
+    {
+      "moment_id": "series_a_raise.moment_d31_bvp_p2_day",
+      "storyline_id": "series_a_raise",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "BVP P2 complete at 1:30 p.m. yesterday (May 19) \u2014 narrative strong, proof points landed cleanly. Byron requesting written data cut on under-$10K cohort gross retention; Priya answer expected tonight or first thing Wednesday morning. The meeting signal came through as expected; next: secure the retention data and prepare for Greylock Thursday.",
+      "supporting_artifact_ids": [
+        "d31_calinv_bvp_p2_meeting"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "SHIFTED",
+          "from_date": "2026-05-14",
+          "by": "noise_byron_p2_day_shift",
+          "by_storyline": "series_a_raise",
+          "new_target": "2026-05-20",
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "series_a_raise.moment_d31_bvp_p2_day"
+    },
+    {
+      "moment_id": "css_m_ship_checklist",
+      "storyline_id": "case_study_series",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "approve",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Ship is tomorrow 9am PT. Maya wants your confirm on the team-wide announce copy by EOD today; Jenna's final pre-prod preview link is in your inbox. Typo catches last call.",
+      "supporting_artifact_ids": [
+        "css_d32_email_jenna_final_preview",
+        "css_d32_email_maya_ship_plan"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "css_m_ship_checklist"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_dreamforce_pitch_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Dreamforce 2026 \u2014 partner-track cold pitch from Salesforce ecosystem team."
+    },
+    {
+      "artifact_id": "bg_block_group_text_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Block group text \u2014 package theft alert on Manila Ave, neighbor sharing Ring footage."
+    },
+    {
+      "artifact_id": "bg_linear_weekly_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Linear weekly project digest \u2014 engineering velocity summary."
+    },
+    {
+      "artifact_id": "bg_stratechery_may19",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Tuesday weekly."
+    },
+    {
+      "artifact_id": "bg_information_morning_may19",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Information morning briefing \u2014 Tuesday edition."
+    },
+    {
+      "artifact_id": "dpr_d32_email_decoy_recruiter",
+      "is_decoy": true,
+      "storyline_id": "design_partner_renewal",
+      "rationale": "Recruiter cold outreach to Avery's Holdfast address \u2014 \"I represent a VP Finance candidate exiting a specialty insurance brokerage in the Bay Area\" \u2014 decoy that surfaces from the Tidemark industry adja"
+    },
+    {
+      "artifact_id": "bg_rudderstack_vendor_may20",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "RudderStack SDR cold pitch \u2014 CDP/event pipeline demo."
+    }
+  ]
+}

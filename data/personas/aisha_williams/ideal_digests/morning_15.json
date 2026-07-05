@@ -1,0 +1,43 @@
+{
+  "for_date": "2026-05-03",
+  "based_on_state_through": "2026-05-02T23:59:59-07:00",
+  "items": [],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_citizens_mortgage_may01",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Citizens Trust monthly mortgage statement \u2014 May payment processed, principal balance and amortization summary. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_birddog_resy_may01",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Resy \u2014 confirmation for Bird Dog Friday May 1, 7:30 PM, 2 guests (Aisha + Marcus, kids with a sitter). Form-confirmation."
+    },
+    {
+      "artifact_id": "bg_decoy_joanies_resy_may01",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "OpenTable \u2014 confirmation for Joanie's Caf\u00e9 Friday 8:00 AM (standing first-Friday breakfast with Dara). Form-confirmation."
+    },
+    {
+      "artifact_id": "bg_decoy_googleone_may02",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google One \u2014 automated receipt for the 2TB family plan, $9.99 charged to the card ending in 4477. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_lennys_may03",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter Sunday \u2014 \"Five frameworks for narrative-doc-driven exec reviews.\" Topical to Aisha's life, still unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_bluesky_digest_may03",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Bluesky \u2014 weekly \"what you missed\" digest of accounts she follows. Form-email, ignored."
+    }
+  ]
+}

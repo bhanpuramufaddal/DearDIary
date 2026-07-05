@@ -1,0 +1,137 @@
+{
+  "for_date": "2026-05-14",
+  "based_on_state_through": "2026-05-13T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "css_m_first_drafts_in",
+      "storyline_id": "case_study_series",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Renee's first full draft of Lonestar has been sitting in your inbox since yesterday afternoon; the Marlin draft and anonymized bank draft landed an hour ago. Maya wants both locked by Monday so Jenna can drop copy into the comps Tuesday.",
+      "supporting_artifact_ids": [
+        "css_d25_email_renee_lonestar_draft",
+        "css_d26_email_renee_marlin_draft"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "css_m_first_drafts_in"
+    },
+    {
+      "moment_id": "series_a_raise.moment_d26_caroline_pro_rata",
+      "storyline_id": "series_a_raise",
+      "section": "decisions_approvals",
+      "priority": "P2",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Caroline Duffy's three pro-rata options need a read \u2014 $1.5M / $2M / $2.5M and the cap-table impact on Avery and Priya. The call she invited Avery to is Friday afternoon.",
+      "supporting_artifact_ids": [
+        "d26_calinv_caroline_pro_rata_call",
+        "d26_email_caroline_pro_rata_mechanics",
+        "d26_email_vas_polite_ping"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "series_a_raise.moment_d26_caroline_pro_rata"
+    },
+    {
+      "moment_id": "wst_moment_d26_gift_collection",
+      "storyline_id": "wren_school_transition",
+      "section": "urgent_todo",
+      "priority": "P2",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Tessa Brennan opened the teacher-gift Venmo collection \u2014 $35 to @tessa-brennan-oak by Friday May 22 for Annette and Joelle. One-tap action. Wren probably also wants to pick a separate book for Joelle.",
+      "supporting_artifact_ids": [
+        "wst_d26_email_tessa_gift_collection"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "wst_moment_d26_gift_collection"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "d24_email_secondary_buyer_cold_decoy",
+      "is_decoy": true,
+      "storyline_id": "series_a_raise",
+      "rationale": "Cold email from a secondary-market buyer offering to \"discuss founder liquidity options at the A.\" Avery archives without reply."
+    },
+    {
+      "artifact_id": "soc2_d24_email_drata_renewal_pitch",
+      "is_decoy": true,
+      "storyline_id": "soc2_type2_audit",
+      "rationale": "Aaron Klein follows up \u2014 wants to put a 30-minute Q3 tier-upgrade conversation on the calendar for the week after the report ships. Pitches the \"Risk &amp; Compliance\" tier at +$8K/year. Avery archive"
+    },
+    {
+      "artifact_id": "bg_stratechery_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Tuesday weekly."
+    },
+    {
+      "artifact_id": "bg_drata_renewal_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Drata CSM \u2014 annual renewal courtesy note, 60 days out."
+    },
+    {
+      "artifact_id": "bg_rippling_payroll_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Rippling \u2014 payroll run reminder for May 15 cycle."
+    },
+    {
+      "artifact_id": "bg_firstround_review_may13",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "First Round Review article digest \u2014 founder essay."
+    },
+    {
+      "artifact_id": "bg_segment_webinar_may13",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Twilio Segment webinar invite \u2014 'Customer data for B2B SaaS leaders.'"
+    },
+    {
+      "artifact_id": "d26_email_wedding_vendor_cold_pitch",
+      "is_decoy": true,
+      "storyline_id": "summer_family_logistics",
+      "rationale": "Cold pitch from a wedding-gift vendor scraping public engagement registries \u2014 \"Custom keepsake champagne flutes for the bride and groom \u2014 Ethan & Mara, October 3 \u2014 order by August 15.\" Six-paragraph m"
+    },
+    {
+      "artifact_id": "bg_hubspot_sdr_cold_may14",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "HubSpot SDR cold pitch \u2014 bundle pricing for B2B SaaS startups."
+    },
+    {
+      "artifact_id": "bg_recruiter_seriesb_marketing_may14",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Daversa Partners recruiter cold pitch \u2014 VP Marketing search at a Series B vertical SaaS co."
+    }
+  ]
+}

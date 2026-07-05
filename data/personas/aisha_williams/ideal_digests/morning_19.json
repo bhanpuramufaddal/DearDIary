@@ -1,0 +1,164 @@
+{
+  "for_date": "2026-05-07",
+  "based_on_state_through": "2026-05-06T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "spr_moment_may07_finance_scrub",
+      "storyline_id": "strategic_pivot_review",
+      "section": "decisions_approvals",
+      "priority": "P0",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Nina's finance scrub on May 6 identified a unit-economics correction in section 2 requiring updated revenue and margin language in the fourth-revision narrative. Thursday's 2\u20133 p.m. rehearsal-prep session with Priya is dedicated to integrating this correction and tightening talk-track coherence, completing the May 7\u20138 finance-correction work before the May 20 final read-ahead to David and peer VPs.",
+      "supporting_artifact_ids": [
+        "spr_d17_email_nina_scrub_v1",
+        "spr_d18_cal_priya_rehearsal_prep_thu",
+        "spr_d18_email_megan_hrbp_onepager"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-06",
+          "by": "spr_noise_nina_scrub_correction",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": null,
+          "new_priority": "P0"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "spr_moment_may07_finance_scrub"
+    },
+    {
+      "moment_id": "q3okr_moment_may07_priya_offers_to_chase",
+      "storyline_id": "q3_okr_planning",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Aisha has drafted chase messages to Hannah and Roman on three separate occasions (May 6, May 13, May 20) but has not sent any of them. The May 6 draft was completed Wednesday evening and is pending send Thursday morning at 9-10am, right after the email burn and before the consolidation working block with Priya at 3pm. The avoidance itself\u2014documented in the arc as \"the thing the storyline is actually about\"\u2014is a signal about the platform-mandate surface and the stakes of Hannah's undecided Q3 position. Deciding whether to finally send the chase or move forward with the consolidation outline based on assumptions is a live decision Aisha faces this morning, given her sustained deferral across all three draft attempts and the working block timing.",
+      "supporting_artifact_ids": [
+        "q3okr_email_priya_tracker_status",
+        "q3okr_note_may06_chase_draft_v1"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "q3okr_moment_may07_priya_offers_to_chase"
+    },
+    {
+      "moment_id": "moment_maya_intake_confirmed_may7",
+      "storyline_id": "director_pm_hiring",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Maya confirmed Wed May 13 9am for the L8 intake \u2014 on the calendar. Role-spec sketch owed to her by Mon evening; Friday writing block tomorrow is the right slot.",
+      "supporting_artifact_ids": [
+        "cal_invite_maya_intake_orig",
+        "email_maya_confirms_intake"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_maya_intake_confirmed_may7"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_theinfo_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Information morning briefing \u2014 Tuesday edition, item on Google Workspace pricing churn at enterprise mid-market. Topically relevant, still unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_aws_personal_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "AWS billing \u2014 Marcus's personal account April invoice, $14.62 (S3 + a Lightsail VPS that hosts a side project). Form-email cc'd to Aisha as the secondary on the card."
+    },
+    {
+      "artifact_id": "bg_decoy_vendor_mixpanel_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Mixpanel enterprise AE cold pitch \u2014 \"15 minutes on how Workspace peers are instrumenting agent telemetry.\" Template, ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_parking_permit_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google internal \u2014 Mountain View campus parking-permit renewal notice for the Rivian. Form-email with a renewal link."
+    },
+    {
+      "artifact_id": "bg_decoy_linkedin_conn_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "LinkedIn \u2014 connection request from an ex-Square colleague Aisha hasn't talked to since 2014. Note attached: \"long time! would love to catch up.\" She'll accept and never message."
+    },
+    {
+      "artifact_id": "d13_email_galileo_addaweek_decoy",
+      "is_decoy": true,
+      "storyline_id": "summer_logistics",
+      "rationale": "Galileo marketing \u2014 \"Add a second week of Summer Quest for Idris! Spots filling fast in Robotics and Chefology.\" Sent to both parents, primary CTA is a discount code."
+    },
+    {
+      "artifact_id": "bg_decoy_recruiter_databricks_may06",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Cold recruiter email \u2014 Databricks in-house on a \"VP, Product Platform\" role with comp benchmark and Series I framing. Template. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_hris_pto_balance_may06",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google HRIS \u2014 quarterly PTO-balance reminder, 23 days accrued, encouraging Aisha to plan usage. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_cvs_rx_may06",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "CVS Middlefield \u2014 automated text-rendered-as-email that Aisha's sertraline 90-day refill is ready for pickup. Form-message."
+    },
+    {
+      "artifact_id": "bg_decoy_amazon_subscribesave_may06",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Amazon Subscribe & Save \u2014 May household delivery confirmation (dog food, paper towels, sertraline-adjacent magnesium). Form-email."
+    },
+    {
+      "artifact_id": "q3okr_email_decoy_sister_org_fyi",
+      "is_decoy": true,
+      "storyline_id": "q3_okr_planning",
+      "rationale": "DECOY. Sister-org PM lead (Liam O'Connor's area) sends Aisha a courtesy FYI with their Q3 OKR draft \u2014 \"wanted to give you a heads-up on the framing in case we want to deconflict before June 3.\" Not ac"
+    },
+    {
+      "artifact_id": "bg_decoy_icloud_may07",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Apple \u2014 monthly receipt for iCloud+ family plan, $9.99. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_tawonga_marketing_may07",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Camp Tawonga marketing \u2014 \"Family Camp 2027 early-bird registration opens June 1.\" Form-promo, not relevant to Naima's current trip. Ignored."
+    }
+  ]
+}

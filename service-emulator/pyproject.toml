@@ -1,0 +1,38 @@
+[project]
+name = "service-emulator"
+version = "0.1.0"
+description = "REST + webhook + MCP emulator over a persona-generator SQLite DB. Serves mail, calendar, notes to a digest agent with synthetic-clock as_of filtering."
+requires-python = ">=3.12"
+dependencies = [
+    "persona-generator",
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.32",
+    "typer>=0.15",
+    "httpx>=0.27",
+    "mcp>=1.0",
+    "anyio>=4.0",
+    "sqlmodel>=0.0.22",
+]
+
+[project.scripts]
+service-emulator = "service_emulator.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
+persona-generator = { path = "../persona-generator", editable = true }
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/service_emulator"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

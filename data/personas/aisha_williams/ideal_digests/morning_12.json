@@ -1,0 +1,124 @@
+{
+  "for_date": "2026-04-30",
+  "based_on_state_through": "2026-04-29T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "jls_moment_chase_draft_apr30",
+      "storyline_id": "jls_naima_transition",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Aisha drafted a chase email to Mihaela Andrei at the JLS registrar's office last night, did not send it. Pattern worth noticing \u2014 same shape as the unsent Hannah-and-Roman chase from the Q3 storyline.",
+      "supporting_artifact_ids": [
+        "d11_note_chase_draft_apr29"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "jls_moment_chase_draft_apr30"
+    },
+    {
+      "moment_id": "summer_logistics.moment_mendocino_pretrip",
+      "storyline_id": "summer_logistics",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Linda Boudreaux at Mendocino Preferred sent the pre-trip checklist for the July 18\u201325 rental. Balance due 30 days pre-arrival (June 18); for now FYI, Marcus to read in full.",
+      "supporting_artifact_ids": [
+        "d08_email_mendocino_pretrip_checklist"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "summer_logistics.moment_mendocino_pretrip"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_theinfo_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Information morning briefing \u2014 Tuesday edition, scoop on a Series E for an AI-coding company. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_expense_reminder_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google internal expense tool reminder \u2014 two receipts from the February NYC offsite are still untagged. Auto-email, third reminder."
+    },
+    {
+      "artifact_id": "bg_decoy_paloaltoonline_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Palo Alto Online Tuesday digest \u2014 top stories on the Castilleja expansion appeal and a Middlefield bike-lane plan. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_pamf_apptreminder_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "PAMF MyChart \u2014 automated reminder to schedule the July LDL recheck per her January physical. Form-email, no urgency."
+    },
+    {
+      "artifact_id": "email_decoy_external_recruiter_1",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. External executive search firm cold email \u2014 \"I have a director-level PM candidate exiting Atlassian who would be perfect for any open Workspace leadership role.\" Generic firm; no real-world cla"
+    },
+    {
+      "artifact_id": "bg_decoy_websummit_apr29",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Web Summit Lisbon cold pitch \u2014 speaker invite for November 2026. Form-email from a Dublin number. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_idtech_marketing_apr29",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "iD Tech marketing \u2014 \"Add iD Tech Online to your summer plans\" upsell follow-up after Naima's Stanford registration. Form-promo. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_proclub_lapsed_apr29",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Page Mill PRO Club \u2014 \"We miss you, Aisha\" reactivation offer with a complimentary day pass. Form-email from a marketing automation. Ignored."
+    },
+    {
+      "artifact_id": "d12_email_jls_pta_volunteer_decoy",
+      "is_decoy": true,
+      "storyline_id": "jls_naima_transition",
+      "rationale": "JLS PTA all-list email asking for Panther Camp volunteers in August. Aisha will not volunteer; treated as low-signal."
+    },
+    {
+      "artifact_id": "bg_decoy_schwab_stmt_apr30",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Schwab automated April monthly statement notification on the joint brokerage account. Form-email, opens to a PDF download link."
+    },
+    {
+      "artifact_id": "bg_decoy_recruiter_ramp_apr30",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Cold recruiter email \u2014 Ramp external retained recruiter on a \"VP of Product, AP & Spend\" role. Template. Aisha archives unread."
+    },
+    {
+      "artifact_id": "bg_decoy_workday_timesheet_apr30",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Workday \u2014 biweekly timesheet attestation reminder. Auto-email. Aisha approves with a one-tap on her phone."
+    }
+  ]
+}

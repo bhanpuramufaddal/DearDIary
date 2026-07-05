@@ -1,0 +1,118 @@
+{
+  "for_date": "2026-04-24",
+  "based_on_state_through": "2026-04-23T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "spr_moment_apr24_readahead_synthesis",
+      "storyline_id": "strategic_pivot_review",
+      "section": "if_one_thing",
+      "priority": "P1",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Both peer-VP read-aheads (Rohit clean, Liam carefully neutral) landed this week. The neutrality itself is a signal; the headcount step-down sequencing in section 2 is the row to harden before the May 5 biweekly.",
+      "supporting_artifact_ids": [
+        "spr_d04_email_rohit_v3_comments",
+        "spr_d05_email_liam_v3_comments",
+        "spr_d06_note_apr24_read_ahead_synthesis"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "spr_moment_apr24_readahead_synthesis"
+    },
+    {
+      "moment_id": "moment_friday_block_apr24",
+      "storyline_id": "director_pm_hiring",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Friday writing block this morning \u2014 quiet shortlist work for the (possibly) post-28th director PM slate. Wei's Saturday-night text floated Tom Liang (Figma director) as a name worth adding to the tracker.",
+      "supporting_artifact_ids": [
+        "note_morning_log_20260424"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "moment_friday_block_apr24"
+    },
+    {
+      "moment_id": "pv_m01_pie_thankyou_fri",
+      "storyline_id": "palo_verde_year_end",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "PIE spring-fundraiser thank-you from Karen Mendez landed overnight with the 2025\u201326 numbers \u2014 $170,457 to Palo Verde. Read-only context; Karen will follow up personally in two weeks.",
+      "supporting_artifact_ids": [
+        "pv_a04_pie_fundraiser_thankyou"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "pv_m01_pie_thankyou_fri"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_nyt_morning_apr22",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "NYT Morning Briefing \u2014 top items on FOMC minutes and a midwest tornado outbreak. Aisha reads the headline on her phone in bed and archives."
+    },
+    {
+      "artifact_id": "bg_decoy_recruiter_klarna_apr22",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Cold recruiter email \u2014 Klarna in-house TA on a \"Head of Product, Workspace-adjacent SMB\" role. Generic template, addressed \"Hi Aisha.\" She will not reply."
+    },
+    {
+      "artifact_id": "bg_decoy_substack_4_apr22",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "\"Working Theory\" Substack from Reforge \u2014 weekly product-management essay. Aisha hasn't opened this Substack since February. Form-email."
+    },
+    {
+      "artifact_id": "pv_a03_yearbook_deadline_warmup",
+      "is_decoy": true,
+      "storyline_id": "palo_verde_year_end",
+      "rationale": "ParentSquare blast: Palo Verde yearbook pre-order deadline May 8 \u2014 generic templated reminder from the yearbook parent committee. Aisha already pre-ordered both kids' yearbooks in March."
+    },
+    {
+      "artifact_id": "bg_decoy_security_training_apr23",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google internal \u2014 first reminder that the FY26 annual security & privacy training is due by July 1. Form-email from learning@. Auto-suppressed by Aisha's filter, surfaces only in promotions."
+    },
+    {
+      "artifact_id": "bg_decoy_platformer_apr24",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Platformer Friday from Casey Newton \u2014 week-in-review on the latest Meta content-moderation pivot. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_jls_parent_group_chat_apr24",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Muted JLS incoming-parents group chat (iMessage) \u2014 14 unread, a debate over whether sixth-graders need lockers Day 1. Aisha will not open."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "for_date": "2026-05-05",
+  "based_on_state_through": "2026-05-04T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "summer_logistics.moment_tawonga_forms_second",
+      "storyline_id": "summer_logistics",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Second Tawonga form-chase from the registrar arrived yesterday and Aisha has not asked Naima about the bunkmate question. Bunkmate-request window closes May 20. Aisha plans to raise it Saturday morning.",
+      "supporting_artifact_ids": [
+        "d11_email_tawonga_forms_reminder_second",
+        "d12_note_house_tawonga_form_punchlist"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "summer_logistics.moment_tawonga_forms_second"
+    },
+    {
+      "moment_id": "q2okr_moment_brendan_tracker2",
+      "storyline_id": "q2_okr_grading",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Brendan's second tracker reminder \u2014 area at 0/4 submitted but Wei and Roman flagged in-progress. No action required this morning; it confirms the leads are moving and the hard May 22 due date holds.",
+      "supporting_artifact_ids": [
+        "q2okr_d17_email_brendan_tracker2",
+        "q2okr_d17_note_post_calibration_recap"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2okr_moment_brendan_tracker2"
+    },
+    {
+      "moment_id": "q3okr_moment_may05_james_followup_invite",
+      "storyline_id": "q3_okr_planning",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Aisha put a 30-minute follow-up on James's calendar yesterday afternoon for Wednesday 3 PM to walk through the platform-mandate framing pushback. Worth a one-line glance to confirm before the regular Wednesday rhythm.",
+      "supporting_artifact_ids": [
+        "q3okr_cal_aisha_thanks_james"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q3okr_moment_may05_james_followup_invite"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_lennys_may03",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter Sunday \u2014 \"Five frameworks for narrative-doc-driven exec reviews.\" Topical to Aisha's life, still unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_bluesky_digest_may03",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Bluesky \u2014 weekly \"what you missed\" digest of accounts she follows. Form-email, ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_stratechery_may04",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Monday weekly \u2014 essay on the OpenAI consumer-pricing tier. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_oura_may04",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly summary \u2014 sleep average 6h 04m, three nights under 5h, readiness flagged red. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_theinfo_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Information morning briefing \u2014 Tuesday edition, item on Google Workspace pricing churn at enterprise mid-market. Topically relevant, still unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_aws_personal_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "AWS billing \u2014 Marcus's personal account April invoice, $14.62 (S3 + a Lightsail VPS that hosts a side project). Form-email cc'd to Aisha as the secondary on the card."
+    },
+    {
+      "artifact_id": "bg_decoy_vendor_mixpanel_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Mixpanel enterprise AE cold pitch \u2014 \"15 minutes on how Workspace peers are instrumenting agent telemetry.\" Template, ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_parking_permit_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google internal \u2014 Mountain View campus parking-permit renewal notice for the Rivian. Form-email with a renewal link."
+    },
+    {
+      "artifact_id": "bg_decoy_linkedin_conn_may05",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "LinkedIn \u2014 connection request from an ex-Square colleague Aisha hasn't talked to since 2014. Note attached: \"long time! would love to catch up.\" She'll accept and never message."
+    }
+  ]
+}

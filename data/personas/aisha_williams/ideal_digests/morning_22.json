@@ -1,0 +1,43 @@
+{
+  "for_date": "2026-05-10",
+  "based_on_state_through": "2026-05-09T23:59:59-07:00",
+  "items": [],
+  "expected_suppressions": [
+    {
+      "artifact_id": "q2okr_d22_slack_decoy_recruiter_perf_cycle",
+      "is_decoy": true,
+      "storyline_id": "q2_okr_grading",
+      "rationale": "DECOY: Vendor cold email pitching an \"OKR-tracking and retrospective intelligence\" SaaS to VPs of Product. Mentions Q2 grading, retro narratives. Aisha does not engage."
+    },
+    {
+      "artifact_id": "email_decoy_linkedin_inmail",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. LinkedIn InMail notification forwarded to personal Gmail \u2014 external recruiter \"Marisa Bondurant @ Heidrick\" pitching a director PM candidate at Workspace-adjacent depth. Aisha ignores."
+    },
+    {
+      "artifact_id": "bg_decoy_platformer_may08",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Platformer Friday \u2014 week-in-review on agent-safety regulation in California. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_1password_may08",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "1Password \u2014 annual family-plan renewal notice, $59.88 charged. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_lennys_may10",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter Sunday \u2014 \"How to grade an OKR retro without losing the team.\" Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_chase_card_stmt_may10",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Chase Sapphire \u2014 monthly statement available, $4,812.42 due. Form-email. Aisha autopays."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+/* Inspector — utilitarian + journal trim. Two-pane layout when a row is
+ * selected; full-width tables otherwise. */
+
+:root {
+  --paper:        #f7f3eb;
+  --paper-dimmed: #efe9dc;
+  --ink:          #1f1d1a;
+  --ink-soft:     #5b554d;
+  --ink-faint:    #8d8779;
+  --rule:         #d6cdb8;
+  --accent:       #7a3a1f;
+  --highlight:    #f5e6c8;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink);
+  font: 13px/1.5 'JetBrains Mono','SF Mono', ui-monospace, Menlo, Consolas, monospace; }
+
+.inspector { padding: 12px 20px 80px; max-width: 1180px; margin: 0 auto; }
+.tabs { display: flex; gap: 0; border-bottom: 1px solid var(--rule); margin-bottom: 12px;
+  position: sticky; top: 0; background: var(--paper); z-index: 1; }
+.tab {
+  appearance: none; background: transparent; border: none; cursor: pointer;
+  padding: 8px 14px; font: inherit; color: var(--ink-soft);
+  border-bottom: 2px solid transparent;
+}
+.tab[aria-selected='true'] { color: var(--ink); border-bottom-color: var(--accent); }
+
+.search {
+  margin-left: auto;
+  appearance: none; background: var(--paper-dimmed); border: 1px solid var(--rule);
+  font: inherit; color: var(--ink); padding: 5px 10px; min-width: 220px;
+}
+.search:focus { outline: none; border-color: var(--ink); }
+
+.layout { display: grid; grid-template-columns: 1fr; gap: 16px; }
+.layout.with-detail { grid-template-columns: 1.2fr 1fr; }
+
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--rule); }
+th { color: var(--ink-faint); font-weight: 600; text-transform: uppercase; font-size: 11px; letter-spacing: 0.06em; }
+tr.row { cursor: default; }
+tr.row.clickable { cursor: pointer; }
+tr.row.clickable:hover td { background: var(--paper-dimmed); }
+tr.row.selected td { background: var(--highlight); }
+
+.empty { color: var(--ink-faint); padding: 24px; text-align: center; font-style: italic; }
+.header { display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 14px; gap: 12px; }
+.header h1 { font-size: 18px; margin: 0; font-weight: 600; }
+.header .meta { color: var(--ink-faint); font-size: 11px; }
+
+/* Detail pane — switches to the serif aesthetic for prose readability. */
+.detail {
+  border-left: 1px solid var(--rule);
+  padding: 0 18px;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 14px;
+  line-height: 1.55;
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
+}
+.detail h2 { font-size: 22px; margin: 0 0 6px; font-style: italic; font-weight: 600; }
+.detail .id { color: var(--ink-faint); font-size: 12px; font-family: 'JetBrains Mono', monospace; margin: 0 0 14px; }
+.detail .section-title {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em;
+  color: var(--ink-soft); margin: 18px 0 6px;
+  border-bottom: 1px solid var(--rule); padding-bottom: 4px;
+}
+.detail .layer-content { margin: 0 0 6px; }
+.detail .precision-tag {
+  display: inline-block;
+  font-family: 'JetBrains Mono', monospace; font-size: 11px;
+  color: var(--ink-faint);
+  margin-left: 6px;
+}
+.detail ul { margin: 4px 0 0 0; padding-left: 18px; }
+.detail li { margin: 3px 0; }
+.detail .close-btn {
+  float: right; appearance: none; background: transparent; border: none;
+  cursor: pointer; font: inherit; font-size: 18px; color: var(--ink-faint);
+}
+.detail .close-btn:hover { color: var(--ink); }

@@ -1,0 +1,213 @@
+{
+  "for_date": "2026-05-18",
+  "based_on_state_through": "2026-05-17T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "css_m_review_pass_due",
+      "storyline_id": "case_study_series",
+      "section": "if_one_thing",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "The case-study review (drafted Sunday evening at the library) went out Monday afternoon with six line edits on Lonestar and structural suggestions on Marlin, unblocking the design phase ahead. The review walkthrough with Maya and Renee is locked for Tuesday 2:30 p.m., with the comps landing Tuesday afternoon to stay on track for the May 21 ship target.",
+      "supporting_artifact_ids": [
+        "css_d29_note_avery_sun_review",
+        "css_d30_email_avery_review_back"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "css_m_review_pass_due"
+    },
+    {
+      "moment_id": "design_partner_renewal.moment_avery_addendum_reply",
+      "storyline_id": "design_partner_renewal",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Avery's review of Aaron's data-security addendum is in her notes \u2014 send back the three tracked changes today (72-hour breach, clarified subprocessor scope, encryption-at-rest accepted) to keep the signature call on track for Friday, May 22.",
+      "supporting_artifact_ids": [
+        "dpr_d27_email_aaron_addendum_draft",
+        "dpr_d30_email_avery_addendum_redline",
+        "dpr_d30_note_avery_addendum_review"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "design_partner_renewal.moment_avery_addendum_reply"
+    },
+    {
+      "moment_id": "moment_mara_wedding_block",
+      "storyline_id": "summer_family_logistics",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Avery locked June 27\u201328 with Ethan on May 17 (proposed the dates, awaiting his response). The wedding-block decision now centers on two items: decide room class with Sam (likely a king) and confirm the Sentinel Hotel block reservation by July 15 deadline.",
+      "supporting_artifact_ids": [
+        "d28_email_mara_venue_logistics",
+        "d29_email_ethan_pre_reply_ping"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-17",
+          "by": "noise_ethan_picks_dates_himself",
+          "by_storyline": "summer_family_logistics",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "moment_mara_wedding_block"
+    },
+    {
+      "moment_id": "q2_board.moment_d30_marlene_scope_track",
+      "storyline_id": "q2_board_prep",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Marlene will email this afternoon asking for scope clarity on the Q2 financial section and cap-table waterfall scenario; Avery's standing position is to defer both until the term-sheet picture clarifies.",
+      "supporting_artifact_ids": [
+        "q2_board.d30_email_marlene_scope_question"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "q2_board.moment_d30_marlene_scope_track"
+    },
+    {
+      "moment_id": "soc2_moment_delay_notice",
+      "storyline_id": "soc2_type2_audit",
+      "section": "urgent_todo",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Tom Halpern's Monday-afternoon email flagged a SOC 2 system-description peer-review wording issue, slipping the final report from May 19 to Wednesday May 20 (24\u201336 hour slip). The slip overlaps Friday's hard-stop third-diligence deadline. Marlene's concurrent scope questions on the Q2 board pack (burn depth, KPI set, cap-table model) have been deferred to Monday May 25 to create breathing room and align with her May books close and June 1 prep timeline.",
+      "supporting_artifact_ids": [
+        "soc2_d30_calendar_update_final_delivery_slip",
+        "soc2_d30_email_tom_delay_notice"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-18",
+          "by": "noise_marlene_capacity_squeeze",
+          "by_storyline": "soc2_type2_audit",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "soc2_moment_delay_notice"
+    },
+    {
+      "moment_id": "wst_moment_d30_class_assignment_kaiser",
+      "storyline_id": "wren_school_transition",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Josie announced Wren's TK class assignment \u2014 AM section, Ms. Devin Park and Mr. Cameron Liu, 18 in the cohort, with health forms due June 1. Kaiser rescheduled Wren's pediatrician appointment from Friday May 22 at 2:15 p.m. to Thursday May 28 at 3:30 p.m. due to provider CME conflict; Sam accepted the reschedule. Avery and Sam have not yet discussed whether to keep or cancel the rescheduled appointment given Wren's strep recovery trajectory.",
+      "supporting_artifact_ids": [
+        "wst_d30_calendar_kaiser_update",
+        "wst_d30_email_josie_class_assignment",
+        "wst_d30_email_kaiser_reschedule"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "DECLARED",
+          "from_date": "2026-05-18",
+          "by": "wst_noise_class_assignment_landed",
+          "by_storyline": "wren_school_transition",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "wst_moment_d30_class_assignment_kaiser"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "wst_d28_email_decoy_sproutling",
+      "is_decoy": true,
+      "storyline_id": "wren_school_transition",
+      "rationale": "Cold-pitch from \"Stanford Sproutling Academy\": private TK enrichment \"Stanford-affiliated\" program offering one-on-one cognitive readiness assessments for $499. Avery archives without opening past the"
+    },
+    {
+      "artifact_id": "bg_saastr_blog_may16",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "SaaStr blog newsletter \u2014 'What Series A LPs are looking for in 2026.'"
+    },
+    {
+      "artifact_id": "bg_lennys_newsletter_may17",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter weekly \u2014 interview on PMF metrics."
+    },
+    {
+      "artifact_id": "bg_oura_weekly_may17",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly insights \u2014 readiness yellow all week, sleep down again."
+    },
+    {
+      "artifact_id": "bg_dreamforce_pitch_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Dreamforce 2026 \u2014 partner-track cold pitch from Salesforce ecosystem team."
+    },
+    {
+      "artifact_id": "bg_block_group_text_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Block group text \u2014 package theft alert on Manila Ave, neighbor sharing Ring footage."
+    },
+    {
+      "artifact_id": "bg_linear_weekly_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Linear weekly project digest \u2014 engineering velocity summary."
+    }
+  ]
+}

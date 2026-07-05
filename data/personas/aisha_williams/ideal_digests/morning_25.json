@@ -1,0 +1,247 @@
+{
+  "for_date": "2026-05-13",
+  "based_on_state_through": "2026-05-12T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "q2okr_moment_james_long_pushback_reply",
+      "storyline_id": "q2_okr_grading",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "James added a fifteen-minute extension to the Wednesday 10 AM 1:1 \u2014 'to close out the 0.5 thing.' The reply window for Aisha tightens: send the five-sentence hold-the-line email by 7 AM, before the 1:1 turns the conversation into something the score doesn't warrant.",
+      "supporting_artifact_ids": [
+        "q2okr_d27_email_aisha_reply_james",
+        "q2okr_d27_email_james_long_pushback",
+        "q2okr_d27_note_james_reply_draft",
+        "q2okr_d28_calinv_james_extra_15"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-13",
+          "by": "q2okr_noise_james_extra_15_extension",
+          "by_storyline": "q2_okr_grading",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2okr_moment_james_long_pushback_reply"
+    },
+    {
+      "moment_id": "moment_intake_prep_may13",
+      "storyline_id": "director_pm_hiring",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Priya OOO Wed-Thu (daughter sick); Aisha owns intake prep solo \u2014 role spec, comp comparable, scorecard draft all on her tonight without Priya's usual sweep before sending to Maya.",
+      "supporting_artifact_ids": [
+        "email_aisha_to_maya_intake_brief",
+        "note_intake_prep_role_spec"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-11",
+          "by": "noise_maya_intake_reschedule",
+          "by_storyline": "director_pm_hiring",
+          "new_target": null,
+          "new_priority": null
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-13",
+          "by": "xnoise_priya_ooo_may13",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_intake_prep_may13"
+    },
+    {
+      "moment_id": "q3okr_moment_may13_chase_still_undone",
+      "storyline_id": "q3_okr_planning",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Second Wednesday in a row that the Hannah-and-Roman chase Slack hasn't gone \u2014 and now Priya, who offered last week to chase them herself, is OOO. The drafted-but-undone pattern is now Aisha's alone to break.",
+      "supporting_artifact_ids": [
+        "q3okr_email_priya_tracker_status",
+        "q3okr_note_may06_chase_draft_v1"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-13",
+          "by": "xnoise_priya_ooo_may13",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q3okr_moment_may13_chase_still_undone"
+    },
+    {
+      "moment_id": "spr_moment_may13_rohit_v4_pushback",
+      "storyline_id": "strategic_pivot_review",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Rohit's second-pass read on the v4 narrative flagged three concrete pushback points that David will likely push on: headcount sequencing is optimistic on attrition and backfill timing, platform-mandate funding split at 60/40 is not yet agreed by David, and Vinod's silence on mandate scope is unaddressed in writing. Aisha forwarded the feedback to Priya Tuesday evening and needs to triage which pushback points to prioritize in the narrative revision before David sees the read-ahead or the May 21 rehearsal prep.",
+      "supporting_artifact_ids": [
+        "spr_d23_email_rohit_v4_comments"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-13",
+          "by": "xnoise_priya_ooo_may13",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "spr_moment_may13_rohit_v4_pushback"
+    },
+    {
+      "moment_id": "q2okr_moment_roman_draft_in",
+      "storyline_id": "q2_okr_grading",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Roman submitted his Q2 retro draft on time yesterday. Workmanlike, under the cap. Brendan's tracker should flip to 1/4 by morning. No reply needed.",
+      "supporting_artifact_ids": [
+        "q2okr_d26_email_roman_retro_draft"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2okr_moment_roman_draft_in"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "spr_d22_email_decoy_mckinsey_alum",
+      "is_decoy": true,
+      "storyline_id": "strategic_pivot_review",
+      "rationale": "DECOY: A McKinsey alumna Aisha overlapped with in the Atlanta office in 2007 pitches \"strategic-pivot facilitation\" services, says \"I heard you might be navigating a portfolio realignment.\" Three para"
+    },
+    {
+      "artifact_id": "spr_d22_email_decoy_recruiter_workspace_vp",
+      "is_decoy": true,
+      "storyline_id": "strategic_pivot_review",
+      "rationale": "DECOY: A retained-search recruiter pitches a VP role at a competitor \"Workspace-adjacent\" company with a 12-figure platform mandate; carefully name-drops a mutual ex-McKinsey contact. The pitch mentio"
+    },
+    {
+      "artifact_id": "bg_decoy_stratechery_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Monday weekly \u2014 piece on Cloudflare's developer-platform play. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_vendor_pendo_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Pendo enterprise AE cold pitch \u2014 third follow-up in a six-touch sequence. Auto-template. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_calendar_nudge_may11",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google internal calendar-AI nudge \u2014 \"You have 14 meetings this week with under 15 minutes of buffer. Want to decline one?\" Auto-email. Aisha snoozes."
+    },
+    {
+      "artifact_id": "d24_email_jls_pta_spirit_wear_decoy",
+      "is_decoy": true,
+      "storyline_id": "jls_naima_transition",
+      "rationale": "JLS PTA spirit-wear vendor pitch \u2014 pre-orders for Panther T-shirts and hoodies for incoming sixth-graders. Low-signal; Aisha archives without reading."
+    },
+    {
+      "artifact_id": "email_decoy_candidate_inbound",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. Cold inbound from a director-level PM candidate via LinkedIn-sourced email: \"Saw your team's surface area on Workspace \u2014 would love 20 minutes if you're open to senior PM director candidates th"
+    },
+    {
+      "artifact_id": "bg_decoy_theinfo_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Information morning briefing \u2014 Tuesday edition, lead on a Snowflake-Databricks customer overlap study. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_saastr_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "SaaStr Annual cold pitch \u2014 speaker invite for September 2026 panel on \"Workspace in the agent era.\" Generic, no personalization beyond title. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_paloaltoonline_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Palo Alto Online Tuesday digest \u2014 top stories on a PAUSD board meeting and a council parking-policy vote. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_pamf_apptreminder_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "PAMF MyChart \u2014 automated reminder that Idris is due for his fall asthma-management check. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_jls_parent_group_chat_may12",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Muted JLS incoming-parents group chat \u2014 22 unread, a debate over the orchestra-vs-band sixth-grade elective. Aisha will not open."
+    },
+    {
+      "artifact_id": "pv_a18_ayso_fall_reg_decoy",
+      "is_decoy": true,
+      "storyline_id": "palo_verde_year_end",
+      "rationale": "AYSO Region 26 marketing email: fall season early-bird registration opens May 15, early-bird pricing through June 1, link to the BlueSombrero portal. Templated; not addressed to either parent personal"
+    },
+    {
+      "artifact_id": "bg_decoy_recruiter_notion_may13",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Cold recruiter email \u2014 Notion in-house on a \"Head of Product, AI Surfaces\" role. Personalized opening referencing Aisha's Lenny's-podcast appearance from 2024. Still archived."
+    }
+  ]
+}

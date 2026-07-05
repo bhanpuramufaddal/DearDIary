@@ -1,0 +1,229 @@
+{
+  "for_date": "2026-05-19",
+  "based_on_state_through": "2026-05-18T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "q2okr_moment_brendan_tracker3_hannah_late",
+      "storyline_id": "q2_okr_grading",
+      "section": "urgent_todo",
+      "priority": "P0",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Hannah did not surface the draft in her Tuesday 1:1 at 1:30 and has not replied to Aisha's preemptive Slack DM from Monday evening. The pattern is the same as her Q3 fall lateness. The Wednesday morning chase is now a must-do, not a maybe-do \u2014 the Friday EOD deadline does not move.",
+      "supporting_artifact_ids": [
+        "q2okr_d32_note_hannah_scoring_judgment",
+        "q2okr_d33_email_brendan_tracker3"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-19",
+          "by": "q2okr_noise_hannah_tuesday_silence",
+          "by_storyline": "q2_okr_grading",
+          "new_target": null,
+          "new_priority": "P0"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2okr_moment_brendan_tracker3_hannah_late"
+    },
+    {
+      "moment_id": "spr_moment_may19_last_biweekly",
+      "storyline_id": "strategic_pivot_review",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Last 4 p.m. biweekly with David before the May 28 review. The deck has three open boxes still tagged in slides 6, 9, and 14; Aisha owes sign-off before 4 p.m. The three asks for David are framed in the prep note.",
+      "supporting_artifact_ids": [
+        "spr_d30_email_priya_pre_biweekly_deck",
+        "spr_d30_note_may19_biweekly_prep"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "spr_moment_may19_last_biweekly"
+    },
+    {
+      "moment_id": "jls_moment_grierson_allcall_may19",
+      "storyline_id": "jls_naima_transition",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Principal Grierson's all-call yesterday said letters post by end-of-day Thursday May 21 \u2014 that lands Aisha in a decision about how and when to tell Naima, with Idris's third-grade play that same evening complicating the window.",
+      "supporting_artifact_ids": [
+        "d30_email_jls_principal_grierson_allcall",
+        "d30_note_chase_draft_may18"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "jls_moment_grierson_allcall_may19"
+    },
+    {
+      "moment_id": "moment_level_signoff_may19",
+      "storyline_id": "director_pm_hiring",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "approve",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Priya is going to ping Brendan today for a 15-min L8 level confirmation with David before May 28 \u2014 the slate cannot leave the writing block until this lands. Aisha needs to OK the framing of Priya's note to Brendan before it sends.",
+      "supporting_artifact_ids": [
+        "email_priya_brendan_signoff_ask"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_level_signoff_may19"
+    },
+    {
+      "moment_id": "q3okr_moment_may19_priya_eod_gap",
+      "storyline_id": "q3_okr_planning",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Hannah's silence held overnight. Priya's holding pattern is doing the work, but Aisha owning the chase (or formally handing it off) is the call the morning needs.",
+      "supporting_artifact_ids": [
+        "q3okr_email_priya_monday_status"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-19",
+          "by": "q3okr_noise_hannah_silence_persists",
+          "by_storyline": "q3_okr_planning",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q3okr_moment_may19_priya_eod_gap"
+    },
+    {
+      "moment_id": "summer_logistics.moment_tawonga_final_deadline",
+      "storyline_id": "summer_logistics",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Tawonga bunkmate-request window closes Friday at 5 p.m. PT \u2014 three days out. Naima asked about preference Saturday but still hasn't decided. Push for a decision today or plan to submit with no preference by Friday EOD.",
+      "supporting_artifact_ids": [
+        "d25_email_tawonga_final_deadline"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "summer_logistics.moment_tawonga_final_deadline"
+    },
+    {
+      "moment_id": "summer_logistics.moment_renee_packing_list",
+      "storyline_id": "summer_logistics",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Ren\u00e9e sent the formal Mendocino packing-list Google Doc last night with a meal-plan grid; she asked for Aisha's notes by end of week. Aisha owes a reply within three days per pattern.",
+      "supporting_artifact_ids": [
+        "d24_email_renee_packing_list_draft"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "summer_logistics.moment_renee_packing_list"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_lennys_may17",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter Sunday \u2014 \"Hiring a director-level PM when you don't have an open req yet.\" Unopened."
+    },
+    {
+      "artifact_id": "email_decoy_recruiter_followup",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. Yet another external recruiter cold email referencing a \"Workspace-adjacent\" PM candidate \u2014 different firm, same shape as Apr 29. Aisha archives without reading past the second sentence."
+    },
+    {
+      "artifact_id": "pv_a28_spiritwear_decoy",
+      "is_decoy": true,
+      "storyline_id": "palo_verde_year_end",
+      "rationale": "Palo Verde spirit-wear final-sale email \u2014 25% off through May 24, screen-printed hoodies and tees in 5th-grader sizes. Templated, lands in personal Gmail. Aisha won't open it."
+    },
+    {
+      "artifact_id": "bg_decoy_stratechery_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Monday weekly \u2014 long essay on Workspace-vs-M365 in the agent era. Topical, but unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_vendor_amplitude_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Amplitude enterprise AE cold pitch \u2014 \"Workspace peers using us for agent-feature analytics.\" Auto-template. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_oura_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly summary \u2014 sleep average 5h 49m, four nights under 5h, readiness red. The pattern of exec-prep weeks. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_recruiter_lattice_may19",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Cold recruiter email \u2014 Lattice external retained on \"CPO, Lattice.\" Template, addressed Aisha by name. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_linkedin_conn_may19",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "LinkedIn \u2014 three pooled connection requests (founders, an agency BD, a coach). Form-email digest. Ignored."
+    }
+  ]
+}

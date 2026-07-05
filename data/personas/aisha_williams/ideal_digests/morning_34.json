@@ -1,0 +1,195 @@
+{
+  "for_date": "2026-05-22",
+  "based_on_state_through": "2026-05-21T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "jls_moment_letter_arrived_may22",
+      "storyline_id": "jls_naima_transition",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "JLS placement letter landed yesterday at 5:24 PM \u2014 Team Sequoia, Mr. Patel. Aisha forwarded to Marcus and told him to tell Naima Saturday, not tonight. Need to confirm with Lily's mom Susan this morning whether Lily is on the same team before the Saturday check-in.",
+      "supporting_artifact_ids": [
+        "d33_email_aisha_to_marcus_forward",
+        "d33_email_jls_placement_letter",
+        "d33_note_letter_arrived_decision",
+        "d34_email_aisha_to_lily_mom"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "SHIFTED",
+          "from_date": "2026-05-18",
+          "by": "jls_noise_letter_delayed_to_thursday",
+          "by_storyline": "jls_naima_transition",
+          "new_target": "2026-05-22",
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "jls_moment_letter_arrived_may22"
+    },
+    {
+      "moment_id": "q2okr_moment_hannah_draft_consolidation",
+      "storyline_id": "q2_okr_grading",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Hannah's 2,400-word Q2 retro draft, compressed by Priya to 1,400 words and edited per Aisha's Thursday 10:14 p.m. feedback, locks Friday 8:30\u201310:30 a.m. at the kitchen island with Priya for final consolidation before EOD Friday submission to Brendan.",
+      "supporting_artifact_ids": [
+        "q2okr_d35_email_hannah_retro_draft",
+        "q2okr_d35_email_priya_compressed_back_to_aisha",
+        "q2okr_d35_note_final_readthrough",
+        "q2okr_d36_email_aisha_to_brendan_submission"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-21",
+          "by": "q2okr_noise_brendan_deadline_pull_in",
+          "by_storyline": "q2_okr_grading",
+          "new_target": null,
+          "new_priority": "P0"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-22",
+          "by": "xnoise_marcus_oncall_may22",
+          "by_storyline": "palo_verde_year_end",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "q2okr_moment_hannah_draft_consolidation"
+    },
+    {
+      "moment_id": "spr_moment_may22_narrative_lock",
+      "storyline_id": "strategic_pivot_review",
+      "section": "urgent_todo",
+      "priority": "P0",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Final read-ahead deadline today at 5 p.m. Pacific \u2014 narrative doc and one-page memo to Brendan \u2014 and Marcus's overnight Stripe escalation means Aisha may have to cover Field Day mid-day, compressing the window for the narrative-lock pass.",
+      "supporting_artifact_ids": [
+        "spr_d33_email_brendan_final_deadline",
+        "spr_d33_email_liam_final_neutral"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-22",
+          "by": "spr_noise_liam_neutral_silence",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": null,
+          "new_priority": null
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-22",
+          "by": "xnoise_marcus_oncall_may22",
+          "by_storyline": "palo_verde_year_end",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "spr_moment_may22_narrative_lock"
+    },
+    {
+      "moment_id": "pv_m12_field_day",
+      "storyline_id": "palo_verde_year_end",
+      "section": "calendar_personal",
+      "priority": "P1",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Marcus's Stripe P1 escalation overnight may keep him off the 9:30 water-balloon-station shift \u2014 Aisha is on standby to cover or find a backup parent, which collides with the narrative-lock 5pm deadline and the Hannah-Priya consolidation block.",
+      "supporting_artifact_ids": [
+        "pv_a17_reyes_fieldday_volunteer",
+        "pv_a35_reyes_fieldday_reminder"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-22",
+          "by": "xnoise_marcus_oncall_may22",
+          "by_storyline": "palo_verde_year_end",
+          "new_target": null,
+          "new_priority": "P1"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "pv_m12_field_day"
+    },
+    {
+      "moment_id": "q3okr_moment_may22_brendan_scope_creep",
+      "storyline_id": "q3_okr_planning",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Brendan asked Friday morning at 8:51 a.m. for a one-page framing memo for the June 3 portfolio review to accompany the consolidated Q3 set \u2014 new scope landing mid-consolidation. It is not a Friday-shape routine question; it is the kind of pull-forward from Tuesday biweekly that signals his read on your May 28 preparation pace.",
+      "supporting_artifact_ids": [
+        "q3okr_cal_brendan_june3_portfolio_review",
+        "q3okr_email_brendan_framing_memo_ask"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-22",
+          "by": "q3okr_noise_brendan_adds_framing_memo",
+          "by_storyline": "q3_okr_planning",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "q3okr_moment_may22_brendan_scope_creep"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "spr_d33_email_decoy_internal_comms",
+      "is_decoy": true,
+      "storyline_id": "strategic_pivot_review",
+      "rationale": "DECOY: An internal Google Communications partner emails Aisha unprompted, \"noticed your name on the May 28 portfolio review \u2014 happy to draft any post-decision org comms,\" with a templates link. Aisha "
+    },
+    {
+      "artifact_id": "bg_decoy_platformer_may22",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Platformer Friday \u2014 week-in-review on the Bluesky moderation team rebuild. Unopened."
+    }
+  ]
+}

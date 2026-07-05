@@ -1,0 +1,60 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.venv-prompts/
+digest-agent/.venv-prompts/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# uv
+.python-version
+
+# Generated personas — exclude all by default
+data/personas/*/
+!data/personas/.gitkeep
+
+# Re-include avery_chen as a committed reference dataset
+!data/personas/avery_chen/
+# But within avery_chen, still exclude per-run artifacts (run logs, langgraph checkpoint, sqlite WAL/SHM)
+data/personas/avery_chen/agent_turns/
+data/personas/avery_chen/.langgraph_checkpoint.db
+data/personas/avery_chen/persona.db-wal
+data/personas/avery_chen/persona.db-shm
+data/personas/avery_chen/personas/
+
+# Re-include aisha_williams as a second committed reference dataset (VP Product / big-org persona)
+!data/personas/aisha_williams/
+data/personas/aisha_williams/agent_turns/
+data/personas/aisha_williams/.langgraph_checkpoint.db
+data/personas/aisha_williams/persona.db-wal
+data/personas/aisha_williams/persona.db-shm
+data/personas/aisha_williams/personas/
+
+# digest-agent build / install artifacts (defense in depth — its own .gitignore covers these)
+digest-agent/node_modules/
+digest-agent/dist/
+digest-agent/release/
+node_modules/
+dist/
+
+out/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

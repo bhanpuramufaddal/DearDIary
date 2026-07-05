@@ -1,0 +1,146 @@
+{
+  "for_date": "2026-05-04",
+  "based_on_state_through": "2026-05-03T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "q2okr_moment_staff_calibration_round1",
+      "storyline_id": "q2_okr_grading",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Monday staff is the first Q2 grading calibration pass. Aisha's Sunday-evening prep note locks the rubric ranges, maps the per-lead expected flags (Wei clean narrative, James launch slip at 0.5, Roman deferral to Q3, Hannah contingency framing requiring careful handling), and outlines the do-not-put-on-the-spot approach. Forty-minute hold for KR-flag review across the four leads where the score ranges get set before they write their narratives.",
+      "supporting_artifact_ids": [
+        "q2okr_d15_note_staff_calibration_prep",
+        "q2okr_d16_calinv_staff_calibration_agenda"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-04",
+          "by": "xnoise_david_biweekly_pushed_may04",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "q2okr_moment_staff_calibration_round1"
+    },
+    {
+      "moment_id": "spr_moment_may04_biweekly_prep",
+      "storyline_id": "strategic_pivot_review",
+      "section": "urgent_todo",
+      "priority": "P0",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "May 5 biweekly with David pushed by Brendan to Wednesday May 6 at 3:30 PM (exec offsite landing Tuesday afternoon) \u2014 Aisha gets an extra working day on the prep pass but also has to absorb the calendar shift into staff and the Q2 calibration plan.",
+      "supporting_artifact_ids": [
+        "spr_d15_email_aisha_to_nina_scrub_request",
+        "spr_d15_email_brendan_may4_agenda",
+        "spr_d15_note_may5_biweekly_prep"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-04",
+          "by": "xnoise_david_biweekly_pushed_may04",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "spr_moment_may04_biweekly_prep"
+    },
+    {
+      "moment_id": "jls_moment_parent_coffee_reminder_may4",
+      "storyline_id": "jls_naima_transition",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "JLS parent coffee is Wednesday morning at 8:30 in the JLS library; Sunday digest last night confirmed the agenda. RSVP deadline is tomorrow.",
+      "supporting_artifact_ids": [
+        "d10_calendar_parent_coffee_invite",
+        "d15_email_jls_digest_may3"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "jls_moment_parent_coffee_reminder_may4"
+    },
+    {
+      "moment_id": "moment_priya_thread_resend_may4",
+      "storyline_id": "director_pm_hiring",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Maya Krishnan is waiting for three exploratory-intake timing options for the director PM L8 role. Aisha needs to respond to Maya with three proposed times, coordinated with Priya relative to the May 5 biweekly readjustment and the narrative work.",
+      "supporting_artifact_ids": [
+        "email_priya_maya_thread_resend"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "moment_priya_thread_resend_may4"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_googleone_may02",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google One \u2014 automated receipt for the 2TB family plan, $9.99 charged to the card ending in 4477. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_lennys_may03",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter Sunday \u2014 \"Five frameworks for narrative-doc-driven exec reviews.\" Topical to Aisha's life, still unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_bluesky_digest_may03",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Bluesky \u2014 weekly \"what you missed\" digest of accounts she follows. Form-email, ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_stratechery_may04",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Monday weekly \u2014 essay on the OpenAI consumer-pricing tier. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_oura_may04",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly summary \u2014 sleep average 6h 04m, three nights under 5h, readiness flagged red. Form-email."
+    }
+  ]
+}

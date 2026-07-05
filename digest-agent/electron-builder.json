@@ -1,0 +1,36 @@
+{
+  "appId": "com.myrico.digest",
+  "productName": "Digest Agent",
+  "directories": {
+    "output": "release",
+    "buildResources": "build-resources"
+  },
+  "files": [
+    "dist/**/*",
+    "prompts/**/*",
+    "plays/**/*",
+    "package.json",
+    "node_modules/**/*",
+    "!node_modules/**/{test,tests,spec,__tests__,docs,example,examples,examples-*}/**",
+    "!node_modules/**/*.{md,markdown,ts,d.ts,map,coffee,jst,jade,nycrc,prettierrc,eslintrc,editorconfig}",
+    "!**/{.DS_Store,.git,.svn,.gitignore,.gitattributes,.npmignore,CHANGELOG.md,CHANGES.md}"
+  ],
+  "asarUnpack": [
+    "node_modules/better-sqlite3/**/*",
+    "dist/main/mcp/substrate/**/*",
+    "dist/main/mcp/surface/**/*",
+    "prompts/**/*"
+  ],
+  "mac": {
+    "category": "public.app-category.productivity",
+    "target": [{ "target": "dmg", "arch": ["arm64", "x64"] }],
+    "hardenedRuntime": false,
+    "gatekeeperAssess": false,
+    "identity": null
+  },
+  "dmg": {
+    "title": "Digest ${version}",
+    "writeUpdateInfo": false
+  },
+  "extraResources": []
+}

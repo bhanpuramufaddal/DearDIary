@@ -1,0 +1,136 @@
+{
+  "for_date": "2026-05-01",
+  "based_on_state_through": "2026-04-30T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "series_a_raise.moment_d13_aileen_pro_rata_question",
+      "storyline_id": "series_a_raise",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Aileen Lee's reply to the Friday update asks whether Cowboy should make an explicit pro-rata commitment now \u2014 the kind of mid-window decision Avery only takes once.",
+      "supporting_artifact_ids": [
+        "d13_email_aileen_check_in",
+        "d13_email_weekly_investor_update_may_1"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "series_a_raise.moment_d13_aileen_pro_rata_question"
+    },
+    {
+      "moment_id": "css_m_outreach_tone_review",
+      "storyline_id": "case_study_series",
+      "section": "decisions_approvals",
+      "priority": "P2",
+      "action_class": "approve",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Maya wants a tone check on the two customer outreach drafts (Brennan at Lonestar, Erin at Marlin) before Jordan sends today. She specifically asked you to flag if anything reads too pitch-deck.",
+      "supporting_artifact_ids": [
+        "css_d13_email_maya_outreach_draft"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "css_m_outreach_tone_review"
+    },
+    {
+      "moment_id": "soc2_moment_rep_letter_walkthrough_requested",
+      "storyline_id": "soc2_type2_audit",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Tom Halpern wants a 30-minute management-rep-letter walkthrough Wednesday May 6. Invite already on the calendar; the prompt is that Avery is supposed to read the rep-letter template ahead of time and has not.",
+      "supporting_artifact_ids": [
+        "soc2_d13_calendar_invite_rep_letter_walkthrough",
+        "soc2_d13_email_tom_rep_letter_walkthrough_request"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "soc2_moment_rep_letter_walkthrough_requested"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_oaklandside_apr29",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Oaklandside daily morning briefing."
+    },
+    {
+      "artifact_id": "wst_d12_email_decoy_outschool",
+      "is_decoy": true,
+      "storyline_id": "wren_school_transition",
+      "rationale": "Cold-pitch from Outschool: \"Help Wren transition to kindergarten with our small-group TK readiness classes.\" Personalized with first name, links to summer enrichment offerings, signed by an Outschool "
+    },
+    {
+      "artifact_id": "bg_recruiter_ceo_apr30",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "True Search recruiter cold pitch \u2014 'CEO search at a stealth fintech, may be of interest as a board role.'"
+    },
+    {
+      "artifact_id": "bg_angellist_digest_apr30",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "AngelList Venture monthly digest \u2014 syndicate updates and platform announcements."
+    },
+    {
+      "artifact_id": "css_d13_email_decoy_vidyard",
+      "is_decoy": true,
+      "storyline_id": "case_study_series",
+      "rationale": "Vidyard sales rep cold outreach to avery@holdfast.co \u2014 \"case study videos that convert 5x better than text\" \u2014 references Holdfast by name and offers a 30-min demo. Generic vendor pitch."
+    },
+    {
+      "artifact_id": "bg_acquired_podcast_may1",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Acquired podcast \u2014 new episode notification, latest deep dive."
+    },
+    {
+      "artifact_id": "bg_aclu_donation_may1",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "ACLU monthly recurring donation receipt \u2014 $50.00."
+    },
+    {
+      "artifact_id": "bg_opef_donation_may1",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oakland Public Education Fund monthly recurring donation receipt \u2014 $25.00."
+    },
+    {
+      "artifact_id": "bg_brex_statement_may1",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Brex April statement available \u2014 Holdfast corporate card cycle close."
+    },
+    {
+      "artifact_id": "bg_vercel_invoice_may1",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Vercel Pro plan invoice \u2014 $240/month plus bandwidth overage."
+    }
+  ]
+}

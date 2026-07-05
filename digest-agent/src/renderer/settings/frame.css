@@ -1,0 +1,95 @@
+:root {
+  --paper:        #f7f3eb;
+  --ink:          #1f1d1a;
+  --ink-soft:     #5b554d;
+  --ink-faint:    #8d8779;
+  --rule:         #d6cdb8;
+  --accent:       #7a3a1f;
+  --paper-dimmed: #efe9dc;
+  --highlight:    #f5e6c8;
+  --danger:       #a04b3a;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink);
+  font-family: 'Source Serif 4', Georgia, serif; font-size: 16px; }
+
+.settings { max-width: 760px; padding: 28px 32px 80px; margin: 0 auto; }
+h1 { font-size: 24px; margin: 0 0 6px; font-weight: 600; }
+.meta { color: var(--ink-faint); font-size: 13px; margin: 0 0 22px; font-style: italic; }
+
+section { margin: 0 0 28px; }
+section h2 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-soft);
+  font-weight: 600;
+  margin: 0 0 10px;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 6px;
+}
+
+label { display: block; margin: 0 0 14px; }
+label > .name {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-bottom: 4px;
+  letter-spacing: 0.02em;
+}
+label > .hint {
+  font-size: 12px;
+  font-style: italic;
+  color: var(--ink-faint);
+  margin: 2px 0 0;
+}
+
+input[type='text'], input[type='number'], select {
+  appearance: none;
+  background: var(--paper-dimmed);
+  border: 1px solid var(--rule);
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--ink);
+  padding: 6px 10px;
+  width: 100%;
+  max-width: 480px;
+}
+input[type='text']:focus, input[type='number']:focus, select:focus {
+  outline: none;
+  border-color: var(--ink);
+}
+
+input[type='checkbox'] { transform: translateY(2px); margin-right: 8px; }
+
+.row { display: flex; gap: 14px; align-items: flex-start; flex-wrap: wrap; }
+.row > * { flex: 1 1 200px; }
+
+.list { margin: 6px 0 0; padding: 0; list-style: none; }
+.list li {
+  display: flex; gap: 8px; align-items: center;
+  padding: 4px 0;
+}
+.list input { flex: 1; max-width: none; }
+
+button {
+  appearance: none; background: var(--ink); color: var(--paper);
+  border: 1px solid var(--ink);
+  font: inherit; padding: 6px 14px; cursor: pointer;
+}
+button.ghost { background: transparent; color: var(--ink); }
+button.danger { background: var(--danger); border-color: var(--danger); }
+button[disabled] { opacity: 0.5; cursor: default; }
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  padding: 12px 32px;
+  background: var(--paper-dimmed);
+  border-top: 1px solid var(--rule);
+  display: flex; gap: 12px; align-items: center;
+}
+.bottom-bar .status { color: var(--ink-faint); font-size: 13px; font-style: italic; flex: 1; }
+.bottom-bar .status.error { color: var(--danger); font-style: normal; }
+.bottom-bar .status.success { color: var(--ink); }

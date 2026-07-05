@@ -1,0 +1,55 @@
+{
+  "for_date": "2026-05-17",
+  "based_on_state_through": "2026-05-16T23:59:59-07:00",
+  "items": [],
+  "expected_suppressions": [
+    {
+      "artifact_id": "dpr_d27_email_decoy_press_pitch",
+      "is_decoy": true,
+      "storyline_id": "design_partner_renewal",
+      "rationale": "Trade-press reporter (\"Carrier Management\") cold-pitching a story on insurance back-office automation, asks if Holdfast has a customer case study they can share. Decoy during signature push."
+    },
+    {
+      "artifact_id": "css_d27_email_decoy_freelancer_pitch",
+      "is_decoy": true,
+      "storyline_id": "case_study_series",
+      "rationale": "Cold pitch from another freelance B2B SaaS writer who saw on LinkedIn that Maya joined Holdfast and noticed Holdfast doesn't have case studies yet. Personalizable cold email. Generic."
+    },
+    {
+      "artifact_id": "bg_brex_weekly_reminder_may15",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Brex \u2014 4 receipts missing for May expenses, please categorize."
+    },
+    {
+      "artifact_id": "bg_kaiser_wellness_may15",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Kaiser Permanente \u2014 annual wellness reminder, schedule your physical."
+    },
+    {
+      "artifact_id": "wst_d28_email_decoy_sproutling",
+      "is_decoy": true,
+      "storyline_id": "wren_school_transition",
+      "rationale": "Cold-pitch from \"Stanford Sproutling Academy\": private TK enrichment \"Stanford-affiliated\" program offering one-on-one cognitive readiness assessments for $499. Avery archives without opening past the"
+    },
+    {
+      "artifact_id": "bg_saastr_blog_may16",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "SaaStr blog newsletter \u2014 'What Series A LPs are looking for in 2026.'"
+    },
+    {
+      "artifact_id": "bg_lennys_newsletter_may17",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter weekly \u2014 interview on PMF metrics."
+    },
+    {
+      "artifact_id": "bg_oura_weekly_may17",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly insights \u2014 readiness yellow all week, sleep down again."
+    }
+  ]
+}

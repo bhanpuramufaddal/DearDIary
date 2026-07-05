@@ -1,0 +1,191 @@
+{
+  "for_date": "2026-05-20",
+  "based_on_state_through": "2026-05-19T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "q2okr_moment_hannah_chase",
+      "storyline_id": "q2_okr_grading",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "After 36 hours of Hannah silence post-Brendan's tracker, the Slack DM at 9 needs an email backup at 11 the same morning and a calendar hold for a 9 PM Thursday emergency review. Priya owns the calendar hold; Aisha owns the chase.",
+      "supporting_artifact_ids": [
+        "q2okr_d33_calinv_priya_hannah_emergency_review",
+        "q2okr_d34_email_aisha_chase_hannah",
+        "q2okr_d34_email_hannah_eod_thursday",
+        "q2okr_d34_note_hannah_chase_plan"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-20",
+          "by": "q2okr_noise_hannah_tuesday_silence",
+          "by_storyline": "q2_okr_grading",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2okr_moment_hannah_chase"
+    },
+    {
+      "moment_id": "q3okr_moment_may20_david_nudge",
+      "storyline_id": "q3_okr_planning",
+      "section": "urgent_todo",
+      "priority": "P0",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "David sent a three-line nudge asking for the consolidation shape (not numbers) by Friday. He gets same-hour response on anything. A short framing paragraph is the right shape; the consolidation doc itself is still at \"outline + half of section one.\"",
+      "supporting_artifact_ids": [
+        "q3okr_email_david_nudge"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q3okr_moment_may20_david_nudge"
+    },
+    {
+      "moment_id": "spr_moment_may20_david_dm_readahead_send",
+      "storyline_id": "strategic_pivot_review",
+      "section": "if_one_thing",
+      "priority": "P0",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "David's three-sentence DM at 8:31 a.m. resolves the open question on whether to initiate a Vinod conversation\u2014hold it, don't raise it. Aisha's v4 narrative (sent 6:52 a.m.) likely contains language suggesting a preliminary Vinod conversation; David's direction means that language needs revision before Friday's final read-ahead deadline (May 22, 5 p.m.). Between the first and second coffee, Aisha processes David's feedback and plans the Vinod-prelim language removal for Thursday or Friday revision.",
+      "supporting_artifact_ids": [
+        "spr_d31_cal_priya_rehearsal2_prep",
+        "spr_d31_email_aisha_to_david_final_readahead",
+        "spr_d31_email_david_post_biweekly_dm"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "MODIFIED",
+          "from_date": "2026-05-20",
+          "by": "spr_noise_david_hold_vinod",
+          "by_storyline": "strategic_pivot_review",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "spr_moment_may20_david_dm_readahead_send"
+    },
+    {
+      "moment_id": "pv_m09_play_time_shift",
+      "storyline_id": "palo_verde_year_end",
+      "section": "calendar_personal",
+      "priority": "P1",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Mrs. Reyes pushed the play start to 6:00 yesterday afternoon because the PIE board working session held the MUR; family calendar updated, refreshments setup at 6:00 now. Make sure Marcus saw the update.",
+      "supporting_artifact_ids": [
+        "pv_a29_reyes_play_time_shift",
+        "pv_a30_play_calendar_update"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        },
+        {
+          "state": "DECLARED",
+          "from_date": "2026-05-19",
+          "by": "pv_noise_play_time_shift",
+          "by_storyline": "palo_verde_year_end",
+          "new_target": null,
+          "new_priority": null
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "pv_m09_play_time_shift"
+    },
+    {
+      "moment_id": "moment_daniel_call_may20",
+      "storyline_id": "director_pm_hiring",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Exploratory 30-min with Daniel Reyes (Anthropic, via Sasha) at 4pm \u2014 framed both sides as \"let's just talk.\" Brendan signaled the David signoff is a hard-to-find slot through the 28th, so this stays as a conversation, not a step in a real loop.",
+      "supporting_artifact_ids": [
+        "cal_invite_daniel_reyes_call",
+        "email_brendan_walsh_holding"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_daniel_call_may20"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "email_decoy_recruiter_followup",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. Yet another external recruiter cold email referencing a \"Workspace-adjacent\" PM candidate \u2014 different firm, same shape as Apr 29. Aisha archives without reading past the second sentence."
+    },
+    {
+      "artifact_id": "pv_a28_spiritwear_decoy",
+      "is_decoy": true,
+      "storyline_id": "palo_verde_year_end",
+      "rationale": "Palo Verde spirit-wear final-sale email \u2014 25% off through May 24, screen-printed hoodies and tees in 5th-grader sizes. Templated, lands in personal Gmail. Aisha won't open it."
+    },
+    {
+      "artifact_id": "bg_decoy_stratechery_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Monday weekly \u2014 long essay on Workspace-vs-M365 in the agent era. Topical, but unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_vendor_amplitude_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Amplitude enterprise AE cold pitch \u2014 \"Workspace peers using us for agent-feature analytics.\" Auto-template. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_oura_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly summary \u2014 sleep average 5h 49m, four nights under 5h, readiness red. The pattern of exec-prep weeks. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_recruiter_lattice_may19",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Cold recruiter email \u2014 Lattice external retained on \"CPO, Lattice.\" Template, addressed Aisha by name. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_linkedin_conn_may19",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "LinkedIn \u2014 three pooled connection requests (founders, an agency BD, a coach). Form-email digest. Ignored."
+    }
+  ]
+}

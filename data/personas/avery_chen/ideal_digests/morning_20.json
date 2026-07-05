@@ -1,0 +1,136 @@
+{
+  "for_date": "2026-05-08",
+  "based_on_state_through": "2026-05-07T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "moment_ethan_reply_overdue_3day",
+      "storyline_id": "summer_family_logistics",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Ethan's June-visit ask is three days unanswered. A draft is open in Apple Notes and in Gmail. Send something.",
+      "supporting_artifact_ids": [
+        "d17_email_ethan_june_visit_ask",
+        "d20_note_ethan_reply_draft"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_ethan_reply_overdue_3day"
+    },
+    {
+      "moment_id": "series_a_raise.moment_d20_weekly_update_may_8",
+      "storyline_id": "series_a_raise",
+      "section": "urgent_todo",
+      "priority": "P2",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Friday weekly update \u2014 first one where the BVP P2 date is confirmed in writing to the seed-investor distribution list.",
+      "supporting_artifact_ids": [
+        "d20_email_weekly_investor_update_may_8"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "series_a_raise.moment_d20_weekly_update_may_8"
+    },
+    {
+      "moment_id": "soc2_moment_rep_letter_questions_out",
+      "storyline_id": "soc2_type2_audit",
+      "section": "urgent_todo",
+      "priority": "P2",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Avery's three open questions on rep-letter language need to go to Marlene and Priya this morning so working answers come back over the weekend and the letter can be signed Monday.",
+      "supporting_artifact_ids": [
+        "soc2_d20_email_avery_questions_rep_letter",
+        "soc2_d20_email_marlene_responds_rep_letter_questions"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "soc2_moment_rep_letter_questions_out"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "d18_email_techcrunch_press_decoy",
+      "is_decoy": true,
+      "storyline_id": "series_a_raise",
+      "rationale": "Cold email from a TechCrunch reporter asking if Holdfast is \"raising soon\" and offering an exclusive when the round announces. Avery does not reply."
+    },
+    {
+      "artifact_id": "bg_saastr_conf_pitch_may6",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "SaaStr Annual 2026 \u2014 speaker/sponsor cold outreach."
+    },
+    {
+      "artifact_id": "bg_icloud_storage_may6",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Apple iCloud storage almost full \u2014 upgrade to 2TB Family Plan nag."
+    },
+    {
+      "artifact_id": "bg_volvo_service_may6",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Volvo of Oakland \u2014 60,000 mile service reminder for the XC60."
+    },
+    {
+      "artifact_id": "bg_notion_upgrade_may7",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Notion \u2014 your team is approaching plan limits, upgrade nudge."
+    },
+    {
+      "artifact_id": "bg_glassdoor_review_may7",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Glassdoor \u2014 Holdfast received a new employee review (4 stars)."
+    },
+    {
+      "artifact_id": "bg_climbing_gym_renewal_may7",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Great Western Power Company \u2014 monthly membership auto-renewal receipt, $109."
+    },
+    {
+      "artifact_id": "css_d20_email_decoy_content_agency",
+      "is_decoy": true,
+      "storyline_id": "case_study_series",
+      "rationale": "Cold pitch from a content marketing agency (\"Bottomline Content\") offering case-study-and-content-strategy retainers. Mentions Holdfast's recent Y Combinator interest and growth-hire-from-fintech prof"
+    },
+    {
+      "artifact_id": "bg_goldman_emerging_growth_may8",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Goldman Sachs emerging-growth banker cold pitch \u2014 'happy to be helpful as you scale.'"
+    },
+    {
+      "artifact_id": "bg_carta_captable_may8",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Carta \u2014 quarterly cap-table audit reminder, recommended best practices."
+    }
+  ]
+}

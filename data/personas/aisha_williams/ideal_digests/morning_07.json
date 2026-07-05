@@ -1,0 +1,37 @@
+{
+  "for_date": "2026-04-25",
+  "based_on_state_through": "2026-04-24T23:59:59-07:00",
+  "items": [],
+  "expected_suppressions": [
+    {
+      "artifact_id": "pv_a03_yearbook_deadline_warmup",
+      "is_decoy": true,
+      "storyline_id": "palo_verde_year_end",
+      "rationale": "ParentSquare blast: Palo Verde yearbook pre-order deadline May 8 \u2014 generic templated reminder from the yearbook parent committee. Aisha already pre-ordered both kids' yearbooks in March."
+    },
+    {
+      "artifact_id": "bg_decoy_security_training_apr23",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google internal \u2014 first reminder that the FY26 annual security & privacy training is due by July 1. Form-email from learning@. Auto-suppressed by Aisha's filter, surfaces only in promotions."
+    },
+    {
+      "artifact_id": "bg_decoy_platformer_apr24",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Platformer Friday from Casey Newton \u2014 week-in-review on the latest Meta content-moderation pivot. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_jls_parent_group_chat_apr24",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Muted JLS incoming-parents group chat (iMessage) \u2014 14 unread, a debate over whether sixth-graders need lockers Day 1. Aisha will not open."
+    },
+    {
+      "artifact_id": "d06_email_idtech_upsell_decoy",
+      "is_decoy": true,
+      "storyline_id": "summer_logistics",
+      "rationale": "iD Tech marketing email \u2014 \"Extend Naima's Stanford summer: add a 2-week overnight academy\" \u2014 promo code CAMPNOW for $200 off. Pure upsell."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "for_date": "2026-04-26",
+  "based_on_state_through": "2026-04-25T23:59:59-07:00",
+  "items": [],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_platformer_apr24",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Platformer Friday from Casey Newton \u2014 week-in-review on the latest Meta content-moderation pivot. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_jls_parent_group_chat_apr24",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Muted JLS incoming-parents group chat (iMessage) \u2014 14 unread, a debate over whether sixth-graders need lockers Day 1. Aisha will not open."
+    },
+    {
+      "artifact_id": "d06_email_idtech_upsell_decoy",
+      "is_decoy": true,
+      "storyline_id": "summer_logistics",
+      "rationale": "iD Tech marketing email \u2014 \"Extend Naima's Stanford summer: add a 2-week overnight academy\" \u2014 promo code CAMPNOW for $200 off. Pure upsell."
+    },
+    {
+      "artifact_id": "bg_decoy_lennys_apr26",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter Sunday \u2014 \"How Stripe runs its annual planning.\" Aisha will half-flag this for Marcus and forget. Unopened."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "for_date": "2026-04-27",
+  "based_on_state_through": "2026-04-26T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "series_a_raise.moment_d09_byron_metrics_cut",
+      "storyline_id": "series_a_raise",
+      "section": "if_one_thing",
+      "priority": "P1",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Byron Deeter's Monday-morning request for a cohort-by-ACV net retention cut \u2014 the kind of partner email that gets answered before noon or it sits for the day.",
+      "supporting_artifact_ids": [
+        "d09_email_byron_metrics_cut_request"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "series_a_raise.moment_d09_byron_metrics_cut"
+    },
+    {
+      "moment_id": "css_m_kickoff_on_calendar",
+      "storyline_id": "case_study_series",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Case study series kickoff is on the calendar for Thursday 11am PT with Maya, Jenna, Jordan, and the freelance writer Renee Tanaka. Maya's agenda landed in your inbox Friday \u2014 skim before Thursday.",
+      "supporting_artifact_ids": [
+        "css_d6_email_maya_kickoff_agenda",
+        "css_d9_calendar_invite_kickoff"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "css_m_kickoff_on_calendar"
+    },
+    {
+      "moment_id": "design_partner_renewal.moment_kickoff_scheduled",
+      "storyline_id": "design_partner_renewal",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Tidemark renewal kickoff is on the calendar Thursday and Kevin Liu (procurement) has introduced himself with the vendor-onboarding packet \u2014 this is the first morning the renewal becomes a real workstream rather than a notice ping.",
+      "supporting_artifact_ids": [
+        "dpr_d06_calendar_invite_kickoff",
+        "dpr_d09_email_kevin_intro_packet"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "design_partner_renewal.moment_kickoff_scheduled"
+    },
+    {
+      "moment_id": "soc2_moment_orgchart_countersign",
+      "storyline_id": "soc2_type2_audit",
+      "section": "decisions_approvals",
+      "priority": "P2",
+      "action_class": "approve",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Marlene needs Avery's countersign on the org-chart and hiring-evidence package before Tuesday EOD. Routine sign-off; Marlene has prepped the cover sheet.",
+      "supporting_artifact_ids": [
+        "soc2_d9_email_marlene_orgchart_evidence_countersign"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "soc2_moment_orgchart_countersign"
+    },
+    {
+      "moment_id": "wst_moment_d09_camp_and_program",
+      "storyline_id": "wren_school_transition",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Park Day Happy Heron Kindergarten Camp registration is live for the week of June 23-27, the gap before Linda flies down July 6. Sam needs a yes-or-no from Avery this week. Rockridge end-of-year program save-the-date for June 12 also landed Tuesday afternoon and is on the calendar.",
+      "supporting_artifact_ids": [
+        "wst_d03_calendar_program_invite",
+        "wst_d03_email_annette_program_savedate",
+        "wst_d09_email_camp_registration_open"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "wst_moment_d09_camp_and_program"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "wst_d07_email_decoy_tutorbee",
+      "is_decoy": true,
+      "storyline_id": "wren_school_transition",
+      "rationale": "Cold-pitch email from \"TutorBee\" to Avery's personal Gmail: \"Get Wren reading by kindergarten \u2014 TK reading-prep tutoring, $90/session, free 15-min consult.\" Sender name \"Brooke at TutorBee.\" Has someh"
+    },
+    {
+      "artifact_id": "bg_lennys_newsletter_apr26",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter weekly \u2014 guest post on B2B SaaS pricing."
+    },
+    {
+      "artifact_id": "bg_oura_weekly_apr26",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly insights \u2014 sleep down 14% week-over-week, HRV trending lower."
+    },
+    {
+      "artifact_id": "d09_email_airbnb_wishlist",
+      "is_decoy": true,
+      "storyline_id": "summer_family_logistics",
+      "rationale": "Airbnb promotional email \u2014 \"Sea Ranch homes you might love\" \u2014 because Avery searched the area in February before booking through Sea Ranch Escape. Lands on personal Gmail, three thumbnail photos and a"
+    },
+    {
+      "artifact_id": "bg_zoominfo_cold_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "ZoomInfo SDR cold pitch \u2014 'quick 15 min on enriching your TAM data' template."
+    },
+    {
+      "artifact_id": "bg_calendly_weekly_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Calendly weekly stats \u2014 14 meetings booked, 2 no-shows, top requester chart."
+    },
+    {
+      "artifact_id": "bg_strava_weekly_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Strava weekly recap \u2014 one run, 3.1 mi, Lake Merritt loop."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "for_date": "2026-05-19",
+  "based_on_state_through": "2026-05-18T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "q2_board.moment_d31_james_cham_confirm",
+      "storyline_id": "q2_board_prep",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "James Cham's check-in confirms June 24 holds against his NYC trip \u2014 low-priority FYI on a day dominated by Bessemer P2; reply can wait until after the meeting.",
+      "supporting_artifact_ids": [
+        "q2_board.d31_email_james_cham_checkin"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2_board.moment_d31_james_cham_confirm"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_lennys_newsletter_may17",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter weekly \u2014 interview on PMF metrics."
+    },
+    {
+      "artifact_id": "bg_oura_weekly_may17",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly insights \u2014 readiness yellow all week, sleep down again."
+    },
+    {
+      "artifact_id": "bg_dreamforce_pitch_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Dreamforce 2026 \u2014 partner-track cold pitch from Salesforce ecosystem team."
+    },
+    {
+      "artifact_id": "bg_block_group_text_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Block group text \u2014 package theft alert on Manila Ave, neighbor sharing Ring footage."
+    },
+    {
+      "artifact_id": "bg_linear_weekly_may18",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Linear weekly project digest \u2014 engineering velocity summary."
+    },
+    {
+      "artifact_id": "bg_stratechery_may19",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Tuesday weekly."
+    },
+    {
+      "artifact_id": "bg_information_morning_may19",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Information morning briefing \u2014 Tuesday edition."
+    }
+  ]
+}

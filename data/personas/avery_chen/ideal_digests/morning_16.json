@@ -1,0 +1,135 @@
+{
+  "for_date": "2026-05-04",
+  "based_on_state_through": "2026-05-03T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "series_a_raise.moment_d16_byron_category_framing",
+      "storyline_id": "series_a_raise",
+      "section": "if_one_thing",
+      "priority": "P1",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Byron asking Avery to clarify the category-positioning logic from the narrative doc \u2014 specifically how the cash-flow-variance framing moves deals and separates Holdfast from incumbents. He needs 250 words as prep work for the Bessemer team vote. She has flagged the email but not yet drafted a reply. This is the writing work she needs to land in the next thinking block.",
+      "supporting_artifact_ids": [
+        "d16_email_byron_mid_cycle_q"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "series_a_raise.moment_d16_byron_category_framing"
+    },
+    {
+      "moment_id": "design_partner_renewal.moment_post_kickoff_recap",
+      "storyline_id": "design_partner_renewal",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Jordan's kickoff recap is in \u2014 Marcus engaged on usage, Kevin pre-flagged three redline areas, pricing not in question yet. Diana sent direct usage questions this morning.",
+      "supporting_artifact_ids": [
+        "dpr_d13_email_jordan_kickoff_recap",
+        "dpr_d16_email_diana_usage_questions"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "design_partner_renewal.moment_post_kickoff_recap"
+    },
+    {
+      "moment_id": "wst_moment_d16_supply_list",
+      "storyline_id": "wren_school_transition",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Park Day TK supply list landed from Josie this morning \u2014 labeled change of clothes, water bottle, rest mat, two crayon sets, sun hat. Sam will pick up over the next two weekends. No action from Avery.",
+      "supporting_artifact_ids": [
+        "wst_d16_email_josie_supply_list"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "wst_moment_d16_supply_list"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "wst_d14_email_decoy_zippypeds",
+      "is_decoy": true,
+      "storyline_id": "wren_school_transition",
+      "rationale": "Cold-pitch from \"ZippyPediatrics Forms Service\": \"We'll fill your child's school health forms for $79 - skip the Kaiser portal headaches.\" Signed by a \"Patient Liaison.\""
+    },
+    {
+      "artifact_id": "bg_rockridge_markethall_may2",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Rockridge Market Hall weekly \u2014 Saturday specials at Hapuku Fish Shop."
+    },
+    {
+      "artifact_id": "d15_email_searanch_other_properties_promo",
+      "is_decoy": true,
+      "storyline_id": "summer_family_logistics",
+      "rationale": "Sea Ranch Escape promotional email: \"Other oceanfront homes you might love\" \u2014 three properties (Cielo e Mar, Crow's Nest, Beach Dreams) with a 15% summer discount on seven-night stays. Marketing autom"
+    },
+    {
+      "artifact_id": "bg_lennys_newsletter_may3",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter weekly \u2014 interview with a PLG founder."
+    },
+    {
+      "artifact_id": "bg_oura_weekly_may3",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly insights \u2014 readiness in the yellow zone four nights running."
+    },
+    {
+      "artifact_id": "bg_aws_bill_may3",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "AWS April invoice \u2014 $6,812.44, slightly up on data transfer."
+    },
+    {
+      "artifact_id": "bg_linear_weekly_may4",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Linear weekly project digest \u2014 engineering velocity summary."
+    },
+    {
+      "artifact_id": "bg_outreach_vendor_cold_may4",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Outreach.io SDR cold pitch \u2014 sales engagement platform demo offer."
+    },
+    {
+      "artifact_id": "bg_forge_secondary_digest_may4",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Forge Global secondary marketplace digest \u2014 late-stage round indicators."
+    },
+    {
+      "artifact_id": "bg_pivot_podcast_may4",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Pivot podcast new-episode push notification \u2014 Kara and Scott on tech earnings."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "for_date": "2026-04-25",
+  "based_on_state_through": "2026-04-24T23:59:59-07:00",
+  "items": [],
+  "expected_suppressions": [
+    {
+      "artifact_id": "css_d5_email_decoy_caseflow_vendor",
+      "is_decoy": true,
+      "storyline_id": "case_study_series",
+      "rationale": "Cold pitch from Caseflow.io (\"AI-powered case study automation for B2B SaaS\"). Mentions Holdfast by name and references the recent Maya Okafor hire from LinkedIn. Generic vendor outreach."
+    },
+    {
+      "artifact_id": "bg_recruiter_vpeng_apr23",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Riviera Partners recruiter cold pitch \u2014 VP Engineering search at a Series B fintech."
+    },
+    {
+      "artifact_id": "d06_email_banker_cold_pitch_decoy",
+      "is_decoy": true,
+      "storyline_id": "series_a_raise",
+      "rationale": "Cold pitch from a growth-equity banker at a mid-tier boutique referencing \"your active Series A process\" and offering to \"introduce you to growth-stage capital sources.\" Avery archives without replyin"
+    },
+    {
+      "artifact_id": "d06_email_searanch_lodge_dining_promo",
+      "is_decoy": true,
+      "storyline_id": "summer_family_logistics",
+      "rationale": "Sea Ranch Lodge marketing newsletter promoting Memorial Day weekend dining specials at the Dining Room and Bar + Lounge \u2014 landed on Avery's personal Gmail because Sea Ranch Escape's mailing list overl"
+    },
+    {
+      "artifact_id": "bg_founder_coaching_cold_apr24",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Reboot.io founder-coaching cold pitch \u2014 group cohort for Series A CEOs."
+    },
+    {
+      "artifact_id": "wst_d07_email_decoy_tutorbee",
+      "is_decoy": true,
+      "storyline_id": "wren_school_transition",
+      "rationale": "Cold-pitch email from \"TutorBee\" to Avery's personal Gmail: \"Get Wren reading by kindergarten \u2014 TK reading-prep tutoring, $90/session, free 15-min consult.\" Sender name \"Brooke at TutorBee.\" Has someh"
+    }
+  ]
+}

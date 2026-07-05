@@ -1,0 +1,119 @@
+{
+  "for_date": "2026-05-06",
+  "based_on_state_through": "2026-05-05T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "moment_ethan_june_ask",
+      "storyline_id": "summer_family_logistics",
+      "section": "urgent_todo",
+      "priority": "P2",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Ethan emailed asking about three June weekend options for an Oakland visit (6/13\u201314, 6/20\u201321, 6/27\u201328). Needs a response (pick one with Sam and reply) by end of week, but defer final action until after the Bessemer soft close resolves today.",
+      "supporting_artifact_ids": [
+        "d17_email_ethan_june_visit_ask"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "moment_ethan_june_ask"
+    },
+    {
+      "moment_id": "wst_moment_d18_orientation_savedate",
+      "storyline_id": "wren_school_transition",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Angela Taylor sent the Park Day new-family parent orientation save-the-date for Wednesday August 26, 6-8 p.m. Both parents invited. Hold the date \u2014 well past window close but worth getting on the calendar before the August stretch fills.",
+      "supporting_artifact_ids": [
+        "wst_d18_calendar_orientation",
+        "wst_d18_email_angela_orientation"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "wst_moment_d18_orientation_savedate"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_linear_weekly_may4",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Linear weekly project digest \u2014 engineering velocity summary."
+    },
+    {
+      "artifact_id": "bg_outreach_vendor_cold_may4",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Outreach.io SDR cold pitch \u2014 sales engagement platform demo offer."
+    },
+    {
+      "artifact_id": "bg_forge_secondary_digest_may4",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Forge Global secondary marketplace digest \u2014 late-stage round indicators."
+    },
+    {
+      "artifact_id": "bg_pivot_podcast_may4",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Pivot podcast new-episode push notification \u2014 Kara and Scott on tech earnings."
+    },
+    {
+      "artifact_id": "soc2_d17_email_aaron_pre_audit_checkin",
+      "is_decoy": true,
+      "storyline_id": "soc2_type2_audit",
+      "rationale": "Aaron Klein at Drata emails Avery (Priya cc'd) \u2014 pre-audit-close check-in offer; wants to schedule a 20-minute call before the final report drops to review platform-side action items and \"talk through"
+    },
+    {
+      "artifact_id": "bg_stratechery_may5",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery weekly article."
+    },
+    {
+      "artifact_id": "bg_onepassword_renewal_may5",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "1Password Business \u2014 annual seat renewal reminder, 30 days out."
+    },
+    {
+      "artifact_id": "d18_email_techcrunch_press_decoy",
+      "is_decoy": true,
+      "storyline_id": "series_a_raise",
+      "rationale": "Cold email from a TechCrunch reporter asking if Holdfast is \"raising soon\" and offering an exclusive when the round announces. Avery does not reply."
+    },
+    {
+      "artifact_id": "bg_saastr_conf_pitch_may6",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "SaaStr Annual 2026 \u2014 speaker/sponsor cold outreach."
+    },
+    {
+      "artifact_id": "bg_icloud_storage_may6",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Apple iCloud storage almost full \u2014 upgrade to 2TB Family Plan nag."
+    },
+    {
+      "artifact_id": "bg_volvo_service_may6",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Volvo of Oakland \u2014 60,000 mile service reminder for the XC60."
+    }
+  ]
+}

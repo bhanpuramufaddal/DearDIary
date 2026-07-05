@@ -1,0 +1,168 @@
+{
+  "for_date": "2026-04-27",
+  "based_on_state_through": "2026-04-26T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "q2okr_moment_brendan_tracker1",
+      "storyline_id": "q2_okr_grading",
+      "section": "urgent_todo",
+      "priority": "P1",
+      "action_class": "dispatch_immediate",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Brendan's first Q2 retro tracker landed before staff with the area at 0/4 PM-lead drafts in. Aisha needs to forward to the four leads with a one-paragraph nudge before staff at 9 so the leads see it on her name, not Brendan's.",
+      "supporting_artifact_ids": [
+        "q2okr_d09_email_aisha_to_leads_nudge",
+        "q2okr_d09_email_brendan_tracker1"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2okr_moment_brendan_tracker1"
+    },
+    {
+      "moment_id": "jls_moment_portal_empty_apr27",
+      "storyline_id": "jls_naima_transition",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "The Sunday JLS incoming-parents digest landed last night with no placement-letter update; Aisha will refresh the Infinite Campus portal again before staff. Track-only, no action.",
+      "supporting_artifact_ids": [
+        "d1_email_jls_digest_apr19",
+        "d8_email_jls_digest_apr26"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "jls_moment_portal_empty_apr27"
+    },
+    {
+      "moment_id": "moment_priya_signoff_apr27",
+      "storyline_id": "director_pm_hiring",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Priya wants thumbs-up to ping Maya K in the Workspace recruiting pod today with exploratory framing on the L8 slot. Three words back by the 8:30 1:1.",
+      "supporting_artifact_ids": [
+        "email_priya_signoff_for_maya_ping"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_priya_signoff_apr27"
+    },
+    {
+      "moment_id": "pv_m02_play_volunteer_signup",
+      "storyline_id": "palo_verde_year_end",
+      "section": "urgent_todo",
+      "priority": "P2",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "The third-grade play volunteer SignUpGenius opened this morning with slots closing Friday May 1. Pick a slot (refreshments setup is the cleanest fit) and reply before the good slots fill.",
+      "supporting_artifact_ids": [
+        "pv_a05_reyes_play_volunteer_open"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "correct",
+      "validation_log_moment_id": "pv_m02_play_volunteer_signup"
+    },
+    {
+      "moment_id": "q3okr_moment_apr27_first_inputs_in",
+      "storyline_id": "q3_okr_planning",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Two Q3 inputs in early (Wei Apr 20, Tara Apr 24) and Maya's longer draft landed this morning \u2014 three of eight before the deadline window opens. No action needed; the tracker is healthy and Priya has the docs.",
+      "supporting_artifact_ids": [
+        "q3okr_email_maya_input",
+        "q3okr_email_tara_input",
+        "q3okr_email_wei_first_draft"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q3okr_moment_apr27_first_inputs_in"
+    },
+    {
+      "moment_id": "summer_logistics.moment_tawonga_forms_first",
+      "storyline_id": "summer_logistics",
+      "section": "urgent_todo",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Camp Tawonga registrar Rachel Goldberg has pinged on Naima's outstanding Camper Information forms \u2014 the bunkmate-request item needs Naima's input before Aisha can complete it. First touch, low urgency, but track.",
+      "supporting_artifact_ids": [
+        "d04_email_tawonga_forms_reminder_first"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "summer_logistics.moment_tawonga_forms_first"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "d06_email_idtech_upsell_decoy",
+      "is_decoy": true,
+      "storyline_id": "summer_logistics",
+      "rationale": "iD Tech marketing email \u2014 \"Extend Naima's Stanford summer: add a 2-week overnight academy\" \u2014 promo code CAMPNOW for $200 off. Pure upsell."
+    },
+    {
+      "artifact_id": "bg_decoy_lennys_apr26",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter Sunday \u2014 \"How Stripe runs its annual planning.\" Aisha will half-flag this for Marcus and forget. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_stratechery_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Monday weekly \u2014 piece on the Meta agent platform rollout. Form-email, unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_hvac_bid_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "HVAC compressor bid #4 from Castro Heating & Air \u2014 $11,200 for a 3-ton replacement, 10-year warranty, parts in mid-June. CC'd to Marcus who is collecting bids. Aisha will ignore."
+    }
+  ]
+}

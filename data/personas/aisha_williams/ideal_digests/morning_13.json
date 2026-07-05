@@ -1,0 +1,118 @@
+{
+  "for_date": "2026-05-01",
+  "based_on_state_through": "2026-04-30T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "spr_moment_may01_priya_v4_review",
+      "storyline_id": "strategic_pivot_review",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Priya sent the v4 draft with three open questions inline last night. Aisha needs to land the three answers before the Monday read-ahead deadline so the doc is clean by the May 5 biweekly.",
+      "supporting_artifact_ids": [
+        "spr_d12_email_priya_v4_draft"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "spr_moment_may01_priya_v4_review"
+    },
+    {
+      "moment_id": "moment_friday_block_may1",
+      "storyline_id": "director_pm_hiring",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "fyi",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Friday writing block \u2014 shortlist v0 update after Maya intake request. Internal vs. external split is the live framing question; Wei is the only internal name on the tracker so far.",
+      "supporting_artifact_ids": [
+        "note_morning_log_20260501"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_friday_block_may1"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "email_decoy_external_recruiter_1",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. External executive search firm cold email \u2014 \"I have a director-level PM candidate exiting Atlassian who would be perfect for any open Workspace leadership role.\" Generic firm; no real-world cla"
+    },
+    {
+      "artifact_id": "bg_decoy_websummit_apr29",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Web Summit Lisbon cold pitch \u2014 speaker invite for November 2026. Form-email from a Dublin number. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_idtech_marketing_apr29",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "iD Tech marketing \u2014 \"Add iD Tech Online to your summer plans\" upsell follow-up after Naima's Stanford registration. Form-promo. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_proclub_lapsed_apr29",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Page Mill PRO Club \u2014 \"We miss you, Aisha\" reactivation offer with a complimentary day pass. Form-email from a marketing automation. Ignored."
+    },
+    {
+      "artifact_id": "d12_email_jls_pta_volunteer_decoy",
+      "is_decoy": true,
+      "storyline_id": "jls_naima_transition",
+      "rationale": "JLS PTA all-list email asking for Panther Camp volunteers in August. Aisha will not volunteer; treated as low-signal."
+    },
+    {
+      "artifact_id": "bg_decoy_schwab_stmt_apr30",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Schwab automated April monthly statement notification on the joint brokerage account. Form-email, opens to a PDF download link."
+    },
+    {
+      "artifact_id": "bg_decoy_recruiter_ramp_apr30",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Cold recruiter email \u2014 Ramp external retained recruiter on a \"VP of Product, AP & Spend\" role. Template. Aisha archives unread."
+    },
+    {
+      "artifact_id": "bg_decoy_workday_timesheet_apr30",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Workday \u2014 biweekly timesheet attestation reminder. Auto-email. Aisha approves with a one-tap on her phone."
+    },
+    {
+      "artifact_id": "bg_decoy_citizens_mortgage_may01",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Citizens Trust monthly mortgage statement \u2014 May payment processed, principal balance and amortization summary. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_birddog_resy_may01",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Resy \u2014 confirmation for Bird Dog Friday May 1, 7:30 PM, 2 guests (Aisha + Marcus, kids with a sitter). Form-confirmation."
+    },
+    {
+      "artifact_id": "bg_decoy_joanies_resy_may01",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "OpenTable \u2014 confirmation for Joanie's Caf\u00e9 Friday 8:00 AM (standing first-Friday breakfast with Dara). Form-confirmation."
+    }
+  ]
+}

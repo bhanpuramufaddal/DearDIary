@@ -1,0 +1,138 @@
+{
+  "for_date": "2026-04-29",
+  "based_on_state_through": "2026-04-28T23:59:59-07:00",
+  "items": [
+    {
+      "moment_id": "q2okr_moment_pranav_revenue_numbers",
+      "storyline_id": "q2_okr_grading",
+      "section": "decisions_approvals",
+      "priority": "P1",
+      "action_class": "reply_short",
+      "should_draft_reply": true,
+      "draft_tone_zone": null,
+      "rationale": "Pranav Bhatia's Q2 revenue and quota-credit numbers landed overnight. Two clarifiers needed by morning so the staff calibration on May 4 has clean attribution math on James's slipped launch and Roman's cross-org dual-credit.",
+      "supporting_artifact_ids": [
+        "q2okr_d11_email_pranav_revenue_numbers",
+        "q2okr_d12_email_aisha_to_pranav_questions"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "q2okr_moment_pranav_revenue_numbers"
+    },
+    {
+      "moment_id": "jls_moment_parent_coffee_invite_apr28",
+      "storyline_id": "jls_naima_transition",
+      "section": "calendar_personal",
+      "priority": "P2",
+      "action_class": "decide",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "JLS PTA sent the May 6 parent-coffee invite yesterday; Aisha needs to RSVP by Tuesday May 5 and decide whether Marcus goes too. Halverson's end-of-year cadence note landed last Friday and contextualizes the timing.",
+      "supporting_artifact_ids": [
+        "d10_calendar_parent_coffee_invite",
+        "d10_email_jls_pta_parent_coffee_invite",
+        "d6_email_halverson_endofyear_kickoff"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "jls_moment_parent_coffee_invite_apr28"
+    },
+    {
+      "moment_id": "moment_maya_intake_request_apr29",
+      "storyline_id": "director_pm_hiring",
+      "section": "team_pulse",
+      "priority": "P2",
+      "action_class": "track",
+      "should_draft_reply": false,
+      "draft_tone_zone": null,
+      "rationale": "Maya Krishnan came back yesterday asking for a 30-min exploratory intake \u2014 Priya will route times. No action this morning; lands as a slow-burn track item until the intake books.",
+      "supporting_artifact_ids": [
+        "email_maya_intake_request",
+        "email_priya_pinged_maya_recap"
+      ],
+      "lifecycle_history": [
+        {
+          "state": "DECLARED",
+          "from_date": null,
+          "by": "stage_5_authoring"
+        }
+      ],
+      "validation_status": "pass",
+      "validation_log_moment_id": "moment_maya_intake_request_apr29"
+    }
+  ],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_decoy_stratechery_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Monday weekly \u2014 piece on the Meta agent platform rollout. Form-email, unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_hvac_bid_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "HVAC compressor bid #4 from Castro Heating & Air \u2014 $11,200 for a 3-ton replacement, 10-year warranty, parts in mid-June. CC'd to Marcus who is collecting bids. Aisha will ignore."
+    },
+    {
+      "artifact_id": "bg_decoy_theinfo_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "The Information morning briefing \u2014 Tuesday edition, scoop on a Series E for an AI-coding company. Unopened."
+    },
+    {
+      "artifact_id": "bg_decoy_expense_reminder_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Google internal expense tool reminder \u2014 two receipts from the February NYC offsite are still untagged. Auto-email, third reminder."
+    },
+    {
+      "artifact_id": "bg_decoy_paloaltoonline_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Palo Alto Online Tuesday digest \u2014 top stories on the Castilleja expansion appeal and a Middlefield bike-lane plan. Form-email."
+    },
+    {
+      "artifact_id": "bg_decoy_pamf_apptreminder_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "PAMF MyChart \u2014 automated reminder to schedule the July LDL recheck per her January physical. Form-email, no urgency."
+    },
+    {
+      "artifact_id": "email_decoy_external_recruiter_1",
+      "is_decoy": true,
+      "storyline_id": "director_pm_hiring",
+      "rationale": "DECOY. External executive search firm cold email \u2014 \"I have a director-level PM candidate exiting Atlassian who would be perfect for any open Workspace leadership role.\" Generic firm; no real-world cla"
+    },
+    {
+      "artifact_id": "bg_decoy_websummit_apr29",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Web Summit Lisbon cold pitch \u2014 speaker invite for November 2026. Form-email from a Dublin number. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_idtech_marketing_apr29",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "iD Tech marketing \u2014 \"Add iD Tech Online to your summer plans\" upsell follow-up after Naima's Stanford registration. Form-promo. Ignored."
+    },
+    {
+      "artifact_id": "bg_decoy_proclub_lapsed_apr29",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Page Mill PRO Club \u2014 \"We miss you, Aisha\" reactivation offer with a complimentary day pass. Form-email from a marketing automation. Ignored."
+    }
+  ]
+}

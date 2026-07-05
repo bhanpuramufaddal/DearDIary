@@ -1,0 +1,67 @@
+{
+  "for_date": "2026-04-28",
+  "based_on_state_through": "2026-04-27T23:59:59-07:00",
+  "items": [],
+  "expected_suppressions": [
+    {
+      "artifact_id": "bg_lennys_newsletter_apr26",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Lenny's Newsletter weekly \u2014 guest post on B2B SaaS pricing."
+    },
+    {
+      "artifact_id": "bg_oura_weekly_apr26",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Oura weekly insights \u2014 sleep down 14% week-over-week, HRV trending lower."
+    },
+    {
+      "artifact_id": "d09_email_airbnb_wishlist",
+      "is_decoy": true,
+      "storyline_id": "summer_family_logistics",
+      "rationale": "Airbnb promotional email \u2014 \"Sea Ranch homes you might love\" \u2014 because Avery searched the area in February before booking through Sea Ranch Escape. Lands on personal Gmail, three thumbnail photos and a"
+    },
+    {
+      "artifact_id": "bg_zoominfo_cold_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "ZoomInfo SDR cold pitch \u2014 'quick 15 min on enriching your TAM data' template."
+    },
+    {
+      "artifact_id": "bg_calendly_weekly_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Calendly weekly stats \u2014 14 meetings booked, 2 no-shows, top requester chart."
+    },
+    {
+      "artifact_id": "bg_strava_weekly_apr27",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Strava weekly recap \u2014 one run, 3.1 mi, Lake Merritt loop."
+    },
+    {
+      "artifact_id": "dpr_d09_email_decoy_competitor_pitch",
+      "is_decoy": true,
+      "storyline_id": "design_partner_renewal",
+      "rationale": "Cold sales pitch from a competing AP-automation vendor name-checking \"specialty insurance brokerages\" as a target segment. Decoy \u2014 Avery archives without reading past line one."
+    },
+    {
+      "artifact_id": "soc2_d10_email_drata_control_drift_alert",
+      "is_decoy": true,
+      "storyline_id": "soc2_type2_audit",
+      "rationale": "Drata auto-alert: three controls flagged as drifting \u2014 two MFA-enforcement checks on contractor accounts and one stale access-review item. Marlene and Priya cc'd. Auto-formatted, low-priority but Priy"
+    },
+    {
+      "artifact_id": "bg_stratechery_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stratechery Tuesday weekly \u2014 Ben Thompson on Apple antitrust ruling."
+    },
+    {
+      "artifact_id": "bg_stripe_invoice_apr28",
+      "is_decoy": true,
+      "storyline_id": "background_noise",
+      "rationale": "Stripe monthly invoice receipt \u2014 $4,317.22 across April Holdfast customer charges."
+    }
+  ]
+}
